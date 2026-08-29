@@ -1,0 +1,6 @@
+/assets/js/site.js
+  Cache-Control: no-cache, max-age=0
+/assets/js/site-core.js
+  Cache-Control: no-cache, max-age=0
+/ads.txt
+  Cache-Control: public, max-age=300
