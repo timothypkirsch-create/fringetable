@@ -1,4 +1,12 @@
 (()=>{
+const nav=document.querySelector('.site-header nav ul');
+if(nav&&!nav.querySelector('a[href*="guides"]')){
+  const li=document.createElement('li');
+  let href='/guides/';
+  li.innerHTML=`<a href="${href}">Guides</a>`;
+  const about=[...nav.children].find(x=>/About/i.test(x.textContent||''));
+  if(about)nav.insertBefore(li,about);else nav.appendChild(li);
+}
 const page=document.querySelector('.recipe-page');
 if(!page||document.querySelector('.traffic-discovery'))return;
 const slug=(location.pathname.split('/').pop()||'').replace('.html','');
