@@ -1,0 +1,43 @@
+name: Kit Bridge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'kit/commands/*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run-kit-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Ensure Kit API secret exists
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+        run: |
+          if [ -z "$KIT_API_KEY" ]; then
+            echo "KIT_API_KEY is not configured in GitHub Actions secrets."
+            exit 1
+          fi
+
+      - name: Run changed Kit commands
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+        run: |
+          files=$(git diff --name-only HEAD^ HEAD -- 'kit/commands/*.json' || true)
+          if [ -z "$files" ]; then
+            echo "No changed Kit command files found."
+            exit 0
+          fi
+          for file in $files; do
+            echo "Running $file"
+            node scripts/kit-bridge.mjs "$file"
+          done
