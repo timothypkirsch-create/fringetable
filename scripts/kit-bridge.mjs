@@ -52,6 +52,11 @@ function escapeHtml(value = '') {
     .replace(/'/g, '&#039;');
 }
 
+function firstMatch(html, regex) {
+  const match = html.match(regex);
+  return match ? stripTags(match[1]) : '';
+}
+
 function findRecipeJsonLd(html) {
   const blocks = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
   for (const match of blocks) {
@@ -97,9 +102,16 @@ async function recipeFromUrl(sourceUrl) {
     || recipe.description
     || '';
 
+  const lead = firstMatch(html, /<p[^>]+class=["'][^"']*recipe-lead[^"']*["'][^>]*>([\s\S]*?)<\/p>/i);
+  const about = firstMatch(html, /<section[^>]+class=["'][^"']*recipe-section[^"']*["'][^>]*>[\s\S]*?<h2>About this dish<\/h2>\s*<p>([\s\S]*?)<\/p>/i);
+  const story = firstMatch(html, /<section[^>]+class=["'][^"']*story-note[^"']*["'][^>]*>[\s\S]*?<h2[^>]*>[\s\S]*?<\/h2>\s*<p>([\s\S]*?)<\/p>/i);
+
   return {
     name: stripTags(recipe.name || 'This week\'s dish'),
     description: stripTags(metaDescription),
+    lead,
+    about,
+    story,
     cuisine: stripTags(Array.isArray(recipe.recipeCuisine) ? recipe.recipeCuisine.join(', ') : (recipe.recipeCuisine || '')),
     ingredients: (recipe.recipeIngredient || []).map(stripTags).filter(Boolean),
     instructions: normalizeInstructions(recipe.recipeInstructions),
@@ -107,25 +119,37 @@ async function recipeFromUrl(sourceUrl) {
   };
 }
 
+function trimSentence(value = '', max = 380) {
+  if (!value || value.length <= max) return value;
+  const clipped = value.slice(0, max);
+  const lastStop = Math.max(clipped.lastIndexOf('.'), clipped.lastIndexOf('!'), clipped.lastIndexOf('?'));
+  return (lastStop > 180 ? clipped.slice(0, lastStop + 1) : `${clipped.trim()}…`);
+}
+
 function buildWeeklyDish(recipe, overrides = {}) {
-  const subject = overrides.subject || `This week’s overlooked dish: ${recipe.name}`;
-  const previewText = overrides.preview_text || `The story, ingredients, and technique behind ${recipe.name}.`;
-  const intro = overrides.intro || recipe.description || `Discover ${recipe.name}, the story behind it, and the technique that makes it worth cooking.`;
+  const subject = overrides.subject || `${recipe.name}: this week’s dish from Fringe Table`;
+  const previewText = overrides.preview_text || `A little story, a few things to know, and a dish worth making this weekend.`;
+  const opening = overrides.intro || recipe.lead || recipe.about || recipe.description || `This week we’re cooking ${recipe.name}.`;
+  const story = recipe.story || recipe.about || recipe.description;
   const ingredients = recipe.ingredients.slice(0, 3);
-  const checkpoints = recipe.instructions.slice(0, 2);
+  const technique = recipe.instructions[0] || '';
 
   const ingredientHtml = ingredients.length
-    ? `<h3 style="color:#0B2118;margin-bottom:8px;">What makes it work</h3><ul>${ingredients.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`
+    ? `<h3 style="color:#0B2118;margin:26px 0 8px;">A few things to have on hand</h3><p style="margin-top:0;">Nothing here needs to feel fussy. These are the first things I’d check for before deciding to make it:</p><ul>${ingredients.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`
     : '';
 
-  const techniqueHtml = checkpoints.length
-    ? `<h3 style="color:#0B2118;margin-bottom:8px;">Technique to watch</h3><p>${escapeHtml(checkpoints.join(' '))}</p>`
+  const techniqueHtml = technique
+    ? `<h3 style="color:#0B2118;margin:26px 0 8px;">The part I’d pay attention to</h3><p>${escapeHtml(trimSentence(technique, 340))}</p>`
+    : '';
+
+  const storyHtml = story
+    ? `<h3 style="color:#0B2118;margin:26px 0 8px;">Why this one is worth knowing</h3><p>${escapeHtml(trimSentence(story, 420))}</p>`
     : '';
 
   const region = recipe.cuisine ? `<p style="margin-top:0;color:#6b6b62;"><em>${escapeHtml(recipe.cuisine)}</em></p>` : '';
 
   const content = `
-<div style="font-family:Georgia,'Times New Roman',serif;color:#0B2118;line-height:1.65;max-width:640px;margin:0 auto;">
+<div style="font-family:Georgia,'Times New Roman',serif;color:#0B2118;line-height:1.68;max-width:640px;margin:0 auto;">
   <div style="background:#0B2118;color:#F6F1E7;padding:24px;text-align:center;">
     <div style="font-size:26px;font-weight:700;letter-spacing:.06em;">FRINGE TABLE</div>
     <div style="font-size:14px;margin-top:4px;">One overlooked dish each week.</div>
@@ -134,12 +158,18 @@ function buildWeeklyDish(recipe, overrides = {}) {
     <div style="font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#C79A3B;font-weight:700;">The Weekly Dish</div>
     <h1 style="font-size:34px;line-height:1.15;margin:10px 0 6px;color:#0B2118;">${escapeHtml(recipe.name)}</h1>
     ${region}
-    <p>${escapeHtml(intro)}</p>
+    <p>Hi there,</p>
+    <p>This week’s recipe is <strong>${escapeHtml(recipe.name)}</strong>, and it’s exactly the kind of dish Fringe Table was built to find: something with a real story behind it that deserves a little more attention.</p>
+    <p>${escapeHtml(trimSentence(opening, 420))}</p>
+    <p>If you’ve never made it before, don’t let the unfamiliar name or a specialty ingredient stop you. The full recipe walks through the process step by step, including what the food should look and feel like as you go.</p>
+    ${storyHtml}
     ${ingredientHtml}
     ${techniqueHtml}
-    <p style="margin:30px 0;text-align:center;"><a href="${escapeHtml(recipe.sourceUrl)}" style="display:inline-block;background:#0B2118;color:#F6F1E7;text-decoration:none;padding:13px 22px;border-radius:6px;font-weight:700;">View the Full Recipe →</a></p>
+    <p style="margin-top:26px;">If this sounds like your kind of weekend project, take a look at the full recipe. You’ll have enough time to track down anything unusual before the weekend.</p>
+    <p style="margin:30px 0;text-align:center;"><a href="${escapeHtml(recipe.sourceUrl)}" style="display:inline-block;background:#0B2118;color:#F6F1E7;text-decoration:none;padding:13px 22px;border-radius:6px;font-weight:700;">See the Recipe →</a></p>
+    <p>And if you make it, I’d genuinely love to hear how it went.</p>
     <hr style="border:0;border-top:1px solid #e4ded2;margin:30px 0;">
-    <p style="font-style:italic;">Cook with curiosity.<br><strong>Fringe Table</strong></p>
+    <p>Until next week,<br><strong>Fringe Table</strong><br><em>Cook with curiosity.</em></p>
     <p style="font-size:12px;color:#777;">fringetable.com · hello@fringetable.com</p>
   </div>
 </div>`.trim();
