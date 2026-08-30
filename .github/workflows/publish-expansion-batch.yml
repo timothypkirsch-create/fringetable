@@ -1,0 +1,44 @@
+name: Publish Expansion Batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'expansion/batches/*.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Find changed expansion batches
+        id: batches
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            files=$(find expansion/batches -maxdepth 1 -type f -name '*.json' | sort | tail -n 1)
+          else
+            files=$(git diff --name-only HEAD^ HEAD -- 'expansion/batches/*.json')
+          fi
+          printf '%s\n' "$files" > /tmp/batches.txt
+          cat /tmp/batches.txt
+      - name: Publish batches
+        run: |
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            node scripts/publish-expansion-batch.mjs "$file"
+          done < /tmp/batches.txt
+      - name: Commit generated site changes
+        run: |
+          git config user.name "Fringe Table Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add recipes assets/js/site-core.js assets/js/site.js sitemap.xml CONTENT_EXPANSION.md
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "Publish regional expansion recipes"
+          git push
