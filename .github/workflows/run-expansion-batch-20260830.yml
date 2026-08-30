@@ -1,0 +1,29 @@
+name: Run Expansion Batch 2026-08-30
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/run-expansion-batch-20260830.mjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Build and integrate first expansion batch
+        run: node scripts/run-expansion-batch-20260830.mjs
+      - name: Commit generated site changes
+        run: |
+          git config user.name "Fringe Table Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add recipes assets/js/site-core.js assets/js/site.js sitemap.xml index.html recipes/index.html CONTENT_EXPANSION.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Publish first regional expansion batch"
+          git push
