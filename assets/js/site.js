@@ -22,15 +22,52 @@ function tagAmazonLinks(){
     try{const u=new URL(a.href,location.href);if(!/(^|\.)amazon\.com$/i.test(u.hostname))return;u.searchParams.set('tag',AMAZON_TAG);a.href=u.toString();a.target='_blank';const rel=new Set((a.rel||'').split(/\s+/).filter(Boolean));['sponsored','nofollow','noopener'].forEach(x=>rel.add(x));a.rel=[...rel].join(' ');a.dataset.affiliateReady='true'}catch(e){}
   });
 }
+const affiliateIngredients={
+  'myanmar-mohinga':['banana stem canned','rice vermicelli noodles'],
+  'myanmar-lahpet-thoke':['fermented tea leaves lahpet','fried yellow split peas Burmese'],
+  'uzbek-palov':['devzira rice','dried barberries'],
+  'ethiopian-doro-wat':['Ethiopian berbere spice','niter kibbeh'],
+  'shiro-wot':['Ethiopian shiro powder','Ethiopian berbere spice','niter kibbeh'],
+  'zigni':['Ethiopian Eritrean berbere spice','niter kibbeh'],
+  'amazigh-vegetable-couscous':['medium grain couscous','ras el hanout spice'],
+  'georgian-lobio':['khmeli suneli spice','blue fenugreek utskho suneli'],
+  'moroccan-rfissa':['ras el hanout spice','fenugreek seeds'],
+  'tunisian-lablabi':['Tunisian harissa paste'],
+  'newari-yomari':['Nepali chaku molasses'],
+  'senegalese-thiakry':['millet couscous thiakry'],
+  'ghanaian-waakye':['dried sorghum leaves waakye'],
+  'nigerian-egusi-soup':['ground egusi melon seeds','West African red palm oil'],
+  'nigerian-moi-moi':['peeled black eyed peas'],
+  'sri-lankan-kiribath':['Sri Lankan samba rice'],
+  'nepali-momos':['Nepali timur pepper']
+};
 const cookware={
-'nigerian-egusi-soup':['heavy Dutch oven','stockpot'],'lao-khao-piak-sen':['large stockpot','wooden rolling pin'],'ghanaian-waakye':['heavy bottom cooking pot'],'nigerian-moi-moi':['large steamer pot'],'persian-kuku-sabzi':['oven safe nonstick skillet'],'grape-dumplings':['heavy saucepan'],'fossolia':['large saute pan'],'borani-banjan':['large skillet'],'soupe-joumou':['large stockpot'],'harcha':['cast iron griddle'],'circassian-chicken':['food processor'],'gullah-red-rice':['enameled Dutch oven'],'amazigh-vegetable-couscous':['couscoussier steamer'],'nepali-momos':['dumpling steamer basket'],'west-african-groundnut-stew':['enameled Dutch oven'],'assamese-masor-tenga':['deep saute pan'],'afghan-ashak':['dumpling steamer basket'],'cherokee-bean-bread':['large steamer pot'],'shiro-wot':['heavy saucepan'],'zigni':['enameled Dutch oven'],'georgian-lobio':['clay cooking pot'],'moroccan-rfissa':['large steamer pot'],'tunisian-lablabi':['heavy saucepan'],'newari-yomari':['dumpling steamer basket'],'senegalese-thiakry':['fine mesh sieve'],'sudanese-ful-medames':['heavy saucepan'],'lao-or-lam':['enameled Dutch oven'],'hopi-piki-bread':['cast iron griddle'],'haitian-diri-kole-pwa-rouj':['heavy bottom cooking pot'],'bhutanese-ema-datshi':['heavy saucepan'],'azerbaijani-dovga':['heavy saucepan'],'sri-lankan-kiribath':['heavy bottom cooking pot'],'uzbek-palov':['traditional kazan qozon cast iron cauldron']};
+  'amazigh-vegetable-couscous':['couscoussier steamer'],
+  'nepali-momos':['dumpling momo steamer basket'],
+  'afghan-ashak':['dumpling steamer basket'],
+  'georgian-lobio':['Georgian clay bean pot lobio'],
+  'newari-yomari':['dumpling steamer basket'],
+  'nigerian-moi-moi':['moi moi aluminum cups steamer'],
+  'uzbek-palov':['traditional kazan qozon cast iron cauldron']
+};
 function disclosureText(){return 'As an Amazon Associate I earn from qualifying purchases. Some links below are affiliate links; if you buy through them, Fringe Table may earn a commission at no additional cost to you.'}
-function fixAffiliateDisclosureState(){document.querySelectorAll('.ingredient-sourcing p').forEach(p=>{if(/Affiliate tracking is not active yet/i.test(p.textContent||''))p.textContent='These shopping links may use Fringe Table’s Amazon Associates tracking. '+disclosureText()})}
+function fixAffiliateDisclosureState(){document.querySelectorAll('.ingredient-sourcing p').forEach(p=>{if(/Affiliate tracking is not active yet/i.test(p.textContent||''))p.textContent='These shopping links use Fringe Table’s Amazon Associates tracking where eligible. '+disclosureText()})}
+function ensureIngredientAffiliateSection(slug){
+  const items=affiliateIngredients[slug];if(!items||!items.length)return;
+  let sec=document.querySelector('.ingredient-sourcing:not(.cookware-sourcing)');
+  if(!sec){sec=document.createElement('section');sec.className='recipe-section ingredient-sourcing';sec.innerHTML='<span class="eyebrow">Ingredient sourcing</span><h2>Hard-to-find ingredients</h2><p>These search links are included only where specialty ingredients can make the recipe easier to reproduce at home.</p><div class="shop-links"></div>';const cols=document.querySelector('.recipe-columns');(cols?.closest('.recipe-section')||document.querySelector('.recipe-section:last-of-type'))?.after(sec)}
+  if(!sec.querySelector('.affiliate-inline-disclosure')){const p=document.createElement('p');p.className='affiliate-inline-disclosure';p.textContent=disclosureText();const h=sec.querySelector('h2');(h||sec.firstChild)?.after(p)}
+  let links=sec.querySelector('.shop-links');if(!links){links=document.createElement('div');links.className='shop-links';sec.appendChild(links)}
+  const existing=new Set([...links.querySelectorAll('a')].map(a=>(a.dataset.shopLabel||a.textContent||'').toLowerCase()));
+  items.forEach(q=>{if([...existing].some(x=>x.includes(q.toLowerCase())))return;const a=document.createElement('a');a.href=amazonUrl(q);a.target='_blank';a.rel='sponsored nofollow noopener';a.dataset.affiliateReady='true';a.dataset.shopKind='ingredient';a.dataset.shopLabel=q;a.innerHTML=`Find ${q} on Amazon <span>↗</span>`;links.appendChild(a)})
+}
 function addAffiliateDisclosuresAndCookware(){
   const recipePage=document.querySelector('.recipe-page');if(!recipePage)return;
-  const slug=(location.pathname.split('/').pop()||'').replace('.html','');const source=document.querySelector('.ingredient-sourcing');
+  const slug=(location.pathname.split('/').pop()||'').replace('.html','');
+  ensureIngredientAffiliateSection(slug);
+  const source=document.querySelector('.ingredient-sourcing:not(.cookware-sourcing)');
   if(source&&!source.querySelector('.affiliate-inline-disclosure')){const p=document.createElement('p');p.className='affiliate-inline-disclosure';p.textContent=disclosureText();const h=source.querySelector('h2');(h||source.firstChild)?.after(p)}
-  const items=cookware[slug];if(items&&!document.querySelector('.cookware-sourcing')){const sec=document.createElement('section');sec.className='recipe-section ingredient-sourcing cookware-sourcing';sec.innerHTML=`<span class="eyebrow">Useful cookware</span><h2>Tools that make this recipe easier</h2><p class="affiliate-inline-disclosure">${disclosureText()}</p><p>These are practical search links for equipment suited to this recipe. Choose the size, material and seller that fit your kitchen and budget.</p><div class="shop-links">${items.map(q=>`<a href="${amazonUrl(q)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate-ready="true" data-shop-kind="cookware" data-shop-label="${q}">Shop ${q} on Amazon <span>↗</span></a>`).join('')}</div>`;const ingredient=document.querySelector('.ingredient-sourcing:not(.cookware-sourcing)');if(ingredient)ingredient.after(sec);else{const cols=document.querySelector('.recipe-columns');(cols?.closest('.recipe-section')||document.querySelector('.recipe-section:last-of-type'))?.after(sec)}}
+  const items=cookware[slug];if(items&&!document.querySelector('.cookware-sourcing')){const sec=document.createElement('section');sec.className='recipe-section ingredient-sourcing cookware-sourcing';sec.innerHTML=`<span class="eyebrow">Useful cookware</span><h2>Specialty tools that genuinely help</h2><p class="affiliate-inline-disclosure">${disclosureText()}</p><p>These links are limited to cookware that meaningfully supports this specific cooking method or serving tradition, rather than generic kitchen equipment.</p><div class="shop-links">${items.map(q=>`<a href="${amazonUrl(q)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate-ready="true" data-shop-kind="cookware" data-shop-label="${q}">Find ${q} on Amazon <span>↗</span></a>`).join('')}</div>`;const ingredient=document.querySelector('.ingredient-sourcing:not(.cookware-sourcing)');if(ingredient)ingredient.after(sec);else{const cols=document.querySelector('.recipe-columns');(cols?.closest('.recipe-section')||document.querySelector('.recipe-section:last-of-type'))?.after(sec)}}
   const footer=document.querySelector('.footer-inner');if(footer&&!footer.querySelector('.amazon-footer-disclosure')){const p=document.createElement('p');p.className='amazon-footer-disclosure';p.textContent='As an Amazon Associate I earn from qualifying purchases.';footer.appendChild(p)}
 }
 function recipeHref(slug){const p=location.pathname;if(p.includes('/recipes/regions/'))return `../../${slug}.html`;if(/\/recipes\/?(?:index\.html)?$/.test(p))return `${slug}.html`;return `recipes/${slug}.html`}
