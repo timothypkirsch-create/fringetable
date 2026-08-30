@@ -10,12 +10,12 @@ Current audited counts (2026-08-30):
 | Indigenous Americas | 20 | 20 | 0 |
 | Horn & Northeast Africa | 20 | 20 | 0 |
 | Maghreb & West Africa | 20 | 20 | 0 |
-| Caribbean & Lowcountry | 19 | 20 | 1 |
+| Caribbean & Lowcountry | 20 | 20 | 0 |
 | Caucasus, Central & West Asia | 20 | 20 | 0 |
 | Himalayas & South Asia | 20 | 20 | 0 |
 | Southeast Asia | 20 | 20 | 0 |
 
-Total expansion needed: **1 recipes**.
+Total expansion needed: **0 recipes**.
 
 ## Required standard for every new recipe
 
