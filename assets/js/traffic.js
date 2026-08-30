@@ -2,14 +2,26 @@
 if(!document.querySelector('script[data-authority-layer]')){const a=document.createElement('script');a.src='/assets/js/authority.js?v=20260830d';a.dataset.authorityLayer='true';document.body.appendChild(a)}
 const nav=document.querySelector('.site-header nav ul');
 if(nav){
-  const add=(label,href,beforeRx)=>{if(nav.querySelector(`a[href*="${href.replace(/^\//,'').split('/')[0]}"]`))return;const li=document.createElement('li');li.innerHTML=`<a href="${href}">${label}</a>`;const before=[...nav.children].find(x=>beforeRx&&beforeRx.test(x.textContent||''));if(before)nav.insertBefore(li,before);else nav.appendChild(li)};
-  add('Guides','/guides/',/About/i);add('Collections','/collections/',/About/i);add('Start Here','/start-here.html',/About/i);
+  const add=(label,href,beforeRx)=>{if([...nav.querySelectorAll('a')].some(a=>(a.textContent||'').trim()===label))return;const li=document.createElement('li');li.innerHTML=`<a href="${href}">${label}</a>`;const before=[...nav.children].find(x=>beforeRx&&beforeRx.test(x.textContent||''));if(before)nav.insertBefore(li,before);else nav.appendChild(li)};
+  add('Guides','/guides/',/About/i);add('Collections','/collections/',/About/i);add('Start Here','/start-here.html',/About/i);add('Saved','/saved.html',/About/i);
 }
 const page=document.querySelector('.recipe-page');
-if(!page||document.querySelector('.traffic-discovery'))return;
+if(!page)return;
 const slug=(location.pathname.split('/').pop()||'').replace('.html','');
 const catalog=window.FringeTableCatalog||[];
 const current=catalog.find(x=>x.slug===slug);
+const SAVE_KEY='fringetable-saved-recipes';
+const readSaved=()=>{try{return JSON.parse(localStorage.getItem(SAVE_KEY)||'[]')}catch{return[]}};
+const writeSaved=items=>{try{localStorage.setItem(SAVE_KEY,JSON.stringify(items))}catch{}};
+if(current&&!document.querySelector('.recipe-save-control')){
+  const control=document.createElement('div');control.className='recipe-save-control';control.style.cssText='display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0 4px;';
+  const btn=document.createElement('button');btn.type='button';btn.style.cssText='border:1px solid #0B2118;background:#fff;color:#0B2118;padding:10px 14px;border-radius:999px;font:inherit;font-weight:700;cursor:pointer;';
+  const link=document.createElement('a');link.href='/saved.html';link.textContent='View saved recipes';link.style.cssText='font-size:.92rem;text-decoration:underline;';
+  const sync=()=>{const on=readSaved().includes(slug);btn.textContent=on?'✓ Saved for later':'＋ Save for later';btn.setAttribute('aria-pressed',String(on));};
+  btn.addEventListener('click',()=>{const items=readSaved();const on=items.includes(slug);writeSaved(on?items.filter(x=>x!==slug):[...items,slug]);sync()});sync();control.append(btn,link);
+  const hero=page.querySelector('.recipe-hero');if(hero)hero.after(control);else page.prepend(control);
+}
+if(document.querySelector('.traffic-discovery'))return;
 if(!current||!current.group)return;
 const clusters={
   'indigenous-americas':{title:'Indigenous Americas',guide:'../guides/indigenous-americas-food-guide.html',pantry:'../guides/indigenous-americas-pantry-guide.html',hub:'regions/indigenous-americas/'},
@@ -46,7 +58,7 @@ const topics=topicGuides[slug]||[];
 const topicMarkup=topics.length?`<h3>Learn this dish</h3><div class="essential-grid traffic-topic-grid">${topics.map(([name,href,text])=>`<a class="essential-card" href="${href}"><strong>${esc(name)}</strong><span>${esc(text)}</span><b>Read guide →</b></a>`).join('')}</div>`:'';
 const sec=document.createElement('section');sec.className='recipe-section traffic-discovery';
 sec.innerHTML=`<span class="eyebrow">Keep exploring</span><h2>More from ${esc(cluster.title)}</h2><p>Use the regional guides to understand the ingredients and foodways around this dish, then continue into another recipe from the same part of the collection.</p><div class="essential-grid traffic-guide-grid"><a class="essential-card" href="${cluster.guide}"><strong>Food & culture guide</strong><span>Context, techniques and a guided path through the collection.</span><b>Read guide →</b></a><a class="essential-card" href="${cluster.pantry}"><strong>Pantry guide</strong><span>Ingredients worth keeping, sourcing notes and practical substitutions.</span><b>Open pantry →</b></a><a class="essential-card" href="${cluster.hub}"><strong>Regional hub</strong><span>Browse every recipe and Essential currently connected to this region.</span><b>Explore region →</b></a></div>${topicMarkup}${related.length?`<h3>Cook next</h3><div class="related-grid traffic-related-grid">${related.map(x=>`<a href="${esc(x.slug)}.html"><strong>${esc(x.name)}</strong><span>${esc(x.summary||x.region||'Continue exploring the collection.')}</span><b>View recipe →</b></a>`).join('')}</div>`:''}<p class="traffic-browse-all"><a href="/collections/">Browse recipe collections by ingredient and technique →</a></p>`;
-const newsletter=document.createElement('section');newsletter.className='recipe-section traffic-newsletter';newsletter.innerHTML='<span class="eyebrow">One overlooked dish each week</span><h2>Discover the Weekly Dish</h2><p>Get one carefully researched Fringe Table recipe each week, plus the story, ingredients and techniques behind it.</p><div class="kit-form-slot"></div>';
+const newsletter=document.createElement('section');newsletter.className='recipe-section traffic-newsletter';newsletter.innerHTML='<span class="eyebrow">One overlooked dish each week</span><h2>Discover the Weekly Dish</h2><p>Get one carefully researched Fringe Table recipe each Thursday, early enough to find the ingredients and make it over the weekend.</p><div class="kit-form-slot"></div>';
 const kit=document.createElement('script');kit.async=true;kit.dataset.uid='89656db5aa';kit.src='https://fringe-table.kit.com/89656db5aa/index.js';newsletter.querySelector('.kit-form-slot').appendChild(kit);
 const source=page.querySelector('.source-note');if(source){source.before(sec);source.before(newsletter)}else{page.appendChild(sec);page.appendChild(newsletter)}
 })();
