@@ -126,16 +126,78 @@ function trimSentence(value = '', max = 380) {
   return (lastStop > 180 ? clipped.slice(0, lastStop + 1) : `${clipped.trim()}…`);
 }
 
+const SPECIALTY_TERMS = [
+  'berbere', 'niter kibbeh', 'injera', 'korarima', 'teff', 'egusi', 'lahpet', 'laphet',
+  'devzira', 'timur', 'sorghum leaves', 'mchadi', 'epis', 'harissa', 'preserved lemon',
+  'ras el hanout', 'gochujang', 'gochugaru', 'fish sauce', 'shrimp paste', 'tamarind',
+  'galangal', 'makrut', 'kaffir', 'lemongrass', 'pandan', 'banana stem', 'banana blossom',
+  'cassava', 'manioc', 'plantain', 'masa harina', 'hominy', 'achiote', 'annatto',
+  'sumac', 'zaatar', "za'atar", 'pomegranate molasses', 'tahini', 'bulgur', 'freekeh',
+  'fenugreek', 'asafoetida', 'hing', 'amchur', 'black cardamom', 'mustard oil',
+  'ghee', 'jaggery', 'urad', 'chana dal', 'toor dal', 'curry leaves', 'kashmiri chile',
+  'miso', 'dashi', 'kombu', 'bonito', 'mirin', 'sake', 'rice cakes', 'kimchi',
+  'doubanjiang', 'black vinegar', 'shaoxing', 'sichuan pepper', 'fermented bean',
+  'palm sugar', 'coconut milk', 'coconut cream', 'rice noodles', 'rice paper',
+  'fonio', 'millet', 'cassareep', 'calabaza', 'scotch bonnet', 'allspice',
+  'masa', 'nixtamal', 'achiote paste', 'epazote', 'quesillo', 'cotija',
+  'saffron', 'barberries', 'dried lime', 'rose water', 'orange blossom', 'lavash',
+  'matsoni', 'khmeli suneli', 'adjika', 'tkemali', 'sulguni', 'walnuts',
+  'buckwheat', 'rye flour', 'cornmeal', 'fermented tea', 'tea leaves'
+];
+
+const COMMON_STAPLES = [
+  'salt', 'water', 'oil', 'neutral oil', 'olive oil', 'butter', 'onion', 'onions', 'garlic',
+  'ginger', 'sugar', 'pepper', 'black pepper', 'egg', 'eggs', 'flour', 'stock', 'broth',
+  'chicken stock', 'vegetable stock', 'lemon', 'lime', 'tomato', 'tomatoes'
+];
+
+function ingredientScore(ingredient) {
+  const text = ingredient.toLowerCase();
+  let score = 0;
+
+  for (const term of SPECIALTY_TERMS) {
+    if (text.includes(term)) score += 12;
+  }
+
+  if (/for serving|to serve/.test(text)) score += 2;
+  if (/optional/.test(text)) score -= 2;
+  if (/or\s+(clarified butter|cardamom|butter|water|stock)/.test(text)) score += 1;
+
+  for (const staple of COMMON_STAPLES) {
+    const exactish = new RegExp(`(^|\\b)${staple.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\\b|$)`, 'i');
+    if (exactish.test(text) && !SPECIALTY_TERMS.some(term => text.includes(term))) score -= 4;
+  }
+
+  return score;
+}
+
+function selectSourcingIngredients(ingredients = [], limit = 3) {
+  const ranked = ingredients
+    .map((ingredient, index) => ({ ingredient, index, score: ingredientScore(ingredient) }))
+    .sort((a, b) => b.score - a.score || a.index - b.index);
+
+  const specialty = ranked.filter(item => item.score > 0).slice(0, limit).map(item => item.ingredient);
+  if (specialty.length >= limit) return specialty;
+
+  const used = new Set(specialty);
+  const fallback = ranked
+    .filter(item => !used.has(item.ingredient) && item.score >= 0)
+    .slice(0, limit - specialty.length)
+    .map(item => item.ingredient);
+
+  return [...specialty, ...fallback].slice(0, limit);
+}
+
 function buildWeeklyDish(recipe, overrides = {}) {
   const subject = overrides.subject || `${recipe.name}: this week’s dish from Fringe Table`;
   const previewText = overrides.preview_text || `A little story, a few things to know, and a dish worth making this weekend.`;
   const opening = overrides.intro || recipe.lead || recipe.about || recipe.description || `This week we’re cooking ${recipe.name}.`;
   const story = recipe.story || recipe.about || recipe.description;
-  const ingredients = recipe.ingredients.slice(0, 3);
+  const ingredients = selectSourcingIngredients(recipe.ingredients, 3);
   const technique = recipe.instructions[0] || '';
 
   const ingredientHtml = ingredients.length
-    ? `<h3 style="color:#0B2118;margin:26px 0 8px;">A few things to have on hand</h3><p style="margin-top:0;">Nothing here needs to feel fussy. These are the first things I’d check for before deciding to make it:</p><ul>${ingredients.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`
+    ? `<h3 style="color:#0B2118;margin:26px 0 8px;">A few things to have on hand</h3><p style="margin-top:0;">Before you commit to the weekend cook, these are the ingredients I’d make sure you can find. They’re the ones most likely to require a specialty market, an online order, or a little planning ahead:</p><ul>${ingredients.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`
     : '';
 
   const techniqueHtml = technique
