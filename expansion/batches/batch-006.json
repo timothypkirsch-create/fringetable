@@ -1,0 +1,171 @@
+[
+  {
+    "name":"Jamaican Rice and Peas",
+    "slug":"jamaican-rice-and-peas",
+    "region":"Jamaica / Caribbean",
+    "group":"caribbean-lowcountry",
+    "type":"Side / Staple",
+    "time":"1 hr 10 min",
+    "yield":"6 servings",
+    "prepTime":"PT15M",
+    "cookTime":"PT55M",
+    "totalTime":"PT1H10M",
+    "cuisine":"Jamaican",
+    "category":"Rice / side dish",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20and%20Peas.jpg?width=1400",
+    "imageAlt":"Authentic Jamaican rice and peas with kidney beans",
+    "imageCredit":"Photo: Whispyhistory; JPEG conversion by Hike395, Wikimedia Commons, CC BY-SA 4.0",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Rice_and_Peas.jpg",
+    "summary":"Jamaican rice and kidney beans cooked together in coconut milk with scallion, thyme, allspice and a whole Scotch bonnet.",
+    "lead":"Coconut-scented rice and beans with thyme, scallion and Scotch bonnet—the Jamaican side that belongs beside everything from jerk to oxtail.",
+    "about":"In Jamaica, the “peas” in rice and peas are beans—most often kidney beans or gungo peas. The beans and rice cook together with coconut milk, scallion, thyme, allspice and Scotch bonnet, producing a savory staple that accompanies many of the island’s best-known meat and fish dishes.",
+    "story":"Jamaica’s official tourism board identifies rice and peas as one of the island’s defining foods and describes the core combination of red kidney beans, rice, coconut milk, scallion, thyme and Scotch bonnet. It is less a special-occasion novelty than a deeply familiar accompaniment, especially prominent in Sunday meals and alongside dishes such as oxtail, jerk, curry goat and fried fish. Gungo peas are a traditional seasonal variation, particularly around the Christmas period.",
+    "caveat":"Households differ on bean choice, coconut intensity, pimento quantity and whether the Scotch bonnet is left whole or allowed to release more heat. This version keeps the chile whole for fragrance with controlled heat.",
+    "prepNotes":[
+      ["Do not split the Scotch bonnet","A whole pepper perfumes the pot. Piercing or cutting it can make the rice dramatically hotter."],
+      ["Measure the bean liquid","The total cooking liquid matters more than whether you use canned or home-cooked beans."],
+      ["Rest before fluffing","Ten covered minutes after cooking lets the grains finish steaming without breaking them up."]
+    ],
+    "ingredients":[
+      "2 cups long-grain white rice, rinsed until the water is mostly clear",
+      "1 can (15 oz) red kidney beans, drained, with 1/2 cup bean liquid reserved, or 1 1/2 cups cooked beans",
+      "1 can (13.5 oz) unsweetened coconut milk",
+      "1 1/2 cups water, adjusted as needed with reserved bean liquid",
+      "3 scallions, lightly crushed",
+      "4 thyme sprigs",
+      "2 garlic cloves, smashed",
+      "6 whole allspice berries",
+      "1 whole Scotch bonnet pepper",
+      "1 tsp kosher salt, plus more to taste",
+      "1/2 tsp black pepper"
+    ],
+    "steps":[
+      "Combine coconut milk, water, reserved bean liquid if using, scallions, thyme, garlic, allspice, salt and black pepper in a medium heavy pot. Bring to a gentle simmer for 5 minutes.",
+      "Add the beans and simmer 3 minutes so the coconut broth picks up their flavor.",
+      "Stir in the rinsed rice and nestle the whole Scotch bonnet on top without breaking it. The liquid should sit roughly 1/2 inch above the rice; add a small amount of water if necessary.",
+      "Bring just to a boil, then immediately reduce heat to very low and cover tightly.",
+      "Cook 18–22 minutes without repeatedly lifting the lid. Checkpoint: the liquid should be absorbed and small steam holes should appear across the rice surface.",
+      "Turn off the heat and leave covered for 10 minutes. Remove the Scotch bonnet, thyme stems, scallions and allspice berries you can easily find.",
+      "Fluff gently with a fork. Checkpoint: grains should be separate and tender, with beans intact rather than mashed through the rice.",
+      "Taste for salt and serve hot beside jerk, curry, oxtail, escovitch fish or other Jamaican mains."
+    ],
+    "shop":[],
+    "sources":[
+      ["Visit Jamaica — Jamaican Food","https://www.visitjamaica.com/best-of-jamaica/food/"],
+      ["Visit Jamaica — Iconic Jamaican Meals","https://www.visitjamaica.com/discover-jamaica/cuisine/iconic-meals/"],
+      ["Fringe Table — Caribbean & Lowcountry food guide","../guides/caribbean-lowcountry-food-guide.html"]
+    ]
+  },
+  {
+    "name":"Lao Larb Neua",
+    "slug":"lao-larb-neua",
+    "region":"Laos / Southeast Asia",
+    "group":"southeast-asia",
+    "type":"Main / Salad",
+    "time":"40 min",
+    "yield":"4 servings",
+    "prepTime":"PT20M",
+    "cookTime":"PT20M",
+    "totalTime":"PT40M",
+    "cuisine":"Lao",
+    "category":"Warm meat salad",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/LaoFood%20LarbNeua.JPG?width=1400",
+    "imageAlt":"Lao-style beef larb neua served in Vientiane",
+    "imageCredit":"Photo: Jpatokal, Wikimedia Commons/Wikivoyage, GFDL 1.2",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:LaoFood_LarbNeua.JPG",
+    "summary":"Lao beef larb with lime, fish sauce, toasted rice powder, chile, shallot and a generous handful of fresh herbs.",
+    "lead":"Warm minced beef tossed with lime, toasted rice, chile and herbs—the Lao dish where freshness and roasted aroma matter as much as heat.",
+    "about":"Larb is one of Laos’s defining dishes: minced or finely chopped meat, fish or other protein seasoned with toasted rice powder, chile, savory fermented seasonings and fresh herbs. Larb neua uses beef. It is typically eaten with sticky rice and raw vegetables rather than treated as a Western-style lettuce salad.",
+    "story":"The Lao tourism authority describes larb as a hallmark of Lao cuisine and a lucky dish associated with festivals, weddings and special gatherings. Lao state cultural reporting likewise connects the dish’s name with ideas of luck and prosperity and describes its role in hospitality and communal celebrations. There are many regional forms, including cooked, raw, bitter and fish-based preparations; this version is a fully cooked beef larb intended for a home kitchen.",
+    "caveat":"Lao larb varies widely, and some traditional versions include offal, bile, raw meat or padaek. This adaptation uses fully cooked beef and fish sauce for accessibility while retaining toasted rice powder, herbs, chile and lime as defining elements.",
+    "prepNotes":[
+      ["Toast your own rice powder","Freshly toasted sticky or jasmine rice has a deeper nutty aroma than old packaged powder."],
+      ["Cool the meat slightly before herbs","Very hot meat wilts mint and cilantro and can dull fresh lime juice."],
+      ["Serve with sticky rice","Sticky rice is not just a side; it is the traditional eating partner that balances the concentrated seasoning."]
+    ],
+    "ingredients":[
+      "2 tbsp uncooked sticky rice or jasmine rice",
+      "1 lb ground beef or finely hand-chopped beef",
+      "2 tbsp water",
+      "2 tbsp fish sauce, plus more to taste",
+      "2 to 3 tbsp fresh lime juice",
+      "1 to 2 tsp dried chile flakes or ground roasted chile",
+      "2 small shallots, thinly sliced",
+      "3 scallions, thinly sliced",
+      "1/2 cup mint leaves, torn",
+      "1/2 cup cilantro leaves and tender stems",
+      "1/4 cup chopped culantro, optional",
+      "Warm Lao sticky rice, cabbage, cucumber and long beans, for serving"
+    ],
+    "steps":[
+      "Toast the uncooked rice in a dry skillet over medium heat for 7–10 minutes, stirring often, until evenly golden and nutty-smelling. Cool, then grind to a coarse powder.",
+      "Place beef and 2 tablespoons water in a skillet over medium-high heat. Cook, breaking the meat into small pieces, until just cooked through and no pink remains.",
+      "Remove from heat and let the beef cool for 3–4 minutes. Checkpoint: it should still be warm but no longer aggressively steaming.",
+      "Add fish sauce, lime juice, chile and 1 1/2 tablespoons toasted rice powder. Toss thoroughly.",
+      "Taste before adding herbs. The meat should be distinctly savory and sour with roasted-rice aroma; adjust fish sauce, lime or chile as needed.",
+      "Fold in shallots, scallions, mint, cilantro and culantro if using. Checkpoint: herbs should remain bright and leafy, not cooked into the meat.",
+      "Sprinkle with additional toasted rice powder and serve immediately with warm sticky rice and a platter of raw vegetables."
+    ],
+    "shop":["Lao sticky rice glutinous rice","padaek fermented fish sauce"],
+    "sources":[
+      ["Tourism Laos — Food & Flavours: Larb","https://www.tourismlaos.org/welcome/food-flavours/"],
+      ["Lao News Agency — Larb as a dish of fortune and unity","https://kpl.gov.la/asean2024/en/detail.aspx?id=96993"],
+      ["Fringe Table — Southeast Asia food guide","../guides/southeast-asia-food-guide.html"]
+    ]
+  },
+  {
+    "name":"Ethiopian Gomen",
+    "slug":"ethiopian-gomen",
+    "region":"Ethiopia / Horn of Africa",
+    "group":"horn-northeast-africa",
+    "type":"Side",
+    "time":"50 min",
+    "yield":"4 servings",
+    "prepTime":"PT15M",
+    "cookTime":"PT35M",
+    "totalTime":"PT50M",
+    "cuisine":"Ethiopian",
+    "category":"Vegetable side",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Ayib%20and%20gomen.jpg?width=1400",
+    "imageAlt":"Ethiopian gomen cooked greens served with ayib",
+    "imageCredit":"Photo: stu_spivack, Wikimedia Commons/Flickr, CC BY-SA 2.0",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Ayib_and_gomen.jpg",
+    "summary":"Ethiopian collard greens slowly softened with onion, ginger and garlic until tender, savory and ready for injera.",
+    "lead":"Collard greens cooked far past the quick-sauté stage, with onion, garlic and ginger turning a sturdy vegetable into something soft and deeply savory.",
+    "about":"Gomen is an Ethiopian preparation of cooked greens, commonly collards in contemporary recipes. Unlike a quick Western sauté, the greens are allowed enough time to become thoroughly tender while absorbing onion, ginger and garlic. Versions may use oil for fasting meals or butter and spiced fat in other contexts.",
+    "story":"Yohanis Gebreyesus includes gomen among Ethiopia’s important vegetable dishes in his book Ethiopia: Recipes and Traditions from the Horn of Africa. Saveur’s adaptation of his method emphasizes a straightforward combination of onion, fresh ginger, garlic and collards, while older Ethiopian gomen recipes may add niter kibbeh and spices. The dish’s restraint is useful on a communal platter: its savory greens balance richer wots, tibs and fresh cheese.",
+    "caveat":"Greens, fat and spice choices vary by household and fasting practice. Kale can work when collards are unavailable, but the texture and flavor will change.",
+    "prepNotes":[
+      ["Remove tough stems","Thick collard stems need much longer than the leaves and can make the finished dish stringy."],
+      ["Wash in several changes of water","Collards can hide grit in their folds; wash before slicing."],
+      ["Tender means tender","Do not stop simply because the greens have wilted. Gomen should be soft enough to fold easily around injera."]
+    ],
+    "ingredients":[
+      "2 tbsp olive oil, neutral oil or niter kibbeh",
+      "1 large yellow or red onion, finely chopped",
+      "1 tbsp minced fresh ginger",
+      "3 garlic cloves, minced",
+      "1 1/2 lb collard greens, thick stems removed and leaves cut into 1-inch ribbons",
+      "3/4 cup water, plus more as needed",
+      "1 tsp kosher salt, plus more to taste",
+      "1 jalapeño, seeded and sliced, optional",
+      "1 tsp fresh lemon juice or mild vinegar, optional finish"
+    ],
+    "steps":[
+      "Wash the collard leaves thoroughly, remove thick stems and cut the leaves into ribbons.",
+      "Heat oil or niter kibbeh in a wide pot over medium-low heat. Add onion and cook 10–12 minutes until very soft and translucent with only light browning.",
+      "Add ginger and garlic and cook 1 minute until fragrant.",
+      "Add collards in several handfuls, turning each addition into the onion mixture until it begins to wilt.",
+      "Add water and salt, cover tightly and reduce heat to low. Cook 20 minutes, stirring once or twice.",
+      "Check the greens and add a splash of water if the pot is dry. Continue 10–15 minutes. Checkpoint: leaves should be fully tender with no raw chew, while the pan should have little free liquid.",
+      "Stir in jalapeño if using and cook uncovered 2–3 minutes.",
+      "Taste for salt and add a small amount of lemon juice or vinegar only if the greens need brightness. Serve warm with injera and other Ethiopian dishes."
+    ],
+    "shop":["niter kibbeh"],
+    "sources":[
+      ["Saveur — Collard Greens with Onions and Fresh Ginger (Gomen)","https://www.saveur.com/collard-greens-with-onions-and-fresh-ginger-recipe/"],
+      ["Smithsonian Libraries — Ethiopia: Recipes and Traditions from the Horn of Africa by Yohanis Gebreyesus","https://www.si.edu/object/ethiopia-recipes-and-traditions-horn-africa-yohanis-gebreyesus-jeff-koehler%3Asiris_sil_1109218"],
+      ["Fringe Table — Ethiopian food guide","../guides/ethiopian-food-guide.html"]
+    ]
+  }
+]
