@@ -7,15 +7,15 @@ Current audited counts (2026-08-30):
 
 | Region | Current | Target | Needed |
 |---|---:|---:|---:|
-| Indigenous Americas | 12 | 20 | 8 |
-| Horn & Northeast Africa | 13 | 20 | 7 |
-| Maghreb & West Africa | 14 | 20 | 6 |
-| Caribbean & Lowcountry | 13 | 20 | 7 |
-| Caucasus, Central & West Asia | 14 | 20 | 6 |
-| Himalayas & South Asia | 13 | 20 | 7 |
-| Southeast Asia | 13 | 20 | 7 |
+| Indigenous Americas | 13 | 20 | 7 |
+| Horn & Northeast Africa | 14 | 20 | 6 |
+| Maghreb & West Africa | 15 | 20 | 5 |
+| Caribbean & Lowcountry | 14 | 20 | 6 |
+| Caucasus, Central & West Asia | 15 | 20 | 5 |
+| Himalayas & South Asia | 14 | 20 | 6 |
+| Southeast Asia | 14 | 20 | 6 |
 
-Total expansion needed: **48 recipes**.
+Total expansion needed: **41 recipes**.
 
 ## Required standard for every new recipe
 
