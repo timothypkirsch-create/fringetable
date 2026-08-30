@@ -1,0 +1,30 @@
+name: Weekly Dish
+
+on:
+  schedule:
+    - cron: '0 14,15 * * 4'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send-weekly-dish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Ensure Kit API secret exists
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+        run: |
+          if [ -z "$KIT_API_KEY" ]; then
+            echo "KIT_API_KEY is not configured in GitHub Actions secrets."
+            exit 1
+          fi
+
+      - name: Schedule Weekly Dish at Thursday 10 AM Eastern
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+        run: node scripts/kit-weekly-auto.mjs
