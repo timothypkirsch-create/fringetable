@@ -166,8 +166,7 @@ async function createWeeklyDish() {
     description: command.description || `Fringe Table Weekly Dish: ${recipe.name}`,
     content: built.content,
     public: false,
-    send_at: sendAt,
-    subscriber_filter: [{ all: [{ type: 'all_subscribers' }] }]
+    send_at: sendAt
   };
 
   const data = await kit('/broadcasts', { method: 'POST', body: JSON.stringify(payload) });
