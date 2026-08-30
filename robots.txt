@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://fringetable.com/sitemap.xml
+Sitemap: https://fringetable.com/sitemap-recipes-20260830.xml
