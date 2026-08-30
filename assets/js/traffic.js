@@ -1,4 +1,5 @@
 (()=>{
+if(!document.querySelector('script[data-authority-layer]')){const a=document.createElement('script');a.src='/assets/js/authority.js?v=20260830d';a.dataset.authorityLayer='true';document.body.appendChild(a)}
 const nav=document.querySelector('.site-header nav ul');
 if(nav){
   const add=(label,href,beforeRx)=>{if(nav.querySelector(`a[href*="${href.replace(/^\//,'').split('/')[0]}"]`))return;const li=document.createElement('li');li.innerHTML=`<a href="${href}">${label}</a>`;const before=[...nav.children].find(x=>beforeRx&&beforeRx.test(x.textContent||''));if(before)nav.insertBefore(li,before);else nav.appendChild(li)};
