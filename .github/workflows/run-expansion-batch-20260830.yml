@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/run-expansion-batch-20260830.mjs'
+      - 'expansion-trigger/**'
   workflow_dispatch:
 permissions:
   contents: write
