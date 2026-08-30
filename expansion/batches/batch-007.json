@@ -1,0 +1,165 @@
+[
+  {
+    "name":"Diné Blue Corn Mush (Taa'niil)",
+    "slug":"dine-blue-corn-mush",
+    "region":"Diné / Navajo Nation / Indigenous Americas",
+    "group":"indigenous-americas",
+    "type":"Breakfast / Staple",
+    "time":"25 min",
+    "yield":"4 servings",
+    "prepTime":"PT5M",
+    "cookTime":"PT20M",
+    "totalTime":"PT25M",
+    "cuisine":"Diné / Navajo",
+    "category":"Porridge / staple",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Traditional%20Foods.jpg?width=1400",
+    "imageAlt":"Blue cornmeal and juniper ash ingredients used in Indigenous blue corn preparations",
+    "imageCredit":"Photo: Bureau of Land Management - Utah via Wikimedia Commons, public-domain U.S. government work",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Traditional_Foods.jpg",
+    "summary":"Diné blue corn mush made from roasted blue cornmeal, water and a small amount of juniper ash, cooked until smooth and oatmeal-like.",
+    "lead":"Blue corn, juniper ash and water become a simple warm staple with generations of Diné knowledge behind it.",
+    "about":"Blue corn mush, often called Taa'niil or Tanaashgiizh in published Diné food resources, is a traditional Navajo preparation made by thickening blue cornmeal with water and a small amount of juniper ash. The ash is not merely decorative: properly prepared culinary juniper ash changes flavor, color and mineral content. This page follows publicly shared Diné-led cooking guidance and keeps the preparation intentionally simple.",
+    "story":"The Indian Health Service identifies blue corn mush as a staple traditional Navajo food and describes families gathering around bowls of hot mush across generations. NATIFS has also published Diné chef Justin Pioche's blue corn mush method and discussion of juniper ash. A 2025 Northern Arizona University family-recipe project by Denisa Smiley of Navajo, New Mexico records learning Taa'niil from her paternal grandmother, illustrating how the food continues through family teaching rather than through a single standardized recipe.",
+    "caveat":"Use culinary juniper ash from a trusted Indigenous or food-grade source; do not make ash from unidentified landscape plants. This page presents a publicly shared everyday preparation and does not attempt to reproduce ceremonial knowledge.",
+    "prepNotes":[
+      ["Use roasted blue cornmeal","Diné-style roasted blue cornmeal has a deeper flavor than ordinary blue corn flour."],
+      ["Use food-grade juniper ash","Only use ash prepared and sold for culinary use or obtained from a trusted source who knows the correct material and method."],
+      ["Whisk before the corn hits the pot","Making a cool slurry first is the easiest way to avoid stubborn lumps."]
+    ],
+    "ingredients":[
+      "3 cups water, divided",
+      "1 cup roasted blue cornmeal",
+      "1 tsp food-grade culinary juniper ash",
+      "Pinch of salt, optional",
+      "Honey, berries, toasted sunflower seeds or piñons, optional for serving"
+    ],
+    "steps":[
+      "Bring 2 1/2 cups water to a steady simmer in a medium saucepan.",
+      "In a bowl, whisk the remaining 1/2 cup cool water with the juniper ash until evenly dispersed.",
+      "Whisk the blue cornmeal into the ash-water mixture gradually to make a smooth slurry with no dry pockets.",
+      "While whisking the simmering water, pour in the blue corn slurry in a slow stream.",
+      "Reduce heat to low and cook 12–15 minutes, stirring frequently and scraping the bottom and corners of the pan.",
+      "Checkpoint: the mush should thicken to a smooth oatmeal-like consistency and lose any raw cornmeal taste. Add a little hot water if it becomes stiff enough to stand in peaks.",
+      "Taste and add a small pinch of salt if desired. Serve warm, plain or with modest toppings such as fruit, seeds, piñons or honey."
+    ],
+    "shop":["roasted Navajo blue cornmeal","culinary juniper ash"],
+    "sources":[
+      ["Indian Health Service — Native Cooking Resources","https://www.ihs.gov/nutrition/nutrition-education-resources/native-cooking-resources/"],
+      ["NATIFS — Blue Corn Mush with Diné chef Justin Pioche","https://natifs.org/blog/videos/blue-corn-mush-justin-pioche/"],
+      ["Northern Arizona University — Denisa Smiley Family Recipes, Blue Corn Mush / Taa'niil","https://in.nau.edu/wp-content/uploads/sites/101/2026/01/DenisaSmiley2025.pdf"],
+      ["Fringe Table — Indigenous Americas foodways guide","../guides/indigenous-americas-food-guide.html"]
+    ]
+  },
+  {
+    "name":"Jamaican Callaloo",
+    "slug":"jamaican-callaloo",
+    "region":"Jamaica / Caribbean",
+    "group":"caribbean-lowcountry",
+    "type":"Side / Breakfast",
+    "time":"30 min",
+    "yield":"4 servings",
+    "prepTime":"PT15M",
+    "cookTime":"PT15M",
+    "totalTime":"PT30M",
+    "cuisine":"Jamaican",
+    "category":"Vegetable side",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Jamaican%20callaloo.jpg?width=1400",
+    "imageAlt":"Jamaican callaloo greens served as part of a breakfast plate",
+    "imageCredit":"Photo: Karolyn, Wikimedia Commons, CC BY 3.0; cropped from a Jamaican breakfast photograph",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Jamaican_callaloo.jpg",
+    "summary":"Jamaican callaloo greens sautéed with onion, scallion, thyme, tomato and Scotch bonnet until tender but still vibrant.",
+    "lead":"Tender greens with thyme, scallion and a whisper of Scotch bonnet—a Jamaican breakfast and side dish that cooks quickly but tastes deeply seasoned.",
+    "about":"Jamaican callaloo commonly refers to amaranth greens and to the cooked vegetable dish made from them. The Jamaican preparation is distinct from the creamy Trinidad and Tobago callaloo soup. In Jamaica, chopped greens are usually sautéed or steamed with aromatics, thyme, tomato and chile and may appear at breakfast alongside ackee and saltfish, dumplings or ground provisions.",
+    "story":"Jamaica's tourism authority includes callaloo among the island's familiar breakfast and plant-based dishes, and Jamaican food photography on Wikimedia Commons documents callaloo served as part of an everyday Negril breakfast. The word callaloo can describe very different dishes around the Caribbean, so keeping the island-specific method clear matters: this page is for Jamaican-style cooked greens, not Trinidadian coconut-and-dasheen-leaf callaloo.",
+    "caveat":"True Jamaican callaloo greens can be difficult to find outside Caribbean markets. Amaranth greens are the closest choice; spinach or Swiss chard can be used for convenience, but both change the texture and flavor.",
+    "prepNotes":[
+      ["Wash greens thoroughly","Leafy callaloo can hold grit. Wash in several changes of cool water before chopping."],
+      ["Keep the chile whole for gentle heat","A whole Scotch bonnet perfumes the greens without dominating them. Cut it only if you deliberately want much more heat."],
+      ["Do not cook to mush","The greens should be tender but still retain some structure and color."]
+    ],
+    "ingredients":[
+      "1 1/2 lb Jamaican callaloo or amaranth greens, washed and chopped",
+      "1 tbsp neutral oil",
+      "1 small onion, thinly sliced",
+      "2 scallions, sliced",
+      "2 garlic cloves, minced",
+      "1 medium tomato, chopped",
+      "3 thyme sprigs",
+      "1 whole Scotch bonnet pepper",
+      "1/2 tsp kosher salt, plus more to taste",
+      "1/4 tsp black pepper",
+      "2 tbsp water"
+    ],
+    "steps":[
+      "Wash the greens in several changes of cool water, drain well and chop into roughly 1-inch pieces, including tender stems.",
+      "Heat oil in a wide skillet over medium heat. Add onion and scallion and cook 3–4 minutes until softened.",
+      "Add garlic and tomato and cook 2 minutes until the tomato begins to release juice.",
+      "Add the greens by handfuls, turning them into the aromatics as they wilt. Add thyme, whole Scotch bonnet, salt, black pepper and water.",
+      "Cover and steam over medium-low heat for 6–8 minutes, stirring once.",
+      "Uncover and cook 2–4 minutes more if excess liquid remains. Checkpoint: stems should be tender and leaves silky but still green rather than gray or collapsed into puree.",
+      "Remove the whole Scotch bonnet and thyme stems. Taste for salt and serve warm with breakfast foods, rice and peas, roasted provisions or a Jamaican main."
+    ],
+    "shop":["Jamaican callaloo amaranth seeds or greens"],
+    "sources":[
+      ["Visit Jamaica — Iconic Jamaican Meals and callaloo breakfast context","https://www.visitjamaica.com/discover-jamaica/cuisine/iconic-meals/"],
+      ["Visit Jamaica — Jamaican cuisine and plant-based dishes","https://www.visitjamaica.com/discover-jamaica/cuisine/"],
+      ["Fringe Table — Caribbean & Lowcountry food guide","../guides/caribbean-lowcountry-food-guide.html"]
+    ]
+  },
+  {
+    "name":"Nepali Sel Roti",
+    "slug":"nepali-sel-roti",
+    "region":"Nepal / Himalayas",
+    "group":"himalayas-south-asia",
+    "type":"Bread / Sweet",
+    "time":"2 hrs",
+    "yield":"10 to 12 rings",
+    "prepTime":"PT1H30M",
+    "cookTime":"PT30M",
+    "totalTime":"PT2H",
+    "cuisine":"Nepali",
+    "category":"Fried rice bread",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Sel%20Roti%20Nepal.jpg?width=1400",
+    "imageAlt":"Traditional Nepali sel roti ring-shaped rice bread",
+    "imageCredit":"Photo: Janak Bhatta, Wikimedia Commons, CC BY-SA 4.0",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Sel_Roti_Nepal.jpg",
+    "summary":"Nepali sel roti made from soaked rice batter, sugar and warm spices, poured in rings and fried until crisp-edged and tender inside.",
+    "lead":"A ring of lightly sweet rice batter fried until crisp outside and soft within, inseparable from Nepali festival tables and family gatherings.",
+    "about":"Sel roti is a traditional Nepali ring-shaped fried rice bread. Unlike a wheat doughnut, it starts with soaked rice ground into a pourable batter, often sweetened and enriched with milk, ghee or banana depending on the household. The challenge is batter consistency: it must flow smoothly enough to form a continuous ring while holding together as soon as it hits hot oil.",
+    "story":"The Nepal Tourism Board highlights sel roti as a traditional food of Dashain and also notes its presence at Tamu Lhosar celebrations, where shared foods help carry community traditions between generations. It is also strongly associated with Tihar, weddings and other auspicious gatherings. Because the batter is often made by feel, experienced cooks can pour near-perfect rings directly by hand; a squeeze bottle or measuring cup makes the first attempts more manageable at home.",
+    "caveat":"Rice varieties, soaking times, sweeteners and enrichments vary across Nepali households and communities. This version uses a blender-friendly batter and a squeeze bottle option for safer, more repeatable shaping.",
+    "prepNotes":[
+      ["Soak the rice long enough","Four hours is workable; overnight soaking makes the rice easier to blend completely smooth."],
+      ["Aim for thick ribbon consistency","The batter should pour continuously but not spread flat like crepe batter."],
+      ["Practice over a cool bowl first","Before working over hot oil, test whether you can pour one continuous ring from your bottle or cup."]
+    ],
+    "ingredients":[
+      "2 cups uncooked medium- or long-grain white rice",
+      "1/2 cup whole milk, plus more as needed",
+      "1/3 cup sugar",
+      "2 tbsp melted ghee or butter",
+      "1 small ripe banana, optional",
+      "1/2 tsp ground cardamom",
+      "1/4 tsp ground fennel, optional",
+      "Pinch of salt",
+      "Neutral oil, for deep frying"
+    ],
+    "steps":[
+      "Rinse rice well and soak in plenty of cool water for at least 4 hours or overnight. Drain thoroughly.",
+      "Blend soaked rice with milk, sugar, ghee, banana if using, cardamom, fennel and salt until extremely smooth. Stop and scrape the blender several times.",
+      "Rest the batter 30 minutes. Checkpoint: it should fall from a spoon in a thick continuous ribbon. Add milk 1 tablespoon at a time if too stiff, or a spoonful of rice flour if excessively thin.",
+      "Heat 1 1/2 to 2 inches of oil in a wide heavy pan to about 350°F.",
+      "Transfer batter to a squeeze bottle, pitcher with a narrow spout or measuring cup. Pour a continuous 5- to 6-inch ring directly into the oil, joining the end to the beginning.",
+      "Fry until the underside is golden and firm, about 60–90 seconds, then turn carefully with tongs or a skewer.",
+      "Cook the second side until deep golden. Checkpoint: the ring should be crisp at the edges yet spring back slightly when pressed, not feel hard all the way through.",
+      "Drain on a rack and repeat, letting the oil return to temperature between rings.",
+      "Serve warm or at room temperature with tea, yogurt, achar or festival foods."
+    ],
+    "shop":[],
+    "sources":[
+      ["Nepal Tourism Board — Dashain food traditions and sel roti","https://ntb.gov.np/en/why-visit-nepal-during-dashain%3A-the-perfect-time-for-culture-and-adventure"],
+      ["Nepal Tourism Board — Tamu Lhosar and shared sel roti traditions","https://ntb.gov.np/en/tamu-lhosar-a-vibrant-journey-into-nepals-indigenous-heart"],
+      ["Fringe Table — Himalayas & South Asia food guide","../guides/himalayas-south-asia-food-guide.html"]
+    ]
+  }
+]
