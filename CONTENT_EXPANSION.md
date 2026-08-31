@@ -12,7 +12,7 @@ Current audited counts (2026-08-30):
 | Maghreb & West Africa | 21 | 20 | 0 |
 | Caribbean & Lowcountry | 20 | 20 | 0 |
 | Caucasus, Central & West Asia | 20 | 20 | 0 |
-| Himalayas & South Asia | 20 | 20 | 0 |
+| Himalayas & South Asia | 21 | 20 | 0 |
 | Southeast Asia | 20 | 20 | 0 |
 
 Total expansion needed: **0 recipes**.
