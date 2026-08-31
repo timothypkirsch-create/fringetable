@@ -11,3 +11,4 @@ const url='https://fringetable.com/pronunciation/';
 if(!sm.includes(url))sm=sm.replace('</urlset>',`<url><loc>${url}</loc><priority>0.9</priority></url>\n</urlset>`);
 await fs.writeFile(s,sm);
 console.log('Pronunciation layer finalized.');
+// trigger: 2026-08-31a
