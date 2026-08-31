@@ -25,3 +25,12 @@ for(const group of groups){
   console.log(`${group}: ${count}`);
 }
 console.log(`total: ${total}`);
+
+// Surface recipe HTML pages that are not discoverable from the live catalog. This does
+// not change regional counts; it is an integration warning for future maintenance.
+const recipeFiles=fs.readdirSync('recipes',{withFileTypes:true})
+  .filter(entry=>entry.isFile()&&entry.name.endsWith('.html')&&entry.name!=='index.html')
+  .map(entry=>entry.name.replace(/\.html$/,''));
+const missing=recipeFiles.filter(slug=>!bySlug.has(slug)).sort();
+console.log(`recipe-pages-not-in-catalog: ${missing.length}`);
+if(missing.length)console.log(`missing-catalog-slugs: ${missing.join(', ')}`);
