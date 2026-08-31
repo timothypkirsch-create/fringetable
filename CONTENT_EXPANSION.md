@@ -3,14 +3,14 @@
 ## Target
 Every geographic region must maintain at least **20 published recipes** before normal daily publishing resumes.
 
-Current audited counts (2026-08-30):
+Current audited counts (2026-08-31):
 
 | Region | Current | Target | Needed |
 |---|---:|---:|---:|
 | Indigenous Americas | 20 | 20 | 0 |
-| Horn & Northeast Africa | 21 | 20 | 0 |
+| Horn & Northeast Africa | 20 | 20 | 0 |
 | Maghreb & West Africa | 21 | 20 | 0 |
-| Caribbean & Lowcountry | 20 | 20 | 0 |
+| Caribbean & Lowcountry | 21 | 20 | 0 |
 | Caucasus, Central & West Asia | 21 | 20 | 0 |
 | Himalayas & South Asia | 21 | 20 | 0 |
 | Southeast Asia | 20 | 20 | 0 |
