@@ -74,7 +74,7 @@ const entries=[
 ['palov','pah-LOHV','Uzbekistan / Central Asia','Uzbek rice pilaf cooked with meat, carrots and aromatics.'],
 ['parippu','pah-REE-poo','Sri Lanka','Lentils; often shorthand for Sri Lankan lentil curry.'],
 ['pelau','peh-LOW','Trinidad and Tobago','A one-pot rice dish commonly made with browned meat, peas and coconut milk.'],
-['phkali','PKHAH-lee','Georgia','A family of vegetable-and-walnut dishes; also spelled pkhali.'],
+['pkhali','PKHAH-lee','Georgia','A family of vegetable-and-walnut dishes; also spelled pkhali.'],
 ['piti','pee-TEE','Azerbaijan','A slow-cooked meat and chickpea stew traditionally made in individual pots.'],
 ['pikliz','PEEK-leez','Haiti','A spicy Haitian pickled cabbage and vegetable condiment.'],
 ['piki','PEE-kee','Hopi / Indigenous Americas','A very thin blue-corn bread associated with Hopi foodways.'],
