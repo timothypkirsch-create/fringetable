@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
+// Verified against live Wikimedia Commons file pages on 2026-08-31.
 const mappings = new Map([
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Sesame%20seeds.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Sesame%20Seeds.jpg?width=1400'],
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Burmese%20tofu.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Tofu%20Nway%20Shan%20Food.jpg?width=1400'],
@@ -13,7 +14,6 @@ const mappings = new Map([
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Chorba%20frik.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Chorba%20frik%20algerienne.jpg?width=1400'],
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Aloo%20pitika.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Kumol%20Saul%20with%20Aloo%20Pitika.jpg?width=1400'],
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20amok.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20Amok.jpg?width=1400'],
-  ['https://commons.wikimedia.org/wiki/Special:FilePath/Zaalouk.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Zaaluk.jpg?width=1400'],
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Banh%20xeo.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Thumb%20IMG%200916%201024.jpg?width=1400'],
   ['https://commons.wikimedia.org/wiki/Special:FilePath/Red-red.jpg?width=1400','https://commons.wikimedia.org/wiki/Special:FilePath/Ghanaian%20Red-Red%20cuisine%20dish%20food.jpg?width=1400']
 ]);
@@ -37,7 +37,6 @@ async function patch(file){
   let text=await fs.readFile(file,'utf8');
   const before=text;
   for(const [from,to] of mappings){
-    if(from===to) continue;
     const parts=text.split(from);
     if(parts.length>1){
       replacements += parts.length-1;
