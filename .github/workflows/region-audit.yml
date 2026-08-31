@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - 'scripts/audit-region-counts.mjs'
+      - 'assets/js/site-core.js'
+      - 'assets/js/site.js'
 permissions:
   contents: read
 jobs:
