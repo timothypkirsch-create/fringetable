@@ -1,4 +1,5 @@
 (()=>{
+if(!document.querySelector('script[data-image-fallback]')){const f=document.createElement('script');f.src='/assets/js/image-fallback.js?v=20260831a';f.dataset.imageFallback='true';document.body.appendChild(f)}
 const path=location.pathname;
 const slug=(path.split('/').pop()||'').replace('.html','');
 const countryByRecipe={
