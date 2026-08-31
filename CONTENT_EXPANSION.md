@@ -11,7 +11,7 @@ Current audited counts (2026-08-30):
 | Horn & Northeast Africa | 21 | 20 | 0 |
 | Maghreb & West Africa | 21 | 20 | 0 |
 | Caribbean & Lowcountry | 20 | 20 | 0 |
-| Caucasus, Central & West Asia | 20 | 20 | 0 |
+| Caucasus, Central & West Asia | 21 | 20 | 0 |
 | Himalayas & South Asia | 21 | 20 | 0 |
 | Southeast Asia | 20 | 20 | 0 |
 
