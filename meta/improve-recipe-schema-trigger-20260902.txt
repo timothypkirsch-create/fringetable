@@ -1,0 +1,1 @@
+Trigger recipe structured-data improvements on 2026-09-02.
