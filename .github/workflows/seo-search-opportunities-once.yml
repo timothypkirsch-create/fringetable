@@ -1,0 +1,35 @@
+name: Focused Search Console SEO Once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/seo-search-opportunities-trigger-20260902.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Apply focused Search Console SEO improvements
+        run: node scripts/seo-search-opportunities.mjs
+      - name: Commit SEO improvements
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No SEO changes needed."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add recipes/senegalese-thiakry.html subrecipes/afghan-tomato-sauce.html recipes/ghanaian-waakye.html recipes/sri-lankan-kiribath.html
+          git commit -m "Optimize early Search Console opportunities"
+          git push origin HEAD:main
