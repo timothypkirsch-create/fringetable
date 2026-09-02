@@ -1,0 +1,1 @@
+Trigger site-wide canonical tag installation on 2026-09-02.
