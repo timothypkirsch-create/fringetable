@@ -2,9 +2,9 @@ name: Fringe Table Facebook Auto
 
 on:
   schedule:
-    - cron: '15 12 * * *'
-    - cron: '15 17 * * *'
-    - cron: '15 23 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
     inputs:
       slot:
@@ -41,13 +41,22 @@ jobs:
             SLOT="${{ inputs.slot }}"
           else
             case "${{ github.event.schedule }}" in
-              '15 12 * * *') SLOT='morning' ;;
-              '15 17 * * *') SLOT='afternoon' ;;
-              '15 23 * * *') SLOT='evening' ;;
+              '0 11 * * *') SLOT='morning' ;;
+              '0 16 * * *') SLOT='afternoon' ;;
+              '0 22 * * *') SLOT='evening' ;;
               *) SLOT='scheduled' ;;
             esac
           fi
           echo "FB_SLOT=$SLOT" >> "$GITHUB_ENV"
+      - name: Randomize scheduled post time
+        if: github.event_name == 'schedule'
+        shell: bash
+        run: |
+          # Wait a random 0-119 minutes so posts do not publish at a fixed time each day.
+          DELAY_SECONDS=$(( RANDOM % 7141 ))
+          DELAY_MINUTES=$(( DELAY_SECONDS / 60 ))
+          echo "Random delay: ${DELAY_MINUTES} minute(s)"
+          sleep "$DELAY_SECONDS"
       - name: Publish Facebook post
         env:
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
