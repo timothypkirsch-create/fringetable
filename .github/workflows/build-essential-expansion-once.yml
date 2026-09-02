@@ -1,0 +1,32 @@
+name: Build Essentials Expansion Once
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/build-essential-expansion-trigger-20260902.txt'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Build Essentials expansion
+        run: node scripts/build-essential-expansion.mjs
+      - name: Commit Essentials expansion
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No Essentials changes needed."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add subrecipes recipes sitemap.xml
+          git commit -m "Expand Essentials from recipe audit"
+          git push origin HEAD:main
