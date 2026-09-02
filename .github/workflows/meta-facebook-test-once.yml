@@ -1,13 +1,26 @@
-name: Facebook Page Test Once (Disabled)
+name: Facebook Page Test Once
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/facebook-test-trigger-20260902.txt'
 
 permissions:
   contents: read
 
 jobs:
-  disabled:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "One-time Facebook test trigger disabled after initial connection check."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Publish one-time Fringe Table Facebook test
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_POST_MESSAGE: "Fringe Table publishing connection test — our Facebook automation is now connected. More overlooked dishes, regional food traditions, and the stories behind them are coming soon."
+          META_POST_LINK: "https://fringetable.com"
+        run: node scripts/meta-facebook-post.mjs
