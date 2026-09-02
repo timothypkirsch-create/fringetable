@@ -16,6 +16,10 @@ on:
           - morning
           - afternoon
           - evening
+  push:
+    branches: [main]
+    paths:
+      - 'meta/facebook-engaging-test-20260902.txt'
 
 permissions:
   contents: write
@@ -39,6 +43,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             SLOT="${{ inputs.slot }}"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            SLOT='afternoon'
           else
             case "${{ github.event.schedule }}" in
               '0 11 * * *') SLOT='morning' ;;
@@ -52,7 +58,6 @@ jobs:
         if: github.event_name == 'schedule'
         shell: bash
         run: |
-          # Wait a random 0-119 minutes so posts do not publish at a fixed time each day.
           DELAY_SECONDS=$(( RANDOM % 7141 ))
           DELAY_MINUTES=$(( DELAY_SECONDS / 60 ))
           echo "Random delay: ${DELAY_MINUTES} minute(s)"
