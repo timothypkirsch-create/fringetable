@@ -1,0 +1,35 @@
+name: Install Analytics Events Once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/install-analytics-events-trigger-20260902.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install analytics event script on all HTML pages
+        run: node scripts/install-analytics-events.mjs
+      - name: Commit analytics event installation
+        shell: bash
+        run: |
+          if git diff --quiet -- '*.html'; then
+            echo "No HTML changes needed."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add '*.html' ':**/*.html'
+          git commit -m "Install GA4 engagement events site-wide"
+          git push origin HEAD:main
