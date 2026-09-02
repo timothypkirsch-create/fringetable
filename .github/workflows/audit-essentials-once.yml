@@ -1,0 +1,16 @@
+name: Audit Essentials Once
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/audit-essentials-trigger-20260902.txt'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Audit Essentials gaps
+        run: node scripts/audit-essentials-gaps.mjs
