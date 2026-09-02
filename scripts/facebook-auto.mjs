@@ -105,6 +105,15 @@ function choose(items, key) {
   return items[hash(key) % items.length];
 }
 
+function buildTrackedUrl(slug, slotName) {
+  const url = new URL(`https://fringetable.com/recipes/${slug}.html`);
+  url.searchParams.set('utm_source', 'facebook');
+  url.searchParams.set('utm_medium', 'social');
+  url.searchParams.set('utm_campaign', 'fringetable_organic');
+  url.searchParams.set('utm_content', slotName || 'scheduled');
+  return url.toString();
+}
+
 function buildMessage(recipe, style, seed) {
   const title = normalize(recipe.name);
   const region = normalize(recipe.region || 'its home region');
@@ -224,7 +233,7 @@ const styles = slot === 'morning'
     ? ['story', 'table', 'story']
     : ['table', 'discovery', 'story'];
 const style = styles[hash(`${seed}|style`) % styles.length];
-const recipeUrl = `https://fringetable.com/recipes/${recipe.slug}.html`;
+const recipeUrl = buildTrackedUrl(recipe.slug, slot);
 const message = qualityCheck(buildMessage(recipe, style, seed));
 
 await validatePage();
@@ -263,7 +272,9 @@ history.posts.push({
   style,
   mode: publishMode,
   post_id: postId,
+  tracked_url: recipeUrl,
 });
 history.posts = history.posts.slice(-120);
 fs.writeFileSync(historyPath, `${JSON.stringify(history, null, 2)}\n`);
 console.log(`Published Facebook post: ${recipe.name} (${publishMode}) ${postId || 'success'}`);
+console.log(`Tracked URL: ${recipeUrl}`);
