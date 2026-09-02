@@ -16,10 +16,6 @@ on:
           - morning
           - afternoon
           - evening
-  push:
-    branches: [main]
-    paths:
-      - 'meta/facebook-engaging-test-20260902.txt'
 
 permissions:
   contents: write
@@ -43,8 +39,6 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             SLOT="${{ inputs.slot }}"
-          elif [ "${{ github.event_name }}" = "push" ]; then
-            SLOT='afternoon'
           else
             case "${{ github.event.schedule }}" in
               '0 11 * * *') SLOT='morning' ;;
