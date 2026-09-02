@@ -67,10 +67,29 @@ async function validatePage() {
   console.log(`Validated Meta Page: ${data.name || data.id}`);
 }
 
+function normalize(text = '') {
+  return text.replace(/\s+/g, ' ').replace(/\s+([,.;!?])/g, '$1').trim();
+}
+
 function firstSentence(text = '') {
-  const normalized = text.replace(/\s+/g, ' ').trim();
+  const normalized = normalize(text);
   const match = normalized.match(/^(.+?[.!?])(?:\s|$)/);
   return (match ? match[1] : normalized).trim();
+}
+
+function firstTwoSentences(text = '') {
+  const normalized = normalize(text);
+  const matches = normalized.match(/[^.!?]+[.!?]+/g);
+  if (!matches?.length) return normalized;
+  return normalize(matches.slice(0, 2).join(' '));
+}
+
+function trimAtWord(text, max = 360) {
+  const value = normalize(text);
+  if (value.length <= max) return value;
+  const clipped = value.slice(0, max - 1);
+  const lastSpace = clipped.lastIndexOf(' ');
+  return `${clipped.slice(0, Math.max(lastSpace, 1)).replace(/[,:;\-\s]+$/, '')}…`;
 }
 
 function hash(text) {
@@ -82,21 +101,94 @@ function hash(text) {
   return h >>> 0;
 }
 
-function buildMessage(recipe, style) {
-  const title = recipe.name;
-  const region = recipe.region || 'Fringe Table';
-  const summary = (recipe.summary || '').trim();
-  const story = firstSentence(recipe.story || '');
-  const time = recipe.time ? ` · ${recipe.time}` : '';
-  const type = recipe.type ? `${recipe.type}${time}` : `Recipe${time}`;
+function choose(items, key) {
+  return items[hash(key) % items.length];
+}
+
+function buildMessage(recipe, style, seed) {
+  const title = normalize(recipe.name);
+  const region = normalize(recipe.region || 'its home region');
+  const summary = trimAtWord(recipe.summary || '', 330);
+  const story1 = trimAtWord(firstSentence(recipe.story || ''), 300);
+  const story2 = trimAtWord(firstTwoSentences(recipe.story || ''), 390);
+  const type = normalize(recipe.type || 'recipe');
+  const time = normalize(recipe.time || '');
+  const detail = story1 || summary;
+
+  const hooks = [
+    `A dish worth knowing: ${title}.`,
+    `Meet ${title} — one of the dishes that deserves a wider table.`,
+    `${title} is the kind of recipe that makes a region's foodways click into focus.`,
+    `If ${title} is new to you, this is a good place to start.`,
+    `There is more going on in ${title} than the ingredient list first suggests.`,
+  ];
+
+  const closers = [
+    `Read the history, technique, and full recipe on Fringe Table.`,
+    `The full recipe includes the method, context, and the details that make the dish itself—not a generic approximation.`,
+    `Explore the full recipe and the story behind it on Fringe Table.`,
+    `Get the full method and the cultural context on Fringe Table.`,
+  ];
+
+  const questions = [
+    `Would this be new to your table, or is it already familiar?`,
+    `Have you cooked or eaten this before?`,
+    `Is this one you would make at home?`,
+    `What part of this dish catches your attention first?`,
+  ];
 
   if (style === 'story') {
-    return `${title}\n\n${story || summary}\n\nFrom ${region}. Read the story, method, and full recipe on Fringe Table.`;
+    return [
+      choose(hooks, `${seed}|hook`),
+      '',
+      story2 || summary,
+      '',
+      `From ${region}. ${choose(closers, `${seed}|close`)}`,
+      '',
+      choose(questions, `${seed}|question`),
+    ].join('\n');
   }
+
   if (style === 'table') {
-    return `${title} — ${type}\n\n${summary}\n\nA dish from ${region}, with the context and technique kept intact.`;
+    const meta = [type, time].filter(Boolean).join(' · ');
+    return [
+      choose([
+        `${title} belongs on the shortlist of dishes to try from ${region}.`,
+        `Tonight's Fringe Table pick: ${title}.`,
+        `Put ${title} on your cooking radar.`,
+        `${title}: a closer look at a dish from ${region}.`,
+      ], `${seed}|table-hook`),
+      '',
+      summary,
+      '',
+      meta ? `${meta}.` : '',
+      choose(closers, `${seed}|table-close`),
+    ].filter((line, i, arr) => line !== '' || (i > 0 && arr[i - 1] !== '')).join('\n');
   }
-  return `${title}\n\n${summary}\n\nExplore the recipe and its story from ${region} on Fringe Table.`;
+
+  return [
+    choose([
+      `Today's food discovery: ${title}.`,
+      `One more reason to look beyond the usual recipe rotation: ${title}.`,
+      `Save this one for later: ${title}.`,
+      `${title} is today's Fringe Table find.`,
+    ], `${seed}|discovery-hook`),
+    '',
+    summary,
+    '',
+    detail && detail !== summary ? detail : `From ${region}, with the dish's identity and context kept front and center.`,
+    '',
+    choose(closers, `${seed}|discovery-close`),
+  ].join('\n');
+}
+
+function qualityCheck(message) {
+  const cleaned = message.trim();
+  if (cleaned.length < 120) throw new Error('Generated Facebook copy is unexpectedly short.');
+  if (cleaned.length > 1100) throw new Error('Generated Facebook copy is unexpectedly long.');
+  if (/undefined|null|\[object Object\]/i.test(cleaned)) throw new Error('Generated Facebook copy contains invalid content.');
+  if ((cleaned.match(/Fringe Table/g) || []).length > 2) throw new Error('Generated Facebook copy repeats the brand name too often.');
+  return cleaned;
 }
 
 const source = fs.readFileSync('assets/js/site-core.js', 'utf8');
@@ -126,10 +218,14 @@ const now = new Date();
 const dayKey = now.toISOString().slice(0, 10);
 const seed = `${dayKey}|${slot}|${history.posts.length}`;
 const recipe = balanced[hash(seed) % balanced.length];
-const styles = slot === 'morning' ? ['discovery', 'story'] : slot === 'afternoon' ? ['story', 'table'] : ['table', 'discovery'];
+const styles = slot === 'morning'
+  ? ['discovery', 'story', 'discovery']
+  : slot === 'afternoon'
+    ? ['story', 'table', 'story']
+    : ['table', 'discovery', 'story'];
 const style = styles[hash(`${seed}|style`) % styles.length];
 const recipeUrl = `https://fringetable.com/recipes/${recipe.slug}.html`;
-const message = buildMessage(recipe, style);
+const message = qualityCheck(buildMessage(recipe, style, seed));
 
 await validatePage();
 
