@@ -1,0 +1,32 @@
+name: Facebook Page Post
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Facebook post text'
+        required: true
+        type: string
+      link:
+        description: 'Optional Fringe Table URL'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Publish to Fringe Table Facebook Page
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_POST_MESSAGE: ${{ inputs.message }}
+          META_POST_LINK: ${{ inputs.link }}
+        run: node scripts/meta-facebook-post.mjs
