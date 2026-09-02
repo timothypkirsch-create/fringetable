@@ -1,0 +1,67 @@
+name: Fringe Table Facebook Auto
+
+on:
+  schedule:
+    - cron: '15 12 * * *'
+    - cron: '15 17 * * *'
+    - cron: '15 23 * * *'
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Post slot for a manual run'
+        required: true
+        default: 'morning'
+        type: choice
+        options:
+          - morning
+          - afternoon
+          - evening
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fringe-table-facebook-auto
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Resolve posting slot
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLOT="${{ inputs.slot }}"
+          else
+            case "${{ github.event.schedule }}" in
+              '15 12 * * *') SLOT='morning' ;;
+              '15 17 * * *') SLOT='afternoon' ;;
+              '15 23 * * *') SLOT='evening' ;;
+              *) SLOT='scheduled' ;;
+            esac
+          fi
+          echo "FB_SLOT=$SLOT" >> "$GITHUB_ENV"
+      - name: Publish Facebook post
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+        run: node scripts/facebook-auto.mjs
+      - name: Save posting history
+        shell: bash
+        run: |
+          if git diff --quiet -- data/facebook-post-history.json; then
+            echo "No Facebook history change to commit."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add data/facebook-post-history.json
+          git commit -m "Record Facebook post history"
+          git push origin HEAD:main
