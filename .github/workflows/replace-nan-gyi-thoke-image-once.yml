@@ -1,0 +1,32 @@
+name: Replace Nan Gyi Thoke Image Once
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/replace-nan-gyi-thoke-image-trigger-20260902.txt'
+permissions:
+  contents: write
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Replace image references
+        run: node scripts/replace-nan-gyi-thoke-image.mjs
+      - name: Commit image replacement
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No image changes needed."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add recipes assets/js
+          git commit -m "Use plated Mandalay Monti photo for Nan Gyi Thoke"
+          git push origin HEAD:main
