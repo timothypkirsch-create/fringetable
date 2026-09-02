@@ -1,0 +1,35 @@
+name: Improve Recipe Schema Once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/improve-recipe-schema-trigger-20260902.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  improve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Improve recipe structured data
+        run: node scripts/improve-recipe-schema.mjs
+      - name: Commit recipe schema improvements
+        shell: bash
+        run: |
+          if git diff --quiet -- 'recipes/**/*.html' 'recipes/*.html'; then
+            echo "No recipe schema changes needed."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add recipes
+          git commit -m "Improve recipe structured data"
+          git push origin HEAD:main
