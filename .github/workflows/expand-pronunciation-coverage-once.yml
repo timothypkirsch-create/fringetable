@@ -1,0 +1,34 @@
+name: Expand Pronunciation Coverage Once
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/expand-pronunciation-coverage-trigger-20260903.txt'
+permissions:
+  contents: write
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Expand pronunciation glossary
+        run: node scripts/expand-pronunciation-coverage-20260903.mjs
+      - name: Verify pronunciation coverage
+        run: node scripts/audit-pronunciation-coverage.mjs
+      - name: Commit pronunciation expansion
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No pronunciation changes needed."
+            exit 0
+          fi
+          git config user.name "Fringe Table Automation"
+          git config user.email "hello@fringetable.com"
+          git add assets/js/pronunciation.js
+          git commit -m "Expand pronunciation coverage across recipes"
+          git push origin HEAD:main
