@@ -1,0 +1,16 @@
+name: Audit Pronunciation Coverage Once
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'meta/audit-pronunciation-coverage-trigger-20260903.txt'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Audit pronunciation coverage
+        run: node scripts/audit-pronunciation-coverage.mjs
