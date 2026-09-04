@@ -117,75 +117,78 @@ function buildTrackedUrl(slug, slotName) {
 function buildMessage(recipe, style, seed) {
   const title = normalize(recipe.name);
   const region = normalize(recipe.region || 'its home region');
-  const summary = trimAtWord(recipe.summary || '', 330);
-  const story1 = trimAtWord(firstSentence(recipe.story || ''), 300);
-  const story2 = trimAtWord(firstTwoSentences(recipe.story || ''), 390);
+  const summary = trimAtWord(recipe.summary || '', 360);
+  const story1 = trimAtWord(firstSentence(recipe.story || ''), 320);
+  const story2 = trimAtWord(firstTwoSentences(recipe.story || ''), 430);
   const type = normalize(recipe.type || 'recipe');
   const time = normalize(recipe.time || '');
-  const detail = story1 || summary;
+  const context = story2 || summary;
 
-  const hooks = [
-    `A dish worth knowing: ${title}.`,
-    `Meet ${title} — one of the dishes that deserves a wider table.`,
-    `${title} is the kind of recipe that makes a region's foodways click into focus.`,
-    `If ${title} is new to you, this is a good place to start.`,
-    `There is more going on in ${title} than the ingredient list first suggests.`,
+  const intros = [
+    `Today’s recipe is ${title}, and it’s exactly the kind of dish Fringe Table was built to find: something with a real story behind it that deserves a little more attention.`,
+    `A little food history for your day: ${title}. It’s one of those dishes that makes more sense the more you understand where it comes from.`,
+    `If ${title} is unfamiliar, that’s part of the point. Fringe Table is here for the dishes that are easy to miss and very much worth knowing.`,
+    `Today I’m sharing ${title}, a dish from ${region} that carries a lot more with it than the ingredient list alone can tell you.`,
+  ];
+
+  const bridges = [
+    `What I like about this one is that the story and the technique are tied together.`,
+    `This is also the kind of recipe where a little context makes the cooking itself more interesting.`,
+    `The details matter here, but they’re manageable once you know what to look for.`,
+    `There’s a reason this dish has lasted, and it’s worth understanding before you start cooking.`,
+  ];
+
+  const reassurance = [
+    `If you’ve never made it before, don’t let the unfamiliar name stop you. The recipe walks through the process step by step and tells you what to look for as you go.`,
+    `If this is new territory, the full recipe keeps the process practical while still preserving what makes the dish itself.`,
+    `The full method is written for someone making it for the first time, with the cultural context kept right alongside the cooking.`,
   ];
 
   const closers = [
-    `Read the history, technique, and full recipe on Fringe Table.`,
-    `The full recipe includes the method, context, and the details that make the dish itself—not a generic approximation.`,
-    `Explore the full recipe and the story behind it on Fringe Table.`,
-    `Get the full method and the cultural context on Fringe Table.`,
-  ];
-
-  const questions = [
-    `Would this be new to your table, or is it already familiar?`,
-    `Have you cooked or eaten this before?`,
-    `Is this one you would make at home?`,
-    `What part of this dish catches your attention first?`,
+    `If it sounds like your kind of kitchen project, the full recipe and story are on Fringe Table.`,
+    `If you want to cook it, the full recipe includes the method, history, and the small details that make a difference.`,
+    `Take a look at the full recipe when you have a few minutes. It’s a good one to save for the weekend.`,
+    `Read the full story and recipe on Fringe Table when you’re ready to give it a try.`,
   ];
 
   if (style === 'story') {
     return [
-      choose(hooks, `${seed}|hook`),
+      choose(intros, `${seed}|intro`),
       '',
-      story2 || summary,
+      context,
       '',
-      `From ${region}. ${choose(closers, `${seed}|close`)}`,
+      choose(bridges, `${seed}|bridge`),
+      story1 && story1 !== context ? story1 : '',
       '',
-      choose(questions, `${seed}|question`),
-    ].join('\n');
+      choose(reassurance, `${seed}|reassure`),
+      '',
+      choose(closers, `${seed}|close`),
+    ].filter((line, i, arr) => line !== '' || (i > 0 && arr[i - 1] !== '')).join('\n');
   }
 
   if (style === 'table') {
-    const meta = [type, time].filter(Boolean).join(' · ');
+    const meta = [region, type, time].filter(Boolean).join(' · ');
     return [
-      choose([
-        `${title} belongs on the shortlist of dishes to try from ${region}.`,
-        `Tonight's Fringe Table pick: ${title}.`,
-        `Put ${title} on your cooking radar.`,
-        `${title}: a closer look at a dish from ${region}.`,
-      ], `${seed}|table-hook`),
+      choose(intros, `${seed}|table-intro`),
       '',
       summary,
       '',
-      meta ? `${meta}.` : '',
+      meta ? meta : '',
+      '',
+      choose(reassurance, `${seed}|table-reassure`),
+      '',
       choose(closers, `${seed}|table-close`),
     ].filter((line, i, arr) => line !== '' || (i > 0 && arr[i - 1] !== '')).join('\n');
   }
 
   return [
-    choose([
-      `Today's food discovery: ${title}.`,
-      `One more reason to look beyond the usual recipe rotation: ${title}.`,
-      `Save this one for later: ${title}.`,
-      `${title} is today's Fringe Table find.`,
-    ], `${seed}|discovery-hook`),
+    choose(intros, `${seed}|discovery-intro`),
     '',
     summary,
     '',
-    detail && detail !== summary ? detail : `From ${region}, with the dish's identity and context kept front and center.`,
+    story1 && story1 !== summary ? story1 : choose(bridges, `${seed}|discovery-bridge`),
+    '',
+    choose(reassurance, `${seed}|discovery-reassure`),
     '',
     choose(closers, `${seed}|discovery-close`),
   ].join('\n');
@@ -193,10 +196,10 @@ function buildMessage(recipe, style, seed) {
 
 function qualityCheck(message) {
   const cleaned = message.trim();
-  if (cleaned.length < 120) throw new Error('Generated Facebook copy is unexpectedly short.');
-  if (cleaned.length > 1100) throw new Error('Generated Facebook copy is unexpectedly long.');
+  if (cleaned.length < 180) throw new Error('Generated Facebook copy is unexpectedly short.');
+  if (cleaned.length > 1500) throw new Error('Generated Facebook copy is unexpectedly long.');
   if (/undefined|null|\[object Object\]/i.test(cleaned)) throw new Error('Generated Facebook copy contains invalid content.');
-  if ((cleaned.match(/Fringe Table/g) || []).length > 2) throw new Error('Generated Facebook copy repeats the brand name too often.');
+  if ((cleaned.match(/Fringe Table/g) || []).length > 3) throw new Error('Generated Facebook copy repeats the brand name too often.');
   return cleaned;
 }
 
