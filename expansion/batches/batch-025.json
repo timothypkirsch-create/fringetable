@@ -1,0 +1,118 @@
+[
+  {
+    "name":"Northern Moroccan Bissara (Fava Bean Purée)",
+    "slug":"moroccan-bissara",
+    "region":"Northern Morocco / Maghreb",
+    "group":"maghreb-west-africa",
+    "type":"Soup / Dip",
+    "time":"9 hrs 30 min",
+    "yield":"6 servings",
+    "prepTime":"PT8H15M",
+    "cookTime":"PT1H15M",
+    "totalTime":"PT9H30M",
+    "cuisine":"Moroccan",
+    "category":"Fava bean soup or purée",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Bissara%20%28Moroccan%20Dip%29.JPG?width=1400",
+    "imageAlt":"Moroccan bissara, a smooth broad-bean purée served with olive oil and spices",
+    "imageCredit":"Photo: Miansari66, Wikimedia Commons, CC0 1.0 public-domain dedication.",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Bissara_(Moroccan_Dip).JPG",
+    "summary":"Northern Moroccan bissara made from soaked peeled split fava beans simmered with garlic, olive oil, cumin and paprika, then puréed thick for dipping or loosened into a warming soup.",
+    "lead":"Dried fava beans cook past tenderness into a silky, earthy purée, finished with olive oil and cumin in the northern Moroccan comfort food known as bissara.",
+    "about":"Bissara, also spelled bessara, is a Moroccan purée of dried legumes served either thick enough to scoop with bread or thinned to soup consistency. Moroccan food writer Christine Benlafquih documents a fava-bean version made from dried peeled split favas, garlic, olive oil, paprika and cumin and notes that it is eaten around Morocco but is especially popular in the north. This recipe follows that northern Moroccan fava-bean form rather than treating split-pea bissara as the same formula.",
+    "story":"Bissara is humble food in the most useful sense: inexpensive dried beans become a sustaining breakfast, street-food bowl, family meal or side through long simmering and a generous olive-oil finish. Northern Moroccan accounts particularly associate the fava version with cooler weather and cities such as Chefchaouen. The texture is deliberately flexible. A thick batch can be placed in a communal dish and scooped with bread, while the same purée can be loosened with hot water into a spoonable soup. Cumin, paprika, cayenne or harissa are often offered at the table rather than forced into one fixed heat level.",
+    "caveat":"Use dried peeled split fava beans for this fava-based bissara. Dried split peas produce another documented Moroccan bissara, but their flavor and color are different, so they should be labeled as a variation rather than an invisible substitute.",
+    "prepNotes":[
+      ["Soak and inspect the beans","Cover the split favas generously with water overnight, then drain and pick out any stubborn brown skin fragments before cooking."],
+      ["Cook until collapse, not merely tender","The beans should break apart readily between two fingers before blending; undercooked favas leave the purée grainy."],
+      ["Choose the final texture at the end","Keep it thick for dipping or whisk in hot water after blending for soup. Bissara thickens noticeably as it cools."]
+    ],
+    "ingredients":[
+      "2 1/4 cups dried peeled split fava beans, soaked 8 hours or overnight and drained",
+      "6 cups water, plus more as needed",
+      "6 garlic cloves, lightly crushed",
+      "1/4 cup extra-virgin olive oil, plus more for serving",
+      "1 1/2 tsp ground cumin, divided",
+      "1 tsp sweet paprika, plus more for serving",
+      "1 1/4 tsp kosher salt, plus more to taste",
+      "1/4 tsp cayenne pepper or harissa, optional for serving",
+      "Crusty Moroccan-style bread, for serving"
+    ],
+    "steps":[
+      "Drain the soaked fava beans and rinse them well. Put them in a heavy pot with 6 cups water and the crushed garlic. Bring to a boil, skim any foam that rises, then reduce to a steady gentle simmer.",
+      "Cook partly covered for 55 to 70 minutes, stirring more frequently toward the end and adding hot water if the beans threaten to dry out.",
+      "Checkpoint: the beans should have lost most of their individual shape and should smear instantly when pressed against the side of the pot. The cooking liquid should look cloudy and creamy, and the garlic should be completely soft with no raw aroma.",
+      "Stir in the olive oil, 1 teaspoon cumin, paprika and salt. Simmer 5 minutes so the spices lose their dusty raw smell.",
+      "Purée directly in the pot with an immersion blender until smooth. If using a countertop blender, cool slightly and work in small batches with the lid vented because hot purée can build dangerous steam pressure.",
+      "Return to low heat. For a thick dip, simmer gently until a spoon dragged through the purée leaves a clear trail for a second or two. For soup, whisk in hot water 1/4 cup at a time until it pours in a thick ribbon.",
+      "Final checkpoint: the bissara should be velvety rather than gritty, thick enough to coat a spoon, and smell nutty and garlicky with warm cumin rather than raw spice. Adjust salt and consistency before serving.",
+      "Ladle into bowls or a shallow communal dish. Finish with a generous drizzle of olive oil and the remaining cumin; offer paprika, cayenne or harissa separately with bread."
+    ],
+    "shop":["dried peeled split fava beans"],
+    "sources":[
+      ["Taste of Maroc - Moroccan Dried Fava Bean Bessara by Christine Benlafquih","https://tasteofmaroc.com/bessara-fava-bean-dip-or-soup/"],
+      ["Morocco World News - regional Moroccan dishes including northern bissara","https://www.moroccoworldnews.com/2020/04/71447/moroccan-dishes-to-try-in-each-city/"],
+      ["Fringe Table - Maghreb & West Africa food guide","../guides/maghreb-west-africa-food-guide.html"],
+      ["Fringe Table - Moroccan Harira","moroccan-harira.html"],
+      ["Fringe Table - Moroccan Taktouka","moroccan-taktouka.html"]
+    ]
+  },
+  {
+    "name":"Jamaican Festival Fried Dumplings",
+    "slug":"jamaican-festival",
+    "region":"Jamaica / Caribbean",
+    "group":"caribbean-lowcountry",
+    "type":"Fried Bread / Side",
+    "time":"55 min",
+    "yield":"10 festivals",
+    "prepTime":"PT30M",
+    "cookTime":"PT25M",
+    "totalTime":"PT55M",
+    "cuisine":"Jamaican",
+    "category":"Cornmeal fried dumpling",
+    "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Festival%20%28food%29%2002.jpg?width=1400",
+    "imageAlt":"Jamaican festival fried dumplings, elongated golden cornmeal breads",
+    "imageCredit":"Photo: EAT&ART TARO, Wikimedia Commons, CC BY-SA 4.0.",
+    "imageCreditUrl":"https://commons.wikimedia.org/wiki/File:Festival_(food)_02.jpg",
+    "summary":"Jamaican festival fried dumplings with flour, cornmeal, brown sugar and vanilla shaped into tapered logs and fried slowly enough to become deep golden outside and fully tender inside.",
+    "lead":"Festival sits between bread and dumpling: lightly sweet cornmeal dough is rolled long, fried to a deep gold and served beside Jamaican fish, jerk or other savory foods.",
+    "about":"Jamaican festival is a sweet-leaning fried dumpling made with wheat flour, cornmeal, sugar and baking powder. Jamaican chef Noel Cunningham publishes a version with brown sugar, butter, milk, water and vanilla, while other Jamaican recipe sources use a simpler flour-and-cornmeal dough. What distinguishes festival from the plainer Jamaican fried dumpling is the cornmeal and sweetness. This recipe keeps those features while using a moderate cornmeal ratio for a tender home-kitchen result.",
+    "story":"Festival is closely associated with Jamaican street food and fish meals, especially escovitch fish, although it also appears beside jerk and other savory dishes. Its elongated shape gives more crisp surface than a round dumpling while leaving enough interior to stay soft. Recipes vary noticeably in the flour-to-cornmeal ratio, sweetness, milk, butter, vanilla and nutmeg, so no single formula should be presented as universal. The important technical point is controlled frying: because the dough contains sugar, oil that is too hot can brown the outside before the center cooks through.",
+    "caveat":"Festival and Jamaican fried dumpling or johnnycake are related but not identical. Festival normally includes cornmeal and more sweetness; omitting the cornmeal changes the bread enough that it should be called a different preparation.",
+    "prepNotes":[
+      ["Use fine cornmeal","Coarse polenta-style cornmeal can remain gritty during the short fry. Fine yellow cornmeal hydrates more evenly in the dough."],
+      ["Rest before shaping","A 20-minute rest lets the cornmeal absorb moisture so the dough rolls without cracking."],
+      ["Keep the oil moderate","Aim for about 335°F. Sugar speeds browning, so hotter oil can leave a dark shell around a raw center."]
+    ],
+    "ingredients":[
+      "1 1/2 cups all-purpose flour",
+      "1/2 cup fine yellow cornmeal",
+      "3 tbsp packed brown sugar",
+      "2 tsp baking powder",
+      "1/2 tsp kosher salt",
+      "2 tbsp unsalted butter, softened",
+      "1/2 tsp vanilla extract",
+      "1/2 cup whole milk",
+      "1/4 to 1/3 cup cool water, as needed",
+      "Neutral frying oil, enough for about 2 inches depth"
+    ],
+    "steps":[
+      "Whisk flour, cornmeal, brown sugar, baking powder and salt in a bowl. Rub in the softened butter with your fingertips until no large butter pieces remain.",
+      "Stir vanilla into the milk. Add the milk to the dry ingredients, then add cool water 1 tablespoon at a time until the mixture forms a soft but shapeable dough.",
+      "Knead gently in the bowl for about 2 minutes, just until the dough looks cohesive. Cover and rest 20 minutes.",
+      "Checkpoint: after resting, the dough should feel supple and slightly tacky but should not smear on your hands. Pinch a piece and roll it; the surface should stay mostly smooth rather than splitting into dry cracks.",
+      "Divide into 10 equal pieces. Roll each between your palms and the counter into a 5- to 6-inch log with slightly tapered ends and a gently flattened profile.",
+      "Heat 2 inches of neutral oil in a heavy pot to 330 to 340°F. Fry 3 or 4 festivals at a time for 5 to 7 minutes, turning several times so the color develops evenly. Adjust the burner to keep the oil in range after each batch is added.",
+      "Checkpoint: the exterior should be an even deep golden brown, not mahogany, and the festivals should feel noticeably lighter when lifted. Split one from the first batch: the center should be fluffy and bread-like with no wet dough line or raw cornmeal taste.",
+      "Drain on a rack or paper towels for 2 to 3 minutes. Serve hot with Jamaican escovitch fish, jerk dishes or another savory main; the light sweetness is meant to contrast with chile, vinegar and smoke."
+    ],
+    "shop":[],
+    "sources":[
+      ["Jamaicans.com - Chef Noel Cunningham Jamaican Festival Recipe","https://jamaicans.com/chef-noel-cunningham-jamaican-festival-recipe/"],
+      ["Jamaicans.com - Jamaican Festival Recipe","https://jamaicans.com/festival/"],
+      ["Visit Jamaica - Jamaican food and cuisine overview","https://www.visitjamaica.com/discover-jamaica/cuisine/jamaican-food/"],
+      ["Fringe Table - Caribbean & Lowcountry food guide","../guides/caribbean-lowcountry-food-guide.html"],
+      ["Fringe Table - Jamaican Escovitch Fish","jamaican-escovitch-fish.html"],
+      ["Fringe Table - Jamaican Ackee and Saltfish","jamaican-ackee-saltfish.html"]
+    ]
+  }
+]
