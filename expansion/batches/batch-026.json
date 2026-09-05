@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Rarámuri Pinole (Roasted Corn Drink)",
+    "slug": "raramuri-pinole",
+    "region": "Rarámuri / Sierra Tarahumara, Chihuahua, Mexico / Indigenous Americas",
+    "group": "indigenous-americas",
+    "type": "Drink / Staple",
+    "time": "35 min",
+    "yield": "6 servings",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "cuisine": "Rarámuri",
+    "category": "Roasted corn drink",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Haciendo%20pinole%20de%20ma%C3%ADz.jpg?width=1400",
+    "imageAlt": "A Rarámuri woman grinding roasted maize for pinole on a stone metate in Guachochi, Chihuahua",
+    "imageCredit": "Photo: Kikealm, Wikimedia Commons, CC BY-SA 4.0. The photograph documents Rarámuri/Tarahumara preparation of roasted maize pinole in Guachochi, Chihuahua.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Haciendo_pinole_de_ma%C3%ADz.jpg",
+    "summary": "A careful home adaptation of Rarámuri pinole: maize is toasted until deeply nutty, ground fine, then whisked with water into the simple roasted-corn drink associated with Sierra Tarahumara foodways.",
+    "lead": "Toast the corn until it smells like warm tortillas and hazelnuts, grind it fine, then turn that fragrant powder into the sustaining maize drink known as pinole.",
+    "about": "Pinole is roasted, ground maize used in several forms across Mexico and Central America. Among the Rarámuri of Chihuahua's Sierra Tarahumara, it is a particularly familiar corn food and can be eaten dry or mixed with water. This recipe is explicitly a home-kitchen adaptation: it preserves the defining roast-and-grind method while offering fine cornmeal as a practical substitute for whole dried maize when a grain mill is not available.",
+    "story": "Rarámuri foodways are agricultural, with corn, beans and squash at their center. Smithsonian ethnobotanical material describes the Rarámuri as long-established farmers of the Sierra Madre Occidental, while contemporary reporting from Chihuahua documents pinole preparation by roasting maize and grinding it on a metate. Pinole is often discussed through the lens of Rarámuri distance running, but it is better understood first as an everyday corn food within a much broader farming, community and ceremonial life rather than as a modern 'superfood' or athletic supplement.",
+    "caveat": "There is no single universal Rarámuri pinole formula. Sweeteners, cinnamon and the thickness of the drink vary, and plain roasted corn remains the defining element. This recipe does not claim to reproduce a household or ceremonial preparation and avoids treating Rarámuri food only as endurance-sport fuel.",
+    "prepNotes": [
+      ["Choose the right corn", "Whole food-grade dried flint or dent maize gives the closest roast-and-grind result, but it requires equipment rated to mill dry grain. Fine plain cornmeal is the safer accessible home substitute."],
+      ["Toast by aroma, not just color", "The corn should smell distinctly nutty and tortilla-like. Burnt specks make the finished drink bitter, so stir constantly near the end."],
+      ["Keep the texture honest", "Pinole does not dissolve like cocoa powder. A little fine graininess and settling are normal; whisk or stir again before drinking."]
+    ],
+    "ingredients": [
+      "2 cups food-grade dried flint or dent maize kernels, OR 2 cups fine plain yellow or blue cornmeal for the accessible home adaptation",
+      "6 cups cool drinking water, divided",
+      "1/2 tsp Mexican canela or ground cinnamon, optional",
+      "1 to 2 tbsp finely grated piloncillo, optional and to taste"
+    ],
+    "steps": [
+      "If using whole dried maize, heat a heavy dry skillet over medium-low heat and toast the kernels 12 to 18 minutes, stirring almost constantly near the end, until they smell deeply nutty and show scattered toasted spots without blackening. If using fine cornmeal, toast it in the dry skillet 7 to 10 minutes, stirring continuously so the bottom never scorches.",
+      "Checkpoint: the aroma should shift from raw cereal to warm toasted corn, similar to fresh tortillas with a faint roasted-nut note. Stop immediately if you smell sharp smoke or bitterness.",
+      "Cool whole toasted maize completely, then grind it in a grain mill or high-powered dry-grain container until it becomes a fine meal. If using cornmeal, transfer the toasted meal to a bowl. Do not force whole dry corn through a blender that is not rated for grains.",
+      "For a lightly seasoned version, mix cinnamon and grated piloncillo into the warm pinole powder. Leave both out for a plain roasted-corn version.",
+      "Whisk 1 1/2 cups of the pinole powder with 2 cups of the cool water to make a smooth slurry, then whisk in the remaining 4 cups water. Let stand 5 minutes so the fine meal hydrates.",
+      "Checkpoint: the drink should be opaque and tan or blue-gray depending on the corn, with a roasted-corn aroma and a fine, slightly sandy body rather than a gluey porridge. If it feels too thick to drink easily, add cool water 1/2 cup at a time.",
+      "Taste before adding more sweetener. Serve cool or at room temperature, stirring each glass just before drinking because some of the corn naturally settles.",
+      "Store any remaining dry pinole powder airtight and dry. Mix only the amount of drink you expect to use within a day, then refrigerate the mixed portion promptly."
+    ],
+    "shop": [
+      "stone ground blue cornmeal",
+      "Mexican piloncillo"
+    ],
+    "sources": [
+      ["El Heraldo de Chihuahua - Pinole, cómo se prepara la bebida tradicional rarámuri en la Sierra Tarahumara", "https://oem.com.mx/elheraldodechihuahua/cultura/pinole-como-se-prepara-la-bebida-tradicional-raramuri-en-la-sierra-tarahumara-video-22539801"],
+      ["Smithsonian National Museum of Natural History - Rarámuri ethnobotany and agriculture", "https://naturalhistory.si.edu/research/botany/research/edward-palmer-father-ethnobotany/bean-basket"],
+      ["Current Anthropology - Running in Tarahumara (Rarámuri) Culture", "https://www.journals.uchicago.edu/doi/10.1086/708810"],
+      ["Fringe Table - Indigenous Americas foodways guide", "../guides/indigenous-americas-food-guide.html"],
+      ["Fringe Table - Diné Blue Corn Mush", "dine-blue-corn-mush.html"]
+    ]
+  },
+  {
+    "name": "Somali Bariis Iskukaris",
+    "slug": "somali-bariis-iskukaris",
+    "region": "Somalia / Horn of Africa",
+    "group": "horn-northeast-africa",
+    "type": "Rice / Main",
+    "time": "1 hr 15 min",
+    "yield": "6 servings",
+    "prepTime": "PT20M",
+    "cookTime": "PT45M",
+    "totalTime": "PT1H15M",
+    "cuisine": "Somali",
+    "category": "Spiced one-pot rice",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SOMALI%20FAVORITE%20MAIN%20FOOD.jpg?width=1400",
+    "imageAlt": "Somali bariis-style spiced rice served with well-cooked chicken",
+    "imageCredit": "Photo: Naimaisse, Wikimedia Commons, CC BY-SA 4.0. The image is categorized on Commons under Bariis iskukaris and shows Somali rice with chicken.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:SOMALI_FAVORITE_MAIN_FOOD.jpg",
+    "summary": "Somali bariis iskukaris: basmati rice and chicken cooked together with tomato, carrot and a warm xawaash-style spice profile until the grains are fluffy and perfumed rather than oily or sticky.",
+    "lead": "Chicken, tomato and warm spices build the broth first; basmati then cooks in that same pot so every grain takes on the fragrance of xawaash.",
+    "about": "Bariis iskukaris is a Somali rice dish whose name points to ingredients being cooked together. Versions differ by region and household and may pair rice with goat, lamb, beef, camel or chicken. This home version follows the one-pot chicken structure published by the UK's National Health Service while deepening the aromatic profile with the cumin, coriander, cardamom, cinnamon, clove and turmeric family associated with Somali xawaash.",
+    "story": "Somali writer and cook Ifrah F. Ahmed describes bariis iskukaris as one of the dishes that has come to represent Somali cuisine in the diaspora, while also cautioning against reducing a diverse regional food culture to a few famous foods. Somalia's long Indian Ocean connections helped make rice and spices at home on the table, but Somali cooks transformed those ingredients into their own techniques and flavor logic. Bariis is therefore best treated as distinctly Somali rather than as a borrowed pilaf with a new name.",
+    "caveat": "Somali bariis is not one fixed national formula. Meat, vegetables, color, garnish and xawaash ratios vary widely, and some households serve the rice with roasted meat rather than cooking the meat in the same pot. This recipe is a practical chicken version, not a claim to be the only authentic style.",
+    "prepNotes": [
+      ["Rinse the basmati well", "Rinse until the water is only lightly cloudy, then drain thoroughly. Excess surface starch makes it harder to get the separate, fluffy grains bariis needs."],
+      ["Bloom spices gently", "Whole cinnamon and cumin should smell sweet and warm before the tomato goes in, but ground spices scorch quickly, so keep the heat moderate."],
+      ["Rest before fluffing", "Ten minutes off heat lets the last steam redistribute. Opening early can leave the top dry and the bottom wet."]
+    ],
+    "ingredients": [
+      "2 1/2 cups aged basmati rice, rinsed until the water is mostly clear and drained",
+      "2 tbsp neutral oil",
+      "1 large yellow onion, thinly sliced",
+      "4 garlic cloves, finely chopped",
+      "1 cinnamon stick",
+      "1 tsp cumin seeds",
+      "1 1/2 lb skinless bone-in chicken thighs",
+      "2 medium tomatoes, finely chopped",
+      "1 tsp ground cumin",
+      "1 tsp ground coriander",
+      "1/2 tsp ground turmeric",
+      "1/4 tsp ground cardamom",
+      "1/8 tsp ground cloves",
+      "1/2 tsp freshly ground black pepper",
+      "1 1/2 tsp kosher salt, plus more to taste",
+      "1 large carrot, coarsely grated",
+      "3 3/4 cups low-sodium chicken stock or water, hot",
+      "1/3 cup golden raisins, optional",
+      "1 ripe banana per 2 diners, optional but traditional in many Somali meals, for serving"
+    ],
+    "steps": [
+      "Heat the oil in a heavy lidded pot over medium heat. Add onion and cook 8 to 10 minutes, stirring, until soft with deep golden edges rather than merely translucent.",
+      "Add garlic, cinnamon stick and cumin seeds and stir 45 seconds. The pot should smell sweet, peppery and toasted; lower the heat immediately if the cumin begins to blacken.",
+      "Add the chicken thighs and brown 3 to 4 minutes per side. They do not need to cook through yet, but the exterior should lose its raw pink color and pick up light browning.",
+      "Stir in tomatoes, ground cumin, coriander, turmeric, cardamom, cloves, black pepper and salt. Cook 5 to 7 minutes until the tomatoes collapse into a thick orange-red base and the raw spice smell disappears.",
+      "Add the grated carrot and hot stock. Bring to a steady simmer, cover and cook 12 minutes so the chicken flavors the broth before the rice is added.",
+      "Stir in the drained basmati and raisins if using, distributing the rice evenly around the chicken. Bring back to a gentle simmer, cover tightly, reduce the heat to low and cook 17 to 20 minutes without stirring.",
+      "Checkpoint: the liquid should be absorbed, the grains should look elongated and separate, and the chicken must register at least 165°F at the thickest part away from the bone. If the rice is still firm but the pot is dry, sprinkle in 2 to 3 tablespoons hot water, cover and cook 5 minutes more.",
+      "Turn off the heat and leave the pot covered 10 minutes. Remove the cinnamon stick, then fluff from the edges toward the center with a fork, lifting rather than mashing the grains.",
+      "Taste for salt and warm spice. Serve on a platter with the chicken over or beside the rice and, if desired, wedges of ripe banana at the table; the sweet banana is eaten with savory bites in many Somali households."
+    ],
+    "shop": [
+      "Somali xawaash spice blend"
+    ],
+    "sources": [
+      ["NHS Healthier Families - Bariis iskukaris, one-pot Somali rice and chicken", "https://www.nhs.uk/healthier-families/recipes/bariis-iskukaris/"],
+      ["The Guardian - Ifrah F. Ahmed on Soomaaliya: Food, Memory and Migration", "https://www.theguardian.com/food/2026/apr/25/ifrah-f-ahmed-soomaaliya-cookbook-somali-cuisine"],
+      ["Wikimedia Commons - Bariis iskukaris media category", "https://commons.wikimedia.org/wiki/Category:Bariis_iskukaris"],
+      ["Fringe Table - Horn & Northeast Africa food guide", "../guides/horn-northeast-africa-food-guide.html"]
+    ]
+  },
+  {
+    "name": "Rachan Lobiani (Georgian Bean-Filled Bread)",
+    "slug": "georgian-rachan-lobiani",
+    "region": "Racha, Georgia / Caucasus",
+    "group": "caucasus-central-west-asia",
+    "type": "Bread / Main",
+    "time": "11 hrs",
+    "yield": "6 filled breads",
+    "prepTime": "PT9H30M",
+    "cookTime": "PT1H30M",
+    "totalTime": "PT11H",
+    "cuisine": "Georgian / Rachan",
+    "category": "Bean-filled bread",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lobiani%20-%20bean-filled%20bread.jpg?width=1400",
+    "imageAlt": "Georgian lobiani, round baked breads filled with seasoned beans",
+    "imageCredit": "Photo: Eka Samkharadze, Wikimedia Commons, CC BY-SA 4.0. Photograph taken in Georgia and identified as lobiani, bean-filled bread.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Lobiani_-_bean-filled_bread.jpg",
+    "summary": "Rachan-style Georgian lobiani with a soft yeast dough wrapped around mashed beans and smoked pork, flattened into rounds and baked until the crust freckles deep gold.",
+    "lead": "Beans become bread filling in lobiani; in Racha, smoked pork adds another layer of mountain flavor before the filled rounds go into a very hot oven.",
+    "about": "Lobiani is Georgian bean-filled bread with strong regional associations. Georgia's national tourism authority describes Rachan lobiani as a particularly prized form made with selected beans and Rachan smoked ham. The bread is shaped by enclosing cooled bean filling inside risen yeast dough, then flattening the package before baking. This home version keeps that Rachan structure while using widely available dried beans and smoked pork when the regional ham is unobtainable.",
+    "story": "Georgia Travel connects lobiani with Racha's bean and smoked-pork traditions and also with Barbaroba, the December 17 feast of Saint Barbara, when bean-filled breads appear widely in Georgian homes. The tourism authority notes an older ritual connection to Barbale in which pumpkin-filled pastries were baked before beans became the customary filling. In Racha, some loaves are marked before baking with a carved wooden stamp bearing a sun disk and other designs, adding a regional visual tradition to an already distinctive bread.",
+    "caveat": "Lobiani varies across Georgia and many versions are meatless. This recipe is specifically Rachan-style because it includes smoked pork; leaving the pork out produces a valid Georgian bean bread, but it should not be presented as identical to the ham-rich Rachan form described here. Rachan ham itself is a regional product, so smoked pork belly or a not-too-sweet smoked ham is only a practical substitute.",
+    "prepNotes": [
+      ["Cook beans completely", "The beans must mash easily while still warm. Firm centers will tear the dough when the bread is flattened."],
+      ["Cool the filling", "Hot filling weakens yeast dough and creates steam pockets. Let the mashed beans cool to room temperature before shaping."],
+      ["Flatten from the center", "Press the filled dough outward gently and evenly. Forcing one edge thin invites leaks while the center stays too thick."]
+    ],
+    "ingredients": [
+      "2 cups dried red kidney, cranberry or other medium red beans, soaked overnight and drained",
+      "6 oz smoked ham or smoked pork belly, cut into small pieces",
+      "Water for cooking the beans",
+      "1 tbsp pork fat, butter or neutral oil, plus more for finishing",
+      "1 tsp kosher salt, plus more to taste",
+      "1 tsp freshly ground black pepper",
+      "4 cups bread flour or all-purpose flour, plus more for dusting",
+      "2 tsp instant yeast",
+      "1 1/2 tsp kosher salt for the dough",
+      "1 1/2 cups warm water, about 100 to 105°F",
+      "2 tbsp neutral oil"
+    ],
+    "steps": [
+      "Cover the soaked beans with fresh water by 2 inches and bring to a boil. Reduce to a lively simmer and cook 35 to 50 minutes. Add the smoked ham or pork for the final 20 minutes so it seasons the beans without disappearing completely.",
+      "Checkpoint: a bean should crush to a creamy paste between two fingers with no chalky center. Drain very well, reserving 1/2 cup cooking liquid, then mash the beans and pork with 1 tablespoon fat, 1 teaspoon salt and black pepper. Add reserved liquid only a spoonful at a time if the filling seems dry. Cool completely.",
+      "While the beans cook, mix flour, yeast and dough salt. Add warm water and oil, knead 7 to 9 minutes until smooth and elastic, then cover and rise about 1 hour or until roughly doubled.",
+      "Checkpoint: press the risen dough with a floured fingertip. The indentation should return slowly and leave a shallow mark; if it springs back immediately, give it another 10 to 15 minutes.",
+      "Heat the oven to 475°F with a baking stone, steel or heavy sheet pan preheating inside. Divide the dough into 6 equal pieces and the cooled filling into 6 portions.",
+      "Flatten one dough piece into a 6-inch round. Put a portion of filling in the center, gather the dough edges over it and pinch firmly closed. Turn seam-side down and rest 5 minutes. Repeat with the remaining pieces.",
+      "Working gently from the center outward, flatten each filled ball into a round about 7 to 8 inches across and roughly 1/2 inch thick. Patch any small split immediately with a pinch of dough rather than letting bean filling dry on the surface.",
+      "Bake in batches on the preheated surface for 10 to 13 minutes, rotating once, until the breads are puffed in spots and the top and bottom carry deep golden freckles. A finished lobiani should sound slightly hollow at an exposed dough edge when tapped.",
+      "Brush the hot breads lightly with butter, pork fat or oil. Rest 5 minutes before cutting so the filling sets enough to stay inside, then serve warm."
+    ],
+    "shop": [],
+    "sources": [
+      ["Georgia Travel - Lobiani, Georgian traditional bean-filled bread", "https://georgia.travel/lobiani"],
+      ["Georgia Travel - Georgian foods to try in Tbilisi, including lobiani", "https://georgia.travel/georgian-foods-that-you-should-try-in-tbilisi"],
+      ["Fringe Table - Caucasus, Central & West Asia food guide", "../guides/caucasus-central-west-asia-food-guide.html"],
+      ["Fringe Table - Georgian Lobio", "georgian-lobio.html"]
+    ]
+  }
+]
