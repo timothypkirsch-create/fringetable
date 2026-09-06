@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Sri Lankan Watalappam",
+    "slug": "sri-lankan-watalappam",
+    "region": "Sri Lankan Muslim and Malay traditions / South Asia",
+    "group": "himalayas-south-asia",
+    "type": "Dessert / Custard",
+    "time": "3 hrs",
+    "yield": "8 servings",
+    "prepTime": "PT15M",
+    "cookTime": "PT1H",
+    "totalTime": "PT3H",
+    "cuisine": "Sri Lankan Muslim / Sri Lankan Malay",
+    "category": "Coconut-jaggery custard",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Watalappan-Sri%20Lanka.jpg?width=1400",
+    "imageAlt": "Sri Lankan watalappam, a dark coconut and jaggery custard served as a dessert",
+    "imageCredit": "Photo: Ji-Elle, Wikimedia Commons, CC BY-SA 3.0. The photograph is identified as Watalappan in Sri Lanka.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Watalappan-Sri_Lanka.jpg",
+    "summary": "Sri Lankan watalappam: a coconut-milk and kithul-jaggery custard perfumed with cardamom, nutmeg, clove and cinnamon, baked gently and chilled before serving with roasted cashews.",
+    "lead": "Dark kithul jaggery melts into coconut milk and warm spice, then eggs set the mixture into the rich celebration custard Sri Lankans know as watalappam.",
+    "about": "Watalappam, also spelled watalappan or wattalapam, is a Sri Lankan coconut custard built from eggs, coconut milk, jaggery and warming spices. Sri Lankan chef Peter Kuruvita and SBS both document kithul jaggery, coconut milk, cardamom, clove, nutmeg and cinnamon as defining ingredients. The dessert is especially associated with Sri Lanka's Muslim community, while Sri Lankan Malay food history connects it with serikaya, a related coconut-and-egg custard tradition.",
+    "story": "Watalappam sits at an intersection of Sri Lankan Muslim and Malay foodways. The Sunday Times of Sri Lanka records it as a firm favourite on Moor Eid sweets tables and notes that Sri Lankan Malays call the related dish serikaya. SBS likewise describes watalappam as thought to have Malay origins and particularly favoured by Sri Lanka's Muslim community. Today it also appears at weddings and other celebrations beyond a single community, but that broader popularity should not erase the communities that carried and developed the dish.",
+    "caveat": "Origins and spelling are discussed differently across Sri Lankan sources, and no single household spice ratio is definitive. This recipe follows a documented coconut-milk, kithul-jaggery and egg structure; ordinary dark brown sugar can sweeten a custard, but it does not reproduce the smoky, palm-like character of kithul jaggery and is therefore not presented as an equivalent substitute.",
+    "prepNotes": [
+      ["Use kithul jaggery when possible", "Its dark caramel and palm-sugar character is central to the flavor. Grate or chop it finely so it dissolves without overheating the coconut milk."],
+      ["Do not whip in excess air", "Stir the eggs gently rather than beating them foamy. Too many bubbles make the custard coarse and can produce a dry top."],
+      ["Cook gently, then chill", "A water bath protects the egg custard from harsh oven heat. The center should retain a small wobble when it leaves the oven, then firm as it cools."]
+    ],
+    "ingredients": [
+      "250 g kithul jaggery, finely grated or chopped",
+      "2 cups full-fat coconut milk, divided",
+      "4 large eggs",
+      "2 large egg yolks",
+      "1/2 tsp ground cardamom",
+      "1/4 tsp freshly grated nutmeg",
+      "1/8 tsp ground cloves",
+      "1/2 tsp ground cinnamon, or 1 small cinnamon quill infused while melting the jaggery and then removed",
+      "1/4 tsp fine salt",
+      "1/3 cup roasted unsalted cashews, roughly chopped, for serving",
+      "Kithul treacle, optional for serving"
+    ],
+    "steps": [
+      "Heat the oven to 320°F (160°C). Lightly grease an 8-inch square or similarly sized deep baking dish and set it inside a larger roasting pan for a water bath.",
+      "Combine the jaggery with 1/2 cup of the coconut milk in a small saucepan over low heat. Stir just until the jaggery dissolves and the mixture smells dark and caramel-like, 3 to 5 minutes. Do not boil. Remove any cinnamon quill, then cool until only lukewarm.",
+      "Whisk the eggs and yolks gently just until the whites and yolks are blended. Add the remaining coconut milk, cardamom, nutmeg, cloves, cinnamon if using ground, and salt, then stir in the cooled jaggery mixture without whipping in foam.",
+      "Strain the custard through a fine sieve into the prepared dish. Skim off large surface bubbles. Pour very hot water into the outer roasting pan until it reaches about halfway up the sides of the custard dish.",
+      "Bake 50 to 65 minutes. Checkpoint: the outer 2 inches should look set while the center moves as one soft wobble when the pan is nudged; it should not ripple like liquid. An instant-read thermometer in the center should be around 170 to 175°F without the custard boiling.",
+      "Lift the custard dish from the water bath and cool on a rack for 45 minutes. The surface should smell of coconut, jaggery and cardamom rather than sulfurous egg; a strongly eggy aroma is a sign of excessive heat.",
+      "Cover and chill at least 2 hours. Checkpoint: the cold custard should cut or spoon cleanly while remaining soft and creamy, with no watery liquid pooling around the edges.",
+      "Serve chilled or cool, scattered with roasted cashews and, if desired, a very small drizzle of kithul treacle."
+    ],
+    "shop": [
+      "Sri Lankan kithul jaggery"
+    ],
+    "sources": [
+      ["SBS Food - Coconut custard (watalappan) by Sri Lankan chef Peter Kuruvita", "https://www.sbs.com.au/food/recipe/coconut-custard-watalappan/8w09gvk1k"],
+      ["SBS Food - Coconut caramel custard (Watalappan)", "https://www.sbs.com.au/food/recipe/coconut-caramel-custard-watalappan/p6sdsc6l9"],
+      ["The Sunday Times, Sri Lanka - Sweet connection for Eid", "https://www.sundaytimes.lk/210509/plus/sweet-connection-for-eid-442287.html"],
+      ["Fringe Table - Himalayas & South Asia food guide", "../guides/himalayas-south-asia-food-guide.html"],
+      ["Fringe Table - Sri Lankan Kiribath", "sri-lankan-kiribath.html"]
+    ]
+  },
+  {
+    "name": "Minangkabau Beef Rendang",
+    "slug": "minangkabau-beef-rendang",
+    "region": "Minangkabau / West Sumatra, Indonesia / Southeast Asia",
+    "group": "southeast-asia",
+    "type": "Slow-Cooked Beef / Main",
+    "time": "7 hrs",
+    "yield": "6 servings",
+    "prepTime": "PT30M",
+    "cookTime": "PT6H30M",
+    "totalTime": "PT7H",
+    "cuisine": "Minangkabau / Indonesian",
+    "category": "Dry coconut beef stew",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Daging%20Rendang.jpg?width=1400",
+    "imageAlt": "Dark, dry-cooked beef rendang served on a plate",
+    "imageCredit": "Photo: Diranputri12, Wikimedia Commons, CC BY 4.0. The image is identified as daging rendang.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Daging_Rendang.jpg",
+    "summary": "Minangkabau beef rendang from West Sumatra: beef, coconut milk, chile, lemongrass, galangal, lime leaf and candlenut cooked through the gulai and kalio stages until dark, nearly dry and deeply aromatic.",
+    "lead": "Rendang is not rushed: coconut milk first becomes a curry, then an oily kalio, and finally a dark coating that clings to tender beef after hours of patient cooking.",
+    "about": "Rendang is a defining Minangkabau preparation from West Sumatra. Indonesia's national tourism authority explains that the word is tied to the Minang idea of merendang, the slow process that drives liquid from coconut milk while concentrating spice around the meat. Beef rendang daging is the best-known form, but regional rendang can also use other meats, fish, eggs or plant ingredients. This recipe stays specifically with a West Sumatran beef version and follows the staged cooking logic described by Indonesia Travel.",
+    "story": "For Minangkabau communities, rendang is much more than a generic coconut curry. Indonesia Travel documents its place at weddings, religious celebrations and community gatherings and connects its slow preparation with cultural ideas of kinship, gratitude, respect and patience. Another official Indonesia Travel account describes three practical stages: gulai while the coconut milk is still liquid, kalio after it thickens and releases oil, and rendang after prolonged low cooking makes the mixture dark and nearly dry. Keeping those stages visible prevents the common shortcut of stopping at a saucy coconut beef curry and calling it finished rendang.",
+    "caveat": "Rendang varies across Minangkabau communities and beyond West Sumatra. This recipe is a home adaptation of beef rendang daging, not a claim that every family uses the same chile quantity or aromatics. Turmeric leaf is preferred; Indonesia Travel's published William Wongso recipe documents Indonesian bay leaf as an alternative, which is a more culturally grounded substitution than ordinary Western bay leaf.",
+    "prepNotes": [
+      ["Use full-fat coconut milk", "Rendang depends on coconut fat separating during long cooking. Low-fat coconut milk tends to become thin and can scorch before the sauce develops its characteristic oil."],
+      ["Expect three stages", "Liquid gulai becomes thick, glossy kalio before it becomes dry rendang. The last hour needs frequent stirring because the coconut solids are frying in their own oil."],
+      ["Keep the heat patient", "A hard boil can toughen the beef and scorch coconut solids. Maintain a lazy simmer and increase stirring as the pot gets drier."]
+    ],
+    "ingredients": [
+      "2 lb beef chuck, cut into 2-inch pieces",
+      "5 cups full-fat unsweetened coconut milk",
+      "2 lemongrass stalks, bruised and tied in knots",
+      "6 makrut lime leaves, torn",
+      "1 fresh turmeric leaf, tied in a knot, or 2 Indonesian bay leaves (daun salam) as the documented alternative",
+      "1 tbsp tamarind concentrate",
+      "1 1/2 tsp kosher salt, plus more to taste",
+      "10 small shallots, roughly chopped",
+      "6 garlic cloves",
+      "6 to 8 long red chiles, seeded partly if a gentler heat is needed",
+      "2-inch piece fresh ginger, peeled",
+      "3-inch piece fresh galangal, peeled and sliced",
+      "5 candlenuts (kemiri), lightly toasted"
+    ],
+    "steps": [
+      "Blend the shallots, garlic, red chiles, ginger, galangal and candlenuts with a few spoonfuls of coconut milk into a fine, damp spice paste. Stop and scrape the blender as needed; the finished paste should smell sharply of galangal and chile with no large nut pieces.",
+      "Put the spice paste, remaining coconut milk, lemongrass, lime leaves, turmeric leaf or daun salam, tamarind and salt in a wide heavy pot. Bring slowly to a simmer over medium heat, stirring often so the coconut milk does not catch on the bottom.",
+      "Add the beef and reduce the heat to maintain a gentle simmer, roughly 190 to 205°F at the liquid. Cook uncovered 2 to 3 hours, turning the beef occasionally. Checkpoint - gulai stage: the pot is still visibly liquid and orange-brown, the beef is becoming tender, and the aromatics smell integrated rather than raw.",
+      "Continue cooking 1 1/2 to 2 hours as the liquid reduces, stirring every 10 to 15 minutes. Checkpoint - kalio stage: the sauce should be thick enough to cling heavily to the beef and small pools of reddish coconut oil should appear around the edges.",
+      "Lower the heat further once the sauce is very thick. Cook 1 to 2 hours more, stirring and scraping every few minutes and turning the beef gently so the coconut solids brown rather than burn.",
+      "Checkpoint - rendang stage: the sauce should be almost dry, dark brown rather than orange, and the separated coconut oil should fry the spice coating with a toasted, nutty aroma. The beef should yield easily to a fork but still hold its shape. If you smell acrid smoke, move the pot off the heat briefly and lower the burner before continuing.",
+      "Remove lemongrass and whole leaves. Taste the coating for salt and tamarind. Let the rendang rest 15 minutes; the surface will become slightly less oily as the meat and spice paste settle.",
+      "Serve with steamed rice. For storage, cool promptly and refrigerate; the flavor deepens overnight, but reheat gently so the concentrated coconut solids do not scorch."
+    ],
+    "shop": [
+      "Indonesian candlenuts kemiri",
+      "Indonesian bay leaves daun salam",
+      "fresh turmeric leaves"
+    ],
+    "sources": [
+      ["Indonesia Travel - Rendang: The Legendary Dish from West Sumatra", "https://www.indonesia.travel/gb/en/travel-ideas/gastronomy/rendang-the-legendary-dish-from-west-sumatra"],
+      ["Indonesia Travel - Rendang Minangkabau: One of the World's Best Foods, including William Wongso's recipe", "https://www.indonesia.travel/jp/en/travel-ideas/gastronomy/rendang-minangkabau-one-of-the-world-s-best-food-s"],
+      ["Fringe Table - Southeast Asia food guide", "../guides/southeast-asia-food-guide.html"],
+      ["Fringe Table - Indonesian Soto Ayam", "indonesian-soto-ayam.html"]
+    ]
+  },
+  {
+    "name": "Tunisian Brik à l'Oeuf",
+    "slug": "tunisian-brik-a-loeuf",
+    "region": "Tunisia / Maghreb",
+    "group": "maghreb-west-africa",
+    "type": "Street Food / Snack",
+    "time": "25 min",
+    "yield": "4 briks",
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "cuisine": "Tunisian",
+    "category": "Fried egg pastry",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tunisian%20brik%20or%20birik.jpg?width=1400",
+    "imageAlt": "A crisp folded Tunisian brik pastry served on a plate",
+    "imageCredit": "Photo: Rusty Clark ~ 100K Photos, Wikimedia Commons/Flickr, CC BY 2.0. The image is identified as Tunisian brik or birik.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tunisian_brik_or_birik.jpg",
+    "summary": "Tunisian brik à l'oeuf: an ultra-thin malsouka pastry folded around egg, capers and parsley, then fried until blistered and crisp while the egg cooks inside.",
+    "lead": "A paper-thin round of malsouka turns shatter-crisp in hot oil while an egg, capers and parsley cook inside the folded pastry.",
+    "about": "Brik à l'oeuf is one of Tunisia's best-known fried snacks. Tunisia's official tourism site describes it as a crisp sheet of pastry topped with a soft-cooked egg and garnished with capers and parsley. Brik or malsouka pastry is much thinner than ordinary pie dough and is already partially cooked before filling, which lets it blister and crisp quickly while protecting the egg inside.",
+    "story": "Discover Tunisia points visitors to brik à l'oeuf in Tunisia's medinas and coastal towns, where the golden fried pastry belongs to the country's familiar snack foods. SBS food reporting describes brik pastry as a Tunisian specialty roughly 1 millimeter thick, made principally from flour and water and traditionally formed by dabbing or brushing batter onto a hot surface. Its deeper origin is difficult to pin down, so this page avoids treating a proposed link with Turkish börek as settled history and focuses instead on the well-documented Tunisian egg preparation.",
+    "caveat": "Brik fillings vary, and tuna, potato, meat or other additions are common in different versions. This recipe stays with the egg, caper and parsley combination documented by Discover Tunisia. Genuine brik or malsouka pastry gives the characteristic brittle shell; a spring-roll wrapper is only a practical fallback documented by SBS and will be thicker and less lacy, so it should not be described as equivalent.",
+    "prepNotes": [
+      ["Keep the pastry covered", "Malsouka dries quickly. Keep unused sheets under a barely damp towel and fill one brik at a time."],
+      ["Use a wide shallow pan", "About 1/2 inch of oil gives enough room for the folded pastry to float and blister while still making the brik easy to turn."],
+      ["Choose egg doneness deliberately", "The classic appeal is a soft center. Pasteurized shell eggs are the safest choice if you intentionally leave the yolk runny; otherwise cook until the yolk is as firm as you prefer."]
+    ],
+    "ingredients": [
+      "4 round Tunisian brik or malsouka pastry sheets",
+      "4 large pasteurized eggs, one per brik",
+      "2 tbsp capers, rinsed, drained and roughly chopped",
+      "1/3 cup flat-leaf parsley, finely chopped",
+      "1/2 tsp freshly ground black pepper",
+      "Fine salt, to taste",
+      "Neutral frying oil, enough for a 1/2-inch depth in a wide skillet",
+      "1 lemon, cut into wedges, for serving"
+    ],
+    "steps": [
+      "Pour neutral oil to a depth of about 1/2 inch in a wide skillet and heat over medium-high to 345 to 355°F. Set a rack or paper-lined tray nearby for draining.",
+      "Lay one brik sheet on a shallow plate. Scatter one quarter of the parsley and capers over the center, leaving a clear border. Make a small well, crack one egg into it and season lightly with pepper and salt.",
+      "Fold the pastry immediately into a half-moon, bringing the edges together around the egg. The egg white helps tack the thin pastry closed; support the parcel with a wide spatula because the uncooked center is fluid.",
+      "Slide the brik into the hot oil and fry about 45 to 75 seconds on the first side, spooning a little hot oil over the top edge if needed. Turn carefully and fry 30 to 60 seconds on the second side.",
+      "Checkpoint: the pastry should be blistered, rigid and deep golden at the edges, not pale and leathery. The egg white visible through any thin spots should be opaque. For a soft-yolk brik use a pasteurized egg and stop while the center still feels gently yielding; cook longer for a firmer yolk.",
+      "Lift the brik from the oil and drain briefly with the folded edge elevated so excess oil runs away. The aroma should be toasted pastry and parsley, never burnt flour or stale oil.",
+      "Repeat one at a time with the remaining pastry and eggs, letting the oil return to about 350°F between batches. Oil that falls much below 330°F makes the pastry greasy instead of brittle.",
+      "Serve immediately with lemon wedges. Brik loses its defining shatter-crisp texture as it sits, so it is best eaten within minutes of frying."
+    ],
+    "shop": [
+      "Tunisian brik malsouka pastry"
+    ],
+    "sources": [
+      ["Discover Tunisia - Around Hammamet: brik à l'oeuf with egg, capers and parsley", "https://discovertunisia.com/en/discover/around-hammamet"],
+      ["SBS Food - Brik pastry recipe and traditional egg preparation", "https://www.sbs.com.au/food/recipe/brik-pastry/11z4ha4si"],
+      ["SBS Food - Introducing brik, the Tunisian pastry you've probably eaten but never made", "https://www.sbs.com.au/food/article/introducing-brik-the-tunisian-pastry-youve-probably-eaten-but-never-made/35eoef82r"],
+      ["Fringe Table - Maghreb & West Africa food guide", "../guides/maghreb-west-africa-food-guide.html"],
+      ["Fringe Table - Tunisian Lablabi", "tunisian-lablabi.html"]
+    ]
+  }
+]
