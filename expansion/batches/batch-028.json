@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Chickasaw Pashofa",
+    "slug": "chickasaw-pashofa",
+    "region": "Chickasaw Nation / Indigenous Americas",
+    "group": "indigenous-americas",
+    "type": "Corn and Pork Stew / Main",
+    "time": "5 hrs 30 min",
+    "yield": "8 servings",
+    "prepTime": "PT30M",
+    "cookTime": "PT5H",
+    "totalTime": "PT5H30M",
+    "cuisine": "Chickasaw",
+    "category": "Cracked corn and pork stew",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hominy%20%28maize%29.JPG?width=1400",
+    "imageAlt": "Prepared hominy maize illustrating the corn ingredient used in Chickasaw pashofa",
+    "imageCredit": "Photo: Glane23, Wikimedia Commons, CC BY-SA 3.0. Ingredient image; not a photograph of finished Chickasaw pashofa.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hominy_(maize).JPG",
+    "summary": "Chickasaw pashofa: cracked white hominy corn and pork simmered slowly until the kernels are swollen and tender and the broth tastes deeply of corn and meat.",
+    "lead": "Pashofa is deliberately simple: cracked corn, pork, water and patient simmering become a substantial Chickasaw community food whose character comes from the corn rather than a long seasoning list.",
+    "about": "The Chickasaw Nation preserves pashofa in its public cultural-food materials as a traditional preparation centered on specially processed cracked corn cooked with pork. The defining ingredient is pashofa corn rather than canned supermarket hominy, and the cooking is long and gentle so the kernels soften without dissolving. This home version follows that restrained structure and avoids layering in aromatics that are not part of the documented Chickasaw formula.",
+    "story": "Pashofa remains strongly associated with Chickasaw community gatherings and cultural continuity. Chickasaw Nation food materials present it alongside other living traditional foods rather than as a museum reconstruction, and public demonstrations emphasize the labor of preparing and tending the corn. Related corn-and-pork dishes are known among neighboring Southeastern Native communities, but this page keeps the framing specifically Chickasaw and does not treat one community's method as a generic Indigenous recipe.",
+    "caveat": "Use food-ready dried cracked white hominy or corn specifically sold for pashofa. Traditional corn processing belongs to community knowledge and should not be improvised with unknown ash or lye concentrations. Canned whole hominy shortens cooking dramatically but produces a different texture and is not presented here as an equivalent substitute.",
+    "prepNotes": [
+      ["Buy the right corn", "Look for dried cracked white hominy or corn labeled for pashofa. The pieces should be irregular and dry, not canned whole kernels."],
+      ["Plan for a long simmer", "The corn needs hours of gentle cooking. Add hot water as needed rather than raising the heat to force tenderness."],
+      ["Season late", "Pork can contribute substantial salt, especially if using neck bones or another cured/salted cut. Taste the finished broth before adding much extra salt."]
+    ],
+    "ingredients": [
+      "1 lb dried cracked white hominy or pashofa corn, rinsed and soaked 8 hours or overnight",
+      "2 lb pork shoulder, cut into 2-inch pieces, or meaty fresh pork neck bones",
+      "12 cups water, plus more hot water as needed",
+      "1 tsp kosher salt, only as needed after cooking",
+      "Freshly ground black pepper, optional at the table"
+    ],
+    "steps": [
+      "Drain the soaked cracked corn and place it in a large heavy pot with 10 cups of the water. Bring to a boil, skim any loose foam, then immediately lower the heat to a gentle simmer.",
+      "Cook the corn uncovered or partially covered for 2 hours, stirring from the bottom every 15 to 20 minutes. Add hot water whenever the kernels are no longer freely moving in broth.",
+      "Checkpoint: after about 2 hours the corn pieces should be visibly swollen and beginning to split at their edges, but the centers will still feel firm when bitten. The broth should smell distinctly of cooked corn rather than raw meal.",
+      "Add the pork and enough hot water to keep everything covered by about 1 inch. Return to a very gentle simmer; avoid a hard boil, which can shred the pork before the corn is tender.",
+      "Continue simmering 2 to 3 hours, stirring more frequently as the stew thickens. If using pork shoulder, it should become fork-tender; if using neck bones, the meat should pull easily from the bones.",
+      "Checkpoint: the pashofa is ready when the cracked corn is fully tender through the center with a soft, pleasantly chewy texture, the broth is cloudy and lightly thickened by corn starch, and the pork has no rubbery connective tissue. Pork should reach at least 145°F, though long simmering will usually take it well beyond that point into tender braising temperatures.",
+      "Remove any bones and loose cartilage. Taste the broth before adding salt, then season only as much as needed. If the pot is thicker than a loose stew, stir in a little hot water rather than letting it become a stiff porridge.",
+      "Rest 10 minutes off the heat and serve hot. Keep the presentation simple so the flavor of the corn and pork remains central."
+    ],
+    "shop": [
+      "dried cracked white hominy pashofa corn"
+    ],
+    "sources": [
+      ["Chickasaw Nation - Pashofa", "https://www.chickasaw.net/Our-Nation/Culture/Foods/Pashofa.aspx"],
+      ["Chickasaw Nation - Traditional Foods", "https://www.chickasaw.net/Our-Nation/Culture/Foods.aspx"],
+      ["Fringe Table - Indigenous Americas foodways guide", "../guides/indigenous-americas-food-guide.html"],
+      ["Fringe Table - Choctaw-Chickasaw Banaha Bread", "choctaw-chickasaw-banaha.html"],
+      ["Fringe Table - EBCI Bean and Hominy", "ebci-bean-and-hominy.html"]
+    ]
+  },
+  {
+    "name": "Jamaican Hominy Corn Porridge",
+    "slug": "jamaican-hominy-corn-porridge",
+    "region": "Jamaica / Caribbean",
+    "group": "caribbean-lowcountry",
+    "type": "Breakfast / Porridge",
+    "time": "9 hrs 15 min",
+    "yield": "6 servings",
+    "prepTime": "PT8H15M",
+    "cookTime": "PT1H",
+    "totalTime": "PT9H15M",
+    "cuisine": "Jamaican",
+    "category": "Sweet hominy breakfast porridge",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hominy%20%28maize%29.JPG?width=1400",
+    "imageAlt": "Prepared hominy maize illustrating the defining corn ingredient in Jamaican hominy corn porridge",
+    "imageCredit": "Photo: Glane23, Wikimedia Commons, CC BY-SA 3.0. Ingredient image; not a photograph of finished Jamaican hominy corn porridge.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hominy_(maize).JPG",
+    "summary": "Jamaican hominy corn porridge with tender whole hominy simmered in coconut milk and warm baking spices, then sweetened to taste with condensed milk.",
+    "lead": "Whole hominy gives this Jamaican breakfast porridge a chewy, creamy texture that is very different from smooth cornmeal porridge, while coconut milk, cinnamon, nutmeg and vanilla make the bowl unmistakably comforting.",
+    "about": "Hominy corn porridge is one of Jamaica's familiar breakfast porridges, alongside cornmeal, peanut, green banana and plantain versions. Dried hominy is soaked and simmered until each kernel is tender, then coconut milk and spices turn the cooking liquid creamy. Sweetened condensed milk is a common modern finishing sweetener; the amount is best adjusted at the end because the porridge concentrates as it cooks.",
+    "story": "Jamaican breakfast culture gives porridges an important everyday role because they are filling, economical and adaptable. Hominy corn porridge preserves the distinct bite of whole processed maize rather than grinding it into meal. Jamaican recipe traditions differ in whether they use cow's milk, coconut milk or both, and in the balance of condensed milk, brown sugar, cinnamon, nutmeg and vanilla. This version uses coconut milk prominently and treats sweetness as adjustable rather than fixed.",
+    "caveat": "This is specifically the whole-hominy porridge, not Jamaican cornmeal porridge. Canned hominy can make a quicker cereal but lacks the long-cooked flavor and chewy tenderness of soaked dried hominy, so the two methods should not be treated as identical.",
+    "prepNotes": [
+      ["Soak overnight", "Dried hominy softens much more evenly after an 8-hour soak and is less likely to stay hard at the center while the outside breaks down."],
+      ["Sweeten last", "Condensed milk can scorch and the porridge becomes sweeter as liquid reduces. Add it only after the corn is fully tender."],
+      ["Keep coconut milk below a hard boil", "Once coconut milk is added, use a gentle simmer and stir often so the bottom stays creamy rather than catching and tasting toasted or burnt."]
+    ],
+    "ingredients": [
+      "2 cups dried white hominy corn, rinsed and soaked overnight",
+      "7 cups water, plus more as needed",
+      "1 cinnamon stick",
+      "1/2 tsp fine salt",
+      "1 1/2 cups full-fat unsweetened coconut milk",
+      "1/2 tsp freshly grated nutmeg",
+      "1 tsp pure vanilla extract",
+      "1/3 to 1/2 cup sweetened condensed milk, to taste",
+      "2 tbsp brown sugar, optional only if additional sweetness is wanted"
+    ],
+    "steps": [
+      "Drain the soaked hominy and combine it with 7 cups fresh water, the cinnamon stick and salt in a heavy pot. Bring to a boil, then lower to a steady simmer.",
+      "Cook 45 to 75 minutes, stirring every 10 minutes and adding hot water if the kernels become exposed before they are tender.",
+      "Checkpoint: bite a kernel through its thickest part. It should be plump and tender with a gentle chew but no chalky or hard center. The cooking liquid will look cloudy and slightly starchy.",
+      "Stir in the coconut milk and nutmeg. Return only to a gentle simmer and cook 12 to 15 minutes, stirring frequently along the bottom and corners of the pot.",
+      "Checkpoint: the porridge should smell of coconut and warm spice, and the liquid should coat a spoon while the kernels remain distinct. If the coconut milk looks oily or separated, lower the heat and stir in a small splash of hot water.",
+      "Remove the cinnamon stick. Stir in vanilla and 1/3 cup condensed milk. Taste before adding more condensed milk or the optional brown sugar.",
+      "Simmer 2 to 3 minutes more. The finished porridge should be creamy and spoonable, not stiff; loosen with hot water or a little coconut milk if needed because it thickens as it stands.",
+      "Rest 5 minutes and serve warm. Stir each bowl before eating so the hominy stays evenly distributed through the creamy liquid."
+    ],
+    "shop": [
+      "dried white hominy corn"
+    ],
+    "sources": [
+      ["Visit Jamaica - Jamaican cuisine and breakfast food context", "https://www.visitjamaica.com/discover-jamaica/cuisine/"],
+      ["Jamaicans.com - Hominy Corn Porridge", "https://jamaicans.com/hominy-corn-porridge-recipe/"],
+      ["Fringe Table - Caribbean & Lowcountry food guide", "../guides/caribbean-lowcountry-food-guide.html"],
+      ["Fringe Table - Jamaican Rice and Peas", "jamaican-rice-and-peas.html"],
+      ["Fringe Table - Jamaican Festival Fried Dumplings", "jamaican-festival.html"]
+    ]
+  },
+  {
+    "name": "Georgian Ghomi with Sulguni",
+    "slug": "georgian-ghomi-sulguni",
+    "region": "Samegrelo / Western Georgia / Caucasus",
+    "group": "caucasus-central-west-asia",
+    "type": "Corn Porridge / Side",
+    "time": "1 hr",
+    "yield": "6 servings",
+    "prepTime": "PT10M",
+    "cookTime": "PT50M",
+    "totalTime": "PT1H",
+    "cuisine": "Mingrelian / Georgian",
+    "category": "Corn porridge with cheese",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corn%20flour%20%2820240709%29.jpg?width=1400",
+    "imageAlt": "Fine corn flour illustrating the maize base used for Georgian ghomi",
+    "imageCredit": "Photo: Fumikas Sagisavas, Wikimedia Commons, CC0. Ingredient image; not a photograph of finished Georgian ghomi.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Corn_flour_(20240709).jpg",
+    "summary": "Mingrelian-style Georgian ghomi: coarse white corn cooked slowly until thick and glossy, finished with fine corn flour and served hot with pieces of sulguni cheese melting into the porridge.",
+    "lead": "In western Georgia, ghomi is a soft, elastic corn staple made for scooping up strongly flavored dishes; pushing sulguni into the hot porridge adds salty pockets of melting cheese.",
+    "about": "Ghomi is especially associated with Samegrelo in western Georgia, where it functions less like a standalone polenta course and more like a staple beside stews, beans, sauces and cheese. Modern ghomi is usually corn-based and can combine coarse meal with a finer flour added near the end to create its characteristic thick, cohesive texture. Sulguni is commonly served with or tucked into hot ghomi, where the cheese softens without disappearing completely.",
+    "story": "Georgia Travel presents ghomi as a hallmark of western Georgian, particularly Mingrelian, cooking. The dish's grain history is older than modern maize cultivation: Georgian accounts connect the name ghomi with an earlier millet-like grain before corn became dominant after its arrival in the region. That change is a useful reminder that traditional foodways can absorb new crops over centuries without becoming culturally generic. Today's corn ghomi remains closely tied to Samegrelo and to the region's preference for bold accompaniments such as sulguni, lobio and spicy sauces.",
+    "caveat": "This recipe follows the contemporary corn-based Mingrelian style. Italian polenta can be cooked to a similar consistency, but a strongly yellow, quick-cooking polenta changes both the look and grain character; coarse white cornmeal plus fine white corn flour is a closer home-kitchen fit. Sulguni is traditional but may be omitted rather than replaced with a strongly flavored unrelated cheese.",
+    "prepNotes": [
+      ["Use two grinds of corn", "Coarse meal provides structure while a smaller amount of fine corn flour added near the end makes the porridge smoother and more cohesive."],
+      ["Stir from the bottom", "Ghomi gets very thick. A sturdy wooden spoon and frequent bottom-scraping prevent a scorched layer from flavoring the whole pot."],
+      ["Serve immediately", "Ghomi firms quickly as it cools. The best texture is hot, glossy and soft enough for sulguni to melt where it touches the porridge."]
+    ],
+    "ingredients": [
+      "1 1/2 cups coarse white cornmeal, preferably stone-ground",
+      "6 cups water, plus more hot water as needed",
+      "1 tsp kosher salt",
+      "1/2 cup fine white corn flour",
+      "8 oz Georgian sulguni cheese, cut into thick strips or bite-size pieces, for serving"
+    ],
+    "steps": [
+      "Bring 6 cups water to a boil in a heavy pot. Whisk in the coarse white cornmeal gradually, then reduce the heat to low as soon as the mixture returns to a simmer.",
+      "Cook 30 to 35 minutes, stirring every few minutes with a sturdy wooden spoon and scraping the bottom and corners. Add a splash of hot water whenever the porridge becomes too stiff to stir before the grain is tender.",
+      "Checkpoint: the coarse grains should taste fully hydrated with no hard gritty center, and the pot should smell sweet and cooked-corn-like rather than raw or scorched.",
+      "Sprinkle in the fine corn flour a few tablespoons at a time while stirring continuously so it disappears into the hot porridge without forming dry pockets.",
+      "Continue cooking 10 to 15 minutes over very low heat, beating and folding the ghomi with the spoon. Checkpoint: it should become thick, glossy and cohesive, pulling away from the pot in heavy folds while remaining soft enough to spoon rather than slice.",
+      "Season with salt. If the ghomi is stiff enough to stand in a dry mound, beat in hot water 2 tablespoons at a time until it relaxes to a soft, elastic consistency.",
+      "Spoon the ghomi into warm bowls or onto a serving platter. Push pieces of sulguni partly into the hot porridge and leave them 1 to 2 minutes so the edges soften and become stretchy while the centers retain some body.",
+      "Serve immediately with Georgian beans, stews or vegetable dishes. Ghomi should be treated as the starch foundation of the meal rather than buried under sweet toppings."
+    ],
+    "shop": [
+      "Georgian sulguni cheese",
+      "coarse white stone ground cornmeal"
+    ],
+    "sources": [
+      ["Georgia Travel - Ghomi and western Georgian food culture", "https://georgia.travel/ghomi"],
+      ["Georgian Recipes - Ghomi", "https://georgianrecipes.net/2013/03/29/ghomi/"],
+      ["Fringe Table - Caucasus, Central & West Asia food guide", "../guides/caucasus-central-west-asia-food-guide.html"],
+      ["Fringe Table - Georgian Lobio", "georgian-lobio.html"],
+      ["Fringe Table - Georgian Chakapuli", "georgian-chakapuli.html"],
+      ["Fringe Table - Imeretian Khachapuri", "imeretian-khachapuri.html"]
+    ]
+  }
+]
