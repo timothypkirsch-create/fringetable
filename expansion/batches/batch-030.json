@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Bicolano Laing (Gabi Leaves in Coconut Milk)",
+    "slug": "bicolano-laing",
+    "region": "Bicol Region, Philippines / Southeast Asia",
+    "group": "southeast-asia",
+    "type": "Vegetable Stew / Main or Side",
+    "time": "1 hr 20 min",
+    "yield": "6 servings",
+    "prepTime": "PT20M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H20M",
+    "cuisine": "Bicolano / Filipino",
+    "category": "Taro leaves in coconut milk",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Laing%2C%20Bicolano%20dish.jpg?width=1400",
+    "imageAlt": "Bicolano laing made from taro leaves simmered with coconut milk and chiles",
+    "imageCredit": "Photo: Lokalpedia, Wikimedia Commons, CC BY-SA 4.0.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Laing,_Bicolano_dish.jpg",
+    "summary": "Bicolano laing: dried gabi or taro leaves slowly simmered in coconut milk with ginger, garlic, chile and bagoong until the leaves are fully tender and the sauce turns rich and concentrated.",
+    "lead": "Laing turns dried taro leaves into a deeply savory Bicolano coconut dish, with ginger and chile cutting through gata as the leaves soften and absorb the sauce.",
+    "about": "The Philippine Department of Tourism identifies laing as one of Bicolandia's most famous dishes and describes its defining combination of gata, or coconut milk, shredded gabi or taro leaves, siling labuyo, garlic and ginger, with lemongrass and bagoong appearing in some versions. Pork or fish may be added, but the dish also stands on its own. This version uses dried taro leaves and a small amount of shrimp paste, keeping the coconut-and-gabi relationship at the center rather than treating the leaves as a minor vegetable garnish.",
+    "story": "Laing belongs specifically to Bicol, a region whose cooking is strongly associated with coconut milk and chile. The Department of Tourism distinguishes it from pinangat, another Bicolano coconut-and-taro preparation in which leaves are formed into pouches around a filling. Laing instead cooks shredded leaves directly in coconut until they become tender and saturated. Modern recipes vary in pork, seafood, lemongrass, bagoong and heat level, but the combination of gabi, gata and chile is the recurring regional logic.",
+    "caveat": "Raw and undercooked taro leaves can cause intense mouth and throat irritation because of naturally occurring calcium oxalate crystals. Use food-grade dried taro leaves from a reliable source and cook them thoroughly until completely tender. Do not taste the leaves early in the cooking process. Fresh taro leaves require experienced preparation and are not substituted here one-for-one.",
+    "prepNotes": [
+      ["Use dried taro leaves", "Commercial food-grade dried gabi leaves are the most practical home option and are the form used in many Filipino laing recipes."],
+      ["Do not stir immediately", "After the dry leaves are added, let them hydrate and sink into the coconut liquid before stirring; aggressive early stirring can break them into a muddy texture."],
+      ["Cook until fully tender", "Taro leaves are not a quick-cooking green. Give them a sustained simmer and never judge doneness only by sauce thickness."],
+      ["Control the chile", "Bicolano laing can be very hot, but siling labuyo varies. Start with fewer chiles if needed and add more near the end only after the leaves are fully cooked."]
+    ],
+    "ingredients": [
+      "3 oz food-grade dried taro (gabi) leaves, picked over for hard stems",
+      "2 cans (13.5 oz each) full-fat unsweetened coconut milk",
+      "1 cup coconut cream",
+      "1 medium yellow onion, finely chopped",
+      "5 garlic cloves, finely chopped",
+      "2 tbsp fresh ginger, cut into fine matchsticks or grated",
+      "1 stalk lemongrass, tender lower portion bruised and cut into 2 pieces, optional",
+      "1 1/2 tbsp bagoong alamang (Filipino fermented shrimp paste), plus more to taste",
+      "4 to 6 red bird's-eye or siling labuyo chiles, left whole or sliced to taste",
+      "1 lb boneless pork belly or pork shoulder, cut into 1/2-inch pieces, optional",
+      "1 tbsp fish sauce, only if needed after tasting",
+      "Steamed rice, for serving"
+    ],
+    "steps": [
+      "Combine coconut milk, onion, garlic, ginger, lemongrass if using, bagoong and the optional pork in a wide heavy pot. Bring to a gentle simmer over medium heat, then reduce to medium-low and cook 15 to 20 minutes. If using pork, continue until the pieces are opaque and beginning to tenderize.",
+      "Checkpoint: the coconut mixture should smell strongly of ginger and garlic, with the raw sharpness of the onion gone. It should simmer gently without separating into scorched oil at the bottom.",
+      "Spread the dried taro leaves evenly over the surface. Press them down lightly with the back of a spoon so the lower leaves touch the liquid, but do not stir them through yet. Cover and simmer on low for 10 minutes.",
+      "Uncover. The leaves should now look darker, softer and partially collapsed into the coconut liquid. Fold them gently from the edges toward the center until evenly moistened.",
+      "Add the whole or sliced chiles. Simmer uncovered over low heat for 25 to 35 minutes, stirring gently every 7 to 10 minutes and scraping the bottom so the coconut does not catch. Add a splash of hot water only if the pot becomes dry before the leaves are tender.",
+      "Checkpoint: do not taste until the taro leaves have cooked for at least 35 to 45 minutes total after first contacting the hot coconut mixture. Fully cooked leaves should be soft throughout with no stiff, scratchy fibers, and the sauce should have reduced enough to cling to them.",
+      "Stir in the coconut cream and simmer another 8 to 10 minutes. The laing should become glossy and rich, with small beads of coconut oil appearing around the edges but no burnt smell.",
+      "Taste the sauce and a fully cooked leaf. Add fish sauce or a little more bagoong only if the dish needs salt; avoid masking the coconut and taro with excessive seasoning.",
+      "Remove the lemongrass pieces if used. Rest 5 minutes off the heat and serve with steamed rice. The finished laing should be moist and spoonable but not soupy, with completely tender leaves and a pronounced coconut, ginger and chile aroma."
+    ],
+    "shop": [
+      "dried Filipino taro gabi leaves",
+      "bagoong alamang Filipino shrimp paste"
+    ],
+    "sources": [
+      ["Philippine Department of Tourism - Eating Through Region 5: A Taste of Bicol's Distinctive Cuisine", "https://www.tourism.gov.ph/article/eating-through-region-5-a-taste-of-bicol-s-distinctive-cuisine-0/"],
+      ["Panlasang Pinoy - Laing Recipe by Vanjo Merano", "https://panlasangpinoy.com/laing-recipe/"],
+      ["Fringe Table - Southeast Asia food guide", "../guides/southeast-asia-food-guide.html"],
+      ["Fringe Table - Minangkabau Beef Rendang", "minangkabau-beef-rendang.html"],
+      ["Fringe Table - Malaysian Nasi Lemak", "malaysian-nasi-lemak.html"]
+    ]
+  }
+]
