@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Ojibwe Manoomin Bagaan Porridge",
+    "slug": "ojibwe-manoomin-bagaan-porridge",
+    "region": "Great Lakes Ojibwe / Indigenous Americas",
+    "group": "indigenous-americas",
+    "type": "Breakfast / Porridge",
+    "time": "20 min",
+    "yield": "6 servings",
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "cuisine": "Ojibwe / Great Lakes Anishinaabe",
+    "category": "Wild rice porridge",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Manoomin%20%28wild%20rice%29.jpg?width=1400",
+    "imageAlt": "Illustrative manoomin wild rice salad showing the grain used in Ojibwe Manoomin Bagaan Porridge; not the finished porridge",
+    "imageCredit": "Photo: Jacob d'UPtownr, Wikimedia Commons/Flickr, CC BY-SA 2.0. Illustrative manoomin image; not a photograph of the finished porridge.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Manoomin_(wild_rice).jpg",
+    "summary": "Ojibwe Manoomin Bagaan Porridge adapted from a Great Lakes Indian Fish & Wildlife Commission recipe, combining cooked manoomin with milk, maple syrup, cranberries, pecans and a small amount of tallow.",
+    "lead": "Cooked manoomin becomes a warm, creamy porridge when it is briefly simmered with maple-sweetened milk, then finished with dried cranberries and crushed pecans.",
+    "about": "The Great Lakes Indian Fish & Wildlife Commission published Manoomin Bagaan Porridge in its Winter 2025-2026 Mazina'igan newspaper as a practical community recipe. The formula starts with pre-cooked manoomin and combines it with milk, maple syrup, tallow, dried cranberries, pecans and optional warm spices. This page keeps that modern published structure intact and treats the dish as an Ojibwe community recipe rather than claiming that this exact dairy-and-pecan combination is an ancient or universal preparation.",
+    "story": "GLIFWC describes manoomin as 'the good berry' in Ojibwe and frames the relationship through Ganawenindiwag Manoomin Anishinaabeg - the rice and the people take care of each other. Manoomin is tied to Ojibwe migration histories, Great Lakes stewardship and food sovereignty, not simply to the commercial category called wild rice. GLIFWC serves eleven Ojibwe tribes in Minnesota, Wisconsin and Michigan, so its published porridge recipe is especially useful as a contemporary, community-grounded source. This adaptation stays with information GLIFWC has chosen to make public and does not extend into ceremonial practice.",
+    "caveat": "For the closest result, use hand-harvested, traditionally finished or wood-parched manoomin from an Indigenous producer when available. Cultivated commercial wild rice is a practical substitute for cooking, but it is not culturally or texturally identical and may stay firmer. The GLIFWC recipe specifies tallow; butter can stand in for home convenience, but it changes the published formulation. If you have a cashew allergy, follow GLIFWC's warning and avoid sumac; this version does not require sumac.",
+    "prepNotes": [
+      ["Start with cooked manoomin", "The GLIFWC recipe is written for 4 cups pre-cooked manoomin. Cook and cool the grain first; Fringe Table's Anishinaabe manoomin stovetop recipe is a useful internal guide."],
+      ["Keep the grain distinct", "Manoomin should be tender and split at many kernels but still have chew. Overcooked rice can make the porridge pasty before the milk has time to thicken."],
+      ["Crush the pecans coarsely", "Small pieces provide texture and nut aroma; finely ground nuts can make the mixture heavy and oily."]
+    ],
+    "ingredients": [
+      "4 cups cooked hand-harvested or wood-parched manoomin (wild rice)",
+      "3 1/2 cups whole milk or an unsweetened neutral milk substitute",
+      "1/2 cup pure maple syrup",
+      "1 tbsp rendered tallow, or 1 tbsp unsalted butter as a practical substitute",
+      "1/2 tsp kosher salt, plus more to taste",
+      "1/2 tsp ground cinnamon",
+      "1/4 tsp ground cardamom, optional",
+      "1/2 cup dried cranberries",
+      "1/2 cup pecans, coarsely crushed"
+    ],
+    "steps": [
+      "Place the milk, maple syrup, tallow, salt, cinnamon and optional cardamom in a medium heavy saucepan. Whisk over medium heat until the tallow melts and the maple syrup is fully dispersed.",
+      "Bring the mixture just to a low boil, stirring frequently and scraping the bottom so the milk does not scorch. Checkpoint: small bubbles should break across the surface and the aroma should be maple-forward and warm-spiced, with no toasted or burnt-milk smell.",
+      "Add the 4 cups cooked manoomin and immediately reduce the heat to medium-low. Stir continuously for 4 to 5 minutes, following the short simmer used in GLIFWC's published recipe.",
+      "Checkpoint: the liquid should thicken to a loose porridge that coats a spoon, while individual manoomin grains remain visible and pleasantly chewy rather than dissolving into paste. If it tightens too quickly, add milk 2 tablespoons at a time.",
+      "Fold in the dried cranberries and crushed pecans. Cook 1 minute more, just until the cranberries begin to plump and the nuts smell fragrant.",
+      "Remove from the heat and rest 3 to 5 minutes. The porridge will continue thickening as it stands; loosen with a splash of warm milk if needed.",
+      "Taste for salt and maple balance, then serve warm. The finished bowl should be creamy around distinct grains, with soft-tart cranberry pieces and noticeable pecan texture rather than a uniformly smooth cereal."
+    ],
+    "shop": [
+      "hand harvested wood parched manoomin wild rice"
+    ],
+    "sources": [
+      ["Great Lakes Indian Fish & Wildlife Commission - Winter 2025-2026 Mazina'igan, Manoomin Bagaan Porridge", "https://glifwc.org/sites/default/files/uploads/documents/2025-11/Biboon25_26%28online%29.pdf"],
+      ["Great Lakes Indian Fish & Wildlife Commission - Ganawenindiwag Manoomin Anishinaabeg", "https://glifwc.org/stewardship/ganawenindiwag-manoomin-anishinaabeg"],
+      ["Great Lakes Indian Fish & Wildlife Commission - Manoomin Traditional Food Regulatory Summary", "https://glifwc.org/sites/default/files/uploads/documents/2025-01/10%20Regulation%20Summary%20-%20Manoomin.pdf"],
+      ["Fringe Table - Indigenous Americas foodways guide", "../guides/indigenous-americas-food-guide.html"],
+      ["Fringe Table - Anishinaabe Manoomin Simple Stovetop Wild Rice", "anishinaabe-manoomin-stovetop-wild-rice.html"]
+    ]
+  },
+  {
+    "name": "Ghanaian Red Red with Fried Plantain",
+    "slug": "ghanaian-red-red",
+    "region": "Ghana / West Africa",
+    "group": "maghreb-west-africa",
+    "type": "Bean Stew / Main",
+    "time": "1 hr 45 min",
+    "yield": "4 servings",
+    "prepTime": "PT20M",
+    "cookTime": "PT1H25M",
+    "totalTime": "PT1H45M",
+    "cuisine": "Ghanaian",
+    "category": "Black-eyed pea stew",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Local%20Ghanaian%20Food%2C%20Beans%20and%20Plantain.jpg?width=1400",
+    "imageAlt": "Ghanaian red red bean stew served with fried ripe plantain",
+    "imageCredit": "Photo: Mwintirew, Wikimedia Commons, CC BY-SA 4.0.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Local_Ghanaian_Food,_Beans_and_Plantain.jpg",
+    "summary": "Ghanaian red red: black-eyed peas simmered in a tomato, pepper and red-palm-oil stew until creamy, served with caramelized fried ripe plantain and optional gari.",
+    "lead": "Black-eyed peas and red palm oil give red red its name and color, while fried ripe plantain provides the sweet, caramelized contrast that makes the plate complete.",
+    "about": "Red red is a Ghanaian bean stew commonly made from black-eyed peas in a tomato and red-palm-oil base and served with fried ripe plantain. Ghana Tourism lists red-red, specifically described as beans stew, among local dishes in the Oti Region. Ghanaian cook Gabi Odebode, writing for Food Network, remembers it as a weekly meal from her childhood in Koforidua, often eaten with gari and plantain. This version follows that bean-and-tomato structure and keeps unrefined red palm oil central to the stew.",
+    "story": "The dish's vivid red-orange appearance comes from both the tomato base and red palm oil, an ingredient with deep West African culinary importance. Odebode's published account is useful because it anchors red red in ordinary family eating rather than treating it only as restaurant food: after school, her grandmother or aunt served the stew with gari and plantains. Recipes vary in fish, chile, bouillon, tomato concentration and the type of beans used. This page presents a straightforward Ghanaian black-eyed-pea form while leaving those household variations visible rather than declaring one formula definitive.",
+    "caveat": "Unrefined red palm oil gives red red a characteristic color and flavor. Neutral vegetable or canola oil can work as a practical substitute, as Gabi Odebode notes, but the finished stew will taste and look different. Use ripe yellow plantains with black spotting for the sweet fried accompaniment; green plantains produce a starchier result and should not be presented as equivalent here.",
+    "prepNotes": [
+      ["Cook the beans only until firm-tender first", "The black-eyed peas finish cooking in the tomato stew. If they are mushy before that stage, they can disappear into the sauce."],
+      ["Use unrefined red palm oil", "Look for West African red palm oil rather than bleached refined palm oil; its color and aroma are part of the dish."],
+      ["Choose properly ripe plantains", "Yellow skins with generous black spotting give a creamy center and caramelized edges without collapsing in the frying oil."]
+    ],
+    "ingredients": [
+      "1 cup dried black-eyed peas, picked over and rinsed",
+      "3 cups water, plus more as needed",
+      "5 garlic cloves",
+      "3 Roma tomatoes, roughly chopped",
+      "1 red bell pepper, roughly chopped",
+      "1 small yellow onion, roughly chopped",
+      "1 small Scotch bonnet or habanero, seeded if desired, optional",
+      "1/4 cup unrefined West African red palm oil",
+      "1 1/2 tsp bouillon powder, optional",
+      "1 tsp mild Ghanaian-style or all-purpose curry powder",
+      "1/2 tsp kosher salt, plus more to taste",
+      "2 large ripe plantains, yellow with black spots",
+      "Neutral oil, for shallow-frying the plantains",
+      "Gari (toasted cassava granules), optional for serving"
+    ],
+    "steps": [
+      "Combine the black-eyed peas with 2 cups water in a saucepan. Bring to a boil, reduce to low, cover and simmer 40 to 45 minutes, adding the remaining water as needed so the beans stay barely covered.",
+      "Checkpoint: the beans should be cooked enough to bite through but still hold their shape and feel slightly firm at the center. Drain, reserving 1 cup bean cooking liquid.",
+      "Blend the garlic, tomatoes, bell pepper, onion and optional Scotch bonnet for about 30 seconds until finely broken down and pourable but not necessarily perfectly smooth.",
+      "Warm the red palm oil in a heavy pot over medium heat until fluid, shimmering and strongly aromatic. Do not let it sit at a heavy smoke. Carefully add the tomato-pepper mixture and lower the heat to medium-low.",
+      "Cook the sauce 8 to 10 minutes, stirring frequently. Checkpoint: the raw tomato and onion smell should fade, the color should deepen to red-orange, and small beads of palm oil should begin appearing around the edges.",
+      "Stir in the optional bouillon, curry powder and salt. Cook 1 minute until the spices smell fragrant, then fold in the drained beans and 1/2 cup reserved bean liquid.",
+      "Simmer uncovered over low heat for 20 to 25 minutes, stirring occasionally and adding more reserved liquid only if the pot becomes dry before the beans are tender.",
+      "Checkpoint: the beans should now be creamy inside but mostly intact, and the stew should be thick enough to mound on a spoon rather than run like soup. Taste and adjust salt only after the sauce has reduced.",
+      "While the stew finishes, peel the ripe plantains and cut on a diagonal into 1/2-inch slices. Heat about 1/2 inch neutral oil in a skillet to 340-350°F.",
+      "Fry the plantains in batches for 2 to 3 minutes per side until deep golden-brown with caramelized edges. The centers should feel tender when pressed with tongs, not hard or chalky. Drain on a rack or paper towels.",
+      "Serve the red red hot with fried plantain and, if desired, a spoonful of gari. The plate should balance savory, creamy beans and palm oil with sweet, crisp-edged plantain."
+    ],
+    "shop": [
+      "West African red palm oil",
+      "Ghanaian gari cassava granules"
+    ],
+    "sources": [
+      ["Food Network - Red Red by Ghanaian cook Gabi Odebode", "https://www.foodnetwork.com/recipes/red-red-12080088"],
+      ["Ghana Tourism Authority - Visit Ghana Oti Region, local dishes including red-red and fried plantain", "https://visitghana.com/oti-region/"],
+      ["Fringe Table - Maghreb & West Africa food guide", "../guides/maghreb-west-africa-food-guide.html"],
+      ["Fringe Table - Ghanaian Waakye", "ghanaian-waakye.html"],
+      ["Fringe Table - Ghanaian Kelewele", "ghanaian-kelewele.html"]
+    ]
+  },
+  {
+    "name": "Dominican Mangú with Vinegared Red Onions",
+    "slug": "dominican-mangu",
+    "region": "Dominican Republic / Caribbean",
+    "group": "caribbean-lowcountry",
+    "type": "Breakfast / Plantain",
+    "time": "40 min",
+    "yield": "4 servings",
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "cuisine": "Dominican",
+    "category": "Mashed green plantain",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominican%20Mangu.jpg?width=1400",
+    "imageAlt": "Dominican mangú, a smooth mash of boiled green plantains",
+    "imageCredit": "Photo: Ll1324, Wikimedia Commons, CC0 1.0.",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Dominican_Mangu.jpg",
+    "summary": "Dominican mangú: green plantains boiled until very tender, mashed smooth with fat and room-temperature water, then topped with red onions sautéed in vinegar.",
+    "lead": "Mangú gets its comfort from technique rather than a long ingredient list: green plantains are boiled until soft, mashed immediately and loosened until creamy before vinegared red onions go over the top.",
+    "about": "Mangú is one of the Dominican Republic's defining breakfast foods. Santo Domingo Tourism describes it as a typical breakfast of mashed green plantains served with sautéed onions, cheese or salami. Dominican food writer Clara González documents the same core method: boil green plantains, mash them very smooth with fat and water, and serve with red onions sautéed with vinegar. With fried Dominican salami, queso de freír and eggs, mangú becomes the base of the breakfast known as Los Tres Golpes.",
+    "story": "Plantains reached Hispaniola during the early colonial period and became deeply embedded in Dominican cooking over centuries, but popular stories about the word mangú are less certain than the dish's place on today's breakfast table. Clara González documents a Dominican mangú preparation in print from 1938 and cautions against repeating unsupported folk etymologies as fact. What is clear in contemporary Dominican sources is the technique: green plantains are boiled rather than fried, mashed while hot and served with sharp red onions. That distinction separates mangú from Puerto Rican mofongo, whose plantains are fried and pounded.",
+    "caveat": "Use green plantains, not ripe yellow ones; ripe plantains make a sweeter, softer mash with a different character. Mangú and mofongo are related through plantain cookery but are not interchangeable preparations: mangú is boiled and mashed, while classic mofongo is fried and pounded. Clara González notes that cold or room-temperature water helps mangú remain soft; adding hot cooking water can make the texture tighten more quickly.",
+    "prepNotes": [
+      ["Use fully green plantains", "The skins should be green and firm with no significant yellowing. Riper fruit is sweeter and does not give classic mangú its savory starchy texture."],
+      ["Mash immediately", "Plantains become harder to smooth as they cool. Start mashing as soon as they are drained."],
+      ["Make it looser than you think", "Mangú thickens noticeably on the way to the table, so stop while the mash is slightly softer than your ideal serving texture."]
+    ],
+    "ingredients": [
+      "4 large green plantains",
+      "2 tsp kosher salt, divided, plus more to taste",
+      "6 tbsp unsalted butter or olive oil, divided",
+      "1 to 1 1/2 cups room-temperature water, as needed",
+      "1 large red onion, thinly sliced into rings or half-moons",
+      "2 tsp apple-cider or white vinegar",
+      "Fried eggs, optional for serving",
+      "Fried Dominican queso de freír, optional for serving",
+      "Fried Dominican salami, optional for serving"
+    ],
+    "steps": [
+      "Trim the ends from the green plantains, score the skins lengthwise and peel. Cut each plantain crosswise into 3 or 4 pieces.",
+      "Place the plantains in a pot, cover with water by about 1 inch and add 1 1/2 teaspoons salt. Bring to a boil, then reduce to a steady simmer and cook 15 to 25 minutes depending on freshness and size.",
+      "Checkpoint: a fork or paring knife should slide through the thickest piece with almost no resistance, and the plantain edges may begin to split. If the center still looks dry or chalky, keep simmering.",
+      "Drain and transfer the plantains immediately to a wide bowl. Mash vigorously with 4 tablespoons butter or olive oil until no obvious dry chunks remain.",
+      "Add room-temperature water 1/4 cup at a time while continuing to mash. Checkpoint: the mangú should become smooth, glossy and soft enough to fall slowly from the masher. Stop while it is slightly looser than your target because it firms as it cools.",
+      "Taste and add up to 1/2 teaspoon additional salt if needed. Cover loosely to keep warm while you prepare the onions.",
+      "Heat the remaining 2 tablespoons butter or olive oil in a skillet over medium-low heat. Add the red onion and cook 4 to 6 minutes, stirring, until hot, flexible and slightly translucent but still visibly distinct.",
+      "Add the vinegar and a pinch of salt. Cook 30 to 60 seconds. Checkpoint: the sharp raw-vinegar aroma should soften while the onions remain bright and lightly crisp rather than browned or jammy.",
+      "Spoon the vinegared onions and their seasoned oil over the warm mangú. Serve as is or with fried egg, queso de freír and Dominican salami for a Los Tres Golpes-style breakfast.",
+      "Final checkpoint: the mangú should be creamy and lump-free without becoming gluey, and the tangy onions should provide a fresh, acidic contrast to the mild plantain."
+    ],
+    "shop": [
+      "Dominican queso de freir",
+      "Dominican salami"
+    ],
+    "sources": [
+      ["Cocina Dominicana by Clara González - Mangú, Dominican Mashed Green Plantains", "https://www.cocinadominicana.com/mangu"],
+      ["Cocina Dominicana by Clara González - documented history and etymology of mangú", "https://www.cocinadominicana.com/etimologia-origen-mangu"],
+      ["Santo Domingo Tourism - Dominican Cuisine, Mangú", "https://www.santodomingotourism.com/culture/cuisine/"],
+      ["Fringe Table - Caribbean & Lowcountry food guide", "../guides/caribbean-lowcountry-food-guide.html"],
+      ["Fringe Table - Puerto Rican Mofongo", "puerto-rican-mofongo.html"]
+    ]
+  }
+]
