@@ -7,7 +7,7 @@ Current audited counts (2026-08-31):
 
 | Region | Current | Target | Needed |
 |---|---:|---:|---:|
-| Indigenous Americas | 24 | 20 | 0 |
+| Indigenous Americas | 25 | 20 | 0 |
 | Horn & Northeast Africa | 24 | 20 | 0 |
 | Maghreb & West Africa | 24 | 20 | 0 |
 | Caribbean & Lowcountry | 24 | 20 | 0 |
