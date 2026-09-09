@@ -9,8 +9,8 @@ Current audited counts (2026-08-31):
 |---|---:|---:|---:|
 | Indigenous Americas | 25 | 20 | 0 |
 | Horn & Northeast Africa | 24 | 20 | 0 |
-| Maghreb & West Africa | 24 | 20 | 0 |
-| Caribbean & Lowcountry | 24 | 20 | 0 |
+| Maghreb & West Africa | 25 | 20 | 0 |
+| Caribbean & Lowcountry | 25 | 20 | 0 |
 | Caucasus, Central & West Asia | 24 | 20 | 0 |
 | Himalayas & South Asia | 24 | 20 | 0 |
 | Southeast Asia | 24 | 20 | 0 |
