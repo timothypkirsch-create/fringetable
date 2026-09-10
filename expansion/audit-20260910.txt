@@ -1,0 +1,11 @@
+catalog-audit-version: 2026-08-31
+indigenous-americas: 25
+horn-northeast-africa: 24
+maghreb-west-africa: 25
+caribbean-lowcountry: 25
+caucasus-central-west-asia: 24
+himalayas-south-asia: 24
+southeast-asia: 24
+total: 171
+recipe-pages-not-in-catalog: 3
+missing-catalog-slugs: ethiopian-doro-wat, myanmar-mohinga, uzbek-palov
