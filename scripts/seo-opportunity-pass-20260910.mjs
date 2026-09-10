@@ -103,8 +103,8 @@ function walk(dir){
     else if (/\.(html|xml|js|mjs|txt)$/i.test(ent.name)) {
       let txt = fs.readFileSync(full, 'utf8');
       const before = txt;
-      txt = txt.replaceAll('http://www.fringetable.com', 'https://fringetable.com');
-      txt = txt.replaceAll('http://fringetable.com', 'https://fringetable.com');
+      txt = txt.replaceAll('https://fringetable.com', 'https://fringetable.com');
+      txt = txt.replaceAll('https://fringetable.com', 'https://fringetable.com');
       if (txt !== before) {
         fs.writeFileSync(full, txt);
         const rel = path.relative(root, full).replaceAll('\\','/');
