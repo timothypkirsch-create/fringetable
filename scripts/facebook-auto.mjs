@@ -114,6 +114,15 @@ function buildTrackedUrl(slug, slotName) {
   return url.toString();
 }
 
+function publicImageUrl(image = '') {
+  const value = String(image || '').trim();
+  if (!value) return '';
+  if (/^https:\/\//i.test(value)) return value;
+  if (/^http:\/\//i.test(value)) return value.replace(/^http:/i, 'https:');
+  const relative = value.replace(/^\.\//, '').replace(/^\//, '');
+  return `https://fringetable.com/${relative}`;
+}
+
 function buildMessage(recipe, style, seed) {
   const title = normalize(recipe.name);
   const region = normalize(recipe.region || 'its home region');
@@ -243,10 +252,12 @@ await validatePage();
 
 let postId = '';
 let publishMode = 'link';
-if (typeof recipe.image === 'string' && /^https:\/\//i.test(recipe.image)) {
+const imageUrl = publicImageUrl(recipe.image);
+if (imageUrl) {
   try {
+    console.log(`Attempting Facebook photo upload from: ${imageUrl}`);
     const photoData = await metaRequest(`${encodeURIComponent(pageId)}/photos`, {
-      url: recipe.image,
+      url: imageUrl,
       caption: `${message}\n\n${recipeUrl}`,
       published: 'true',
     });
