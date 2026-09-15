@@ -124,6 +124,8 @@ Do not commit the Kit API key or other credentials. Review command JSON carefull
 
 ## Important workflow inventory
 
+The maintained active/historical classification and safe-run notes live in `docs/WORKFLOWS.md`.
+
 - `facebook-auto.yml`: Scheduled Facebook publishing.
 - `meta-facebook-post.yml`: Manually dispatched Facebook page post.
 - `kit-bridge.yml`: Executes changed Kit command files.
@@ -131,7 +133,7 @@ Do not commit the Kit API key or other credentials. Review command JSON carefull
 - `region-audit.yml`: Regional catalog audit.
 - `publish-expansion-batch.yml`: Publishes queued expansion content.
 - `run-expansion-batch-*.yml`: Historical/targeted expansion batches.
-- Date-stamped repair and audit workflows: Preserve for provenance; confirm whether they are intentionally reusable before triggering them.
+- Date-stamped repair and audit workflows: Preserved for provenance with manual triggers removed; do not reactivate without reviewing their dated scripts against current `main`.
 
 ## Security and privacy rules
 

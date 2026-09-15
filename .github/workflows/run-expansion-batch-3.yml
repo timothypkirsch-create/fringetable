@@ -5,7 +5,6 @@ on:
     paths:
       - 'scripts/run-expansion-batch-3.mjs'
       - '.github/expansion-batch-3-trigger'
-  workflow_dispatch:
 permissions:
   contents: write
 jobs:

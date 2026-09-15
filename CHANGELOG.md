@@ -12,6 +12,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Began the legacy recipe modernization program with expanded, source-grounded versions of Eritrean Alicha Birsen, Sudanese Gurasa, and Dominican Mangú, including clearer technique and doneness checkpoints.
 - Split image auditing into a fast deterministic local/dependency audit and an explicit network mode, with reporting for reused image sources.
 - Improved recipe-page discovery so related dishes prioritize the same place and shared recipe type instead of repeating the first three entries from a broad region.
+- Classified active and historical GitHub Actions workflows, documented their mutation risks, and removed manual triggers from dated one-off repair and expansion workflows.
 
 ## 2026-09-10 to 2026-09-14
 
