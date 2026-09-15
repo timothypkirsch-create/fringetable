@@ -18,7 +18,7 @@ for(const rx of patterns){
   }
 }
 
-console.log('catalog-audit-version: 2026-08-31');
+console.log(`catalog-audit-date: ${new Date().toISOString().slice(0,10)}`);
 let total=0;
 for(const group of groups){
   const count=[...bySlug.values()].filter(value=>value===group).length;

@@ -1,0 +1,25 @@
+name: Site Quality Gate
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'ads.txt'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'recipes/**'
+      - 'assets/js/site-core.js'
+      - 'assets/js/pronunciation.js'
+      - 'scripts/validate-site.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check publisher syntax
+        run: node --check scripts/publish-expansion-batch.mjs
+      - name: Run site quality gate
+        run: node scripts/validate-site.mjs

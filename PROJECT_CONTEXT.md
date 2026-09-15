@@ -27,11 +27,13 @@ This document is the durable operational record for FringeTable.com. Update it w
 
 Do not treat a successful GitHub commit as proof that production is healthy. For deployment-sensitive changes, verify both the live URL and the expected response/content after deployment.
 
+The repository-wide static quality gate is `node scripts/validate-site.mjs`. Recipe batch publishing runs it before committing generated files and then uses `scripts/verify-live-release.mjs` to confirm the production pages, sitemap, pronunciation loader, and `ads.txt`. `.github/workflows/site-quality.yml` also runs the static gate on relevant pushes and pull requests.
+
 ## Current site architecture
 
 As of the verification date, the repository contains:
 
-- 177 individual recipe pages in `recipes/`
+- 180 individual recipe pages in `recipes/`
 - 18 individual Essentials/subrecipe pages in `subrecipes/`
 - 41 guide pages below `guides/`
 - Regional hubs, collections, ingredient guidance, pronunciation content, saved recipes, legal/disclosure pages, and image credits

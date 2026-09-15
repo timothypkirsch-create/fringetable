@@ -8,6 +8,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Verified continued GitHub access and recent successful Facebook bridge history updates.
 - Documented Cloudflare deployment, AdSense, GA4, Amazon Associates, Facebook automation, Kit integration, security boundaries, and recovery procedures.
 - Restored recipe-name pronunciation coverage across the full catalog and made pronunciation metadata a required part of future automated recipe batches.
+- Added a mandatory repository quality gate and post-deployment recipe verification, corrected the homepage recipe count, and replaced hard-coded publisher dates with actual release dates.
 
 ## 2026-09-10 to 2026-09-14
 

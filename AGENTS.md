@@ -53,10 +53,12 @@ Use the portions relevant to the change:
 - Check internal links and referenced assets.
 - Validate HTML/JSON/JSON-LD syntax where touched.
 - Confirm catalog counts and sitemap coverage after content changes.
+- Run `node scripts/validate-site.mjs`; do not publish when the quality gate fails.
 - Check the affected page at desktop and mobile widths after layout changes.
 - Verify `https://fringetable.com/ads.txt` after advertising/deployment changes.
 - Confirm GitHub Actions evidence after workflow changes.
 - Confirm the live production page after deployment-sensitive changes.
+- For recipe batches, require `scripts/verify-live-release.mjs` to confirm every new page, the sitemap, pronunciation loader, and `ads.txt` after deployment.
 
 ## Documentation
 

@@ -11,7 +11,9 @@ const external=u=>/^https?:\/\//i.test(u);
 function renderPage(r){
  const required=['name','slug','region','group','type','time','yield','prepTime','cookTime','totalTime','cuisine','category','image','imageAlt','imageCredit','imageCreditUrl','summary','lead','about','story','caveat','ingredients','steps','sources','pronunciation','pronunciationRegion','pronunciationDefinition'];
  for(const k of required)if(r[k]==null)throw new Error(`${r.slug||r.name||'recipe'} missing ${k}`);
- const ld={"@context":"https://schema.org","@type":"Recipe",name:r.name,description:r.summary,image:[r.image],recipeCuisine:r.cuisine,recipeCategory:r.category,recipeYield:r.yield,prepTime:r.prepTime,cookTime:r.cookTime,totalTime:r.totalTime,recipeIngredient:r.ingredients,recipeInstructions:r.steps.map(text=>({"@type":"HowToStep",text})),author:{"@type":"Organization",name:'Fringe Table'},datePublished:'2026-08-30',dateModified:'2026-08-30',mainEntityOfPage:`https://fringetable.com/recipes/${r.slug}.html`};
+ const publishedDate=r.datePublished||new Date().toISOString().slice(0,10);
+ const modifiedDate=r.dateModified||publishedDate;
+ const ld={"@context":"https://schema.org","@type":"Recipe",name:r.name,description:r.summary,image:[r.image],recipeCuisine:r.cuisine,recipeCategory:r.category,recipeYield:r.yield,prepTime:r.prepTime,cookTime:r.cookTime,totalTime:r.totalTime,recipeIngredient:r.ingredients,recipeInstructions:r.steps.map(text=>({"@type":"HowToStep",text})),author:{"@type":"Organization",name:'Fringe Table'},datePublished:publishedDate,dateModified:modifiedDate,mainEntityOfPage:`https://fringetable.com/recipes/${r.slug}.html`};
  const prep=(r.prepNotes||[]).map(([a,b])=>`<div><strong>${esc(a)}</strong><p>${esc(b)}</p></div>`).join('');
  const ing=r.ingredients.map(x=>`<li>${esc(x)}</li>`).join('');
  const method=r.steps.map((x,i)=>`<li><strong>${i+1}.</strong><span>${esc(x)}</span></li>`).join('');
@@ -57,7 +59,13 @@ if(pronunciationRows.length){
  pronunciationJs=pronunciationJs.replace('const entries=[\n',`const entries=[\n${pronunciationRows.join('\n')}\n`);
  await fs.writeFile('assets/js/pronunciation.js',pronunciationJs);
 }
-let sm=await fs.readFile('sitemap.xml','utf8');for(const r of added){const u=`https://fringetable.com/recipes/${r.slug}.html`;if(!sm.includes(u))sm=sm.replace('</urlset>',`<url><loc>${u}</loc><lastmod>2026-08-30</lastmod></url>\n</urlset>`)}await fs.writeFile('sitemap.xml',sm);
+const releaseDate=new Date().toISOString().slice(0,10);
+let sm=await fs.readFile('sitemap.xml','utf8');for(const r of added){const u=`https://fringetable.com/recipes/${r.slug}.html`;if(!sm.includes(u))sm=sm.replace('</urlset>',`<url><loc>${u}</loc><lastmod>${r.dateModified||r.datePublished||releaseDate}</lastmod></url>\n</urlset>`)}await fs.writeFile('sitemap.xml',sm);
+const recipeCount=(await fs.readdir('recipes')).filter(file=>file.endsWith('.html')&&file!=='index.html').length;
+let home=await fs.readFile('index.html','utf8');
+home=home.replace(/Explore \d+ lesser-known dishes/,`Explore ${recipeCount} lesser-known dishes`);
+home=home.replace(/(<span data-recipe-count>)\d+(<\/span>)/,`$1${recipeCount}$2`);
+await fs.writeFile('index.html',home);
 const groupToRegion={'indigenous-americas':'Indigenous Americas','horn-northeast-africa':'Horn & Northeast Africa','maghreb-west-africa':'Maghreb & West Africa','caribbean-lowcountry':'Caribbean & Lowcountry','caucasus-central-west-asia':'Caucasus, Central & West Asia','himalayas-south-asia':'Himalayas & South Asia','southeast-asia':'Southeast Asia'};
 let plan=await fs.readFile('CONTENT_EXPANSION.md','utf8');
 const increments={};for(const r of added)increments[r.group]=(increments[r.group]||0)+1;
