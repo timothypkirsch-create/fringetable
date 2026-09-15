@@ -12,6 +12,8 @@ on:
       - 'assets/js/site-core.js'
       - 'assets/js/pronunciation.js'
       - 'scripts/validate-site.mjs'
+      - 'scripts/build-topic-clusters.mjs'
+      - 'collections/**'
 permissions:
   contents: read
 jobs:

@@ -31,13 +31,15 @@ jobs:
             [ -z "$file" ] && continue
             node scripts/publish-expansion-batch.mjs "$file"
           done < /tmp/batches.txt
+      - name: Rebuild topic clusters
+        run: node scripts/build-topic-clusters.mjs
       - name: Validate generated site
         run: node scripts/validate-site.mjs
       - name: Commit generated site changes
         run: |
           git config user.name "Fringe Table Automation"
           git config user.email "actions@users.noreply.github.com"
-          git add recipes assets/js/site-core.js assets/js/site.js assets/js/pronunciation.js index.html sitemap.xml CONTENT_EXPANSION.md
+          git add recipes collections assets/js/site-core.js assets/js/site.js assets/js/pronunciation.js index.html sitemap.xml CONTENT_EXPANSION.md
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
             exit 0

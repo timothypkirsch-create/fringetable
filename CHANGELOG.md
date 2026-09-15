@@ -70,3 +70,4 @@ Add dated entries for meaningful releases, integrations, migrations, workflow ch
 - Modernized Lowcountry Shrimp and Grits, Nepali Gundruk ko Jhol, and Persian Ghormeh Sabzi with deeper cultural context, staged methods, and doneness cues.
 - Restored ingredient-sourcing and affiliate disclosure sections preserved from the original pages after editorial modernization.
 - Strengthened the release gate, restored two legacy cooking sections, fixed static archive counts and internal links, and added a site-wide image fallback.
+- Added automatically maintained leaf-stew, coconut-dessert, one-pot, and beginner-friendly topic clusters.
