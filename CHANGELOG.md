@@ -15,6 +15,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Classified active and historical GitHub Actions workflows, documented their mutation risks, and removed manual triggers from dated one-off repair and expansion workflows.
 - Modernized Wampanoag Nasaump from the public Plimoth Patuxet Museums preparation, with clearer Indigenous framing, grain choices, and texture checkpoints.
 - Modernized Eritrean Hamli and Gullah Geechee Okra Soup with stronger community-grounded context, expanded methods, and explicit texture checkpoints.
+- Added the missing standard Story & History sections to Myanmar Lahpet Thoke and Nigerian Moi Moi, clearing the remaining editorial quality warnings.
 
 ## 2026-09-10 to 2026-09-14
 
