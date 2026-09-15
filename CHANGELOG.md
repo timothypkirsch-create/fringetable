@@ -14,6 +14,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Improved recipe-page discovery so related dishes prioritize the same place and shared recipe type instead of repeating the first three entries from a broad region.
 - Classified active and historical GitHub Actions workflows, documented their mutation risks, and removed manual triggers from dated one-off repair and expansion workflows.
 - Modernized Wampanoag Nasaump from the public Plimoth Patuxet Museums preparation, with clearer Indigenous framing, grain choices, and texture checkpoints.
+- Modernized Eritrean Hamli and Gullah Geechee Okra Soup with stronger community-grounded context, expanded methods, and explicit texture checkpoints.
 
 ## 2026-09-10 to 2026-09-14
 
