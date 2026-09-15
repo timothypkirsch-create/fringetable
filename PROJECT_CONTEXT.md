@@ -54,6 +54,7 @@ When adding or removing a recipe, reconcile the recipe page, catalog source, reg
 - Use legally reusable, correctly attributed images. Never guess an image license or attribution.
 - Preserve detailed methods with practical doneness, texture, aroma, or visual checkpoints.
 - Modernize the thinnest legacy pages in small, source-reviewed batches; preserve URLs and design while expanding cultural context, preparation guidance, structured recipe data, and sitemap modification dates.
+- Image auditing defaults to deterministic local-file and source-reuse checks; run `node scripts/audit-recipe-images.mjs --network` only where outbound image-host access is reliable.
 - Do not publish culturally sensitive ceremonial material as a generic home recipe without reliable public culinary documentation.
 - Follow the full recipe standards in `CONTENT_EXPANSION.md`.
 - Every recipe page must load `assets/js/pronunciation.js` and resolve its title to a researched phonetic pronunciation and cultural/language context. Validate complete coverage with `node scripts/audit-pronunciation-coverage.mjs` after recipe publishing.

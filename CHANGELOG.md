@@ -10,6 +10,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Restored recipe-name pronunciation coverage across the full catalog and made pronunciation metadata a required part of future automated recipe batches.
 - Added a mandatory repository quality gate and post-deployment recipe verification, corrected the homepage recipe count, and replaced hard-coded publisher dates with actual release dates.
 - Began the legacy recipe modernization program with expanded, source-grounded versions of Eritrean Alicha Birsen, Sudanese Gurasa, and Dominican Mangú, including clearer technique and doneness checkpoints.
+- Split image auditing into a fast deterministic local/dependency audit and an explicit network mode, with reporting for reused image sources.
 
 ## 2026-09-10 to 2026-09-14
 

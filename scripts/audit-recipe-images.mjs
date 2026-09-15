@@ -8,6 +8,28 @@ for (const m of text.matchAll(rx)) entries.push({name:m[1], slug:m[2], image:m[3
 
 console.log(`image-audit catalog entries: ${entries.length}`);
 
+const remote = entries.filter(entry => /^https?:\/\//i.test(entry.image));
+const local = entries.filter(entry => !/^https?:\/\//i.test(entry.image));
+const byImage = new Map();
+for (const entry of entries) byImage.set(entry.image, [...(byImage.get(entry.image) || []), entry]);
+const duplicates = [...byImage.entries()].filter(([, uses]) => uses.length > 1);
+console.log(`image-audit local: ${local.length}`);
+console.log(`image-audit remote: ${remote.length}`);
+console.log(`image-audit duplicate-sources: ${duplicates.length}`);
+for (const [image, uses] of duplicates) {
+  console.log(`DUPLICATE\t${uses.map(entry => entry.slug).join(',')}\t${image}`);
+}
+
+const missingLocal = local.filter(entry => !fs.existsSync(path.resolve(entry.image.replace(/^\//,''))));
+console.log(`image-audit missing-local: ${missingLocal.length}`);
+for (const entry of missingLocal) console.log(`BROKEN\t${entry.slug}\t${entry.image}`);
+
+if (!process.argv.includes('--network')) {
+  console.log('image-audit network: skipped (use --network to verify remote responses)');
+  process.exitCode = missingLocal.length ? 1 : 0;
+  process.exit();
+}
+
 async function check(entry) {
   if (!/^https?:\/\//i.test(entry.image)) {
     const rel = entry.image.replace(/^\//,'');
@@ -37,7 +59,7 @@ async function check(entry) {
 }
 
 const results = [];
-const concurrency = 4;
+const concurrency = 6;
 for (let i=0; i<entries.length; i+=concurrency) {
   results.push(...await Promise.all(entries.slice(i,i+concurrency).map(check)));
 }
