@@ -23,3 +23,7 @@ jobs:
         run: node --check scripts/publish-expansion-batch.mjs
       - name: Run site quality gate
         run: node scripts/validate-site.mjs
+      - name: Audit regional catalog coverage
+        run: node scripts/audit-region-counts.mjs
+      - name: Audit deterministic image coverage
+        run: node scripts/audit-recipe-images.mjs

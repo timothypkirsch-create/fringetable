@@ -9,8 +9,12 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&
 const amazon=q=>`https://www.amazon.com/s?k=${encodeURIComponent(q)}&tag=fringetable-20`;
 const external=u=>/^https?:\/\//i.test(u);
 function renderPage(r){
- const required=['name','slug','region','group','type','time','yield','prepTime','cookTime','totalTime','cuisine','category','image','imageAlt','imageCredit','imageCreditUrl','summary','lead','about','story','caveat','ingredients','steps','sources','pronunciation','pronunciationRegion','pronunciationDefinition'];
+ const required=['name','slug','region','group','type','time','yield','prepTime','cookTime','totalTime','cuisine','category','image','imageAlt','imageCredit','imageCreditUrl','summary','lead','about','story','caveat','prepNotes','ingredients','steps','sources','pronunciation','pronunciationRegion','pronunciationDefinition'];
  for(const k of required)if(r[k]==null)throw new Error(`${r.slug||r.name||'recipe'} missing ${k}`);
+ if(r.ingredients.length<5)throw new Error(`${r.slug}: at least five ingredients are required`);
+ if(r.steps.length<6)throw new Error(`${r.slug}: at least six detailed method steps are required`);
+ if(r.sources.length<2)throw new Error(`${r.slug}: at least two editorial sources are required`);
+ if(r.prepNotes.length<2)throw new Error(`${r.slug}: at least two preparation notes are required`);
  const publishedDate=r.datePublished||new Date().toISOString().slice(0,10);
  const modifiedDate=r.dateModified||publishedDate;
  const ld={"@context":"https://schema.org","@type":"Recipe",name:r.name,description:r.summary,image:[r.image],recipeCuisine:r.cuisine,recipeCategory:r.category,recipeYield:r.yield,prepTime:r.prepTime,cookTime:r.cookTime,totalTime:r.totalTime,recipeIngredient:r.ingredients,recipeInstructions:r.steps.map(text=>({"@type":"HowToStep",text})),author:{"@type":"Organization",name:'Fringe Table'},datePublished:publishedDate,dateModified:modifiedDate,mainEntityOfPage:`https://fringetable.com/recipes/${r.slug}.html`};
@@ -66,6 +70,10 @@ let home=await fs.readFile('index.html','utf8');
 home=home.replace(/Explore \d+ lesser-known dishes/,`Explore ${recipeCount} lesser-known dishes`);
 home=home.replace(/(<span data-recipe-count>)\d+(<\/span>)/,`$1${recipeCount}$2`);
 await fs.writeFile('index.html',home);
+let archive=await fs.readFile('recipes/index.html','utf8');
+archive=archive.replace(/Browse all \d+ Fringe Table recipes/,`Browse all ${recipeCount} Fringe Table recipes`);
+archive=archive.replace(/(<span data-recipe-count>)\d+(<\/span>)/,`$1${recipeCount}$2`);
+await fs.writeFile('recipes/index.html',archive);
 const groupToRegion={'indigenous-americas':'Indigenous Americas','horn-northeast-africa':'Horn & Northeast Africa','maghreb-west-africa':'Maghreb & West Africa','caribbean-lowcountry':'Caribbean & Lowcountry','caucasus-central-west-asia':'Caucasus, Central & West Asia','himalayas-south-asia':'Himalayas & South Asia','southeast-asia':'Southeast Asia'};
 let plan=await fs.readFile('CONTENT_EXPANSION.md','utf8');
 const increments={};for(const r of added)increments[r.group]=(increments[r.group]||0)+1;

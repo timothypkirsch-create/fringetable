@@ -90,6 +90,27 @@ function addAccessibility(){
   document.querySelectorAll('img').forEach((img,i)=>{if(i>0&&!img.closest('.recipe-hero'))img.loading=img.loading||'lazy';img.decoding='async'});
   document.querySelectorAll('a[target="_blank"]').forEach(a=>{const rel=new Set((a.rel||'').split(/\s+/).filter(Boolean));rel.add('noopener');a.rel=[...rel].join(' ')})
 }
+function guardRecipeImages(){
+  const fallback=new URL('../images/hero-preparation.jpg',base).href;
+  const protect=img=>{
+    if(!(img instanceof HTMLImageElement)||img.dataset.ftImageGuard==='1')return;
+    img.dataset.ftImageGuard='1';
+    img.addEventListener('error',()=>{
+      if(img.dataset.ftFallbackApplied==='1')return;
+      img.dataset.ftFallbackApplied='1';
+      img.dataset.ftBrokenSrc=img.currentSrc||img.src||'';
+      img.removeAttribute('srcset');
+      img.src=fallback;
+      img.alt='Fringe Table cooking image shown because the original image is temporarily unavailable';
+    },{once:true});
+  };
+  document.querySelectorAll('img').forEach(protect);
+  new MutationObserver(records=>records.forEach(record=>record.addedNodes.forEach(node=>{
+    if(node.nodeType!==1)return;
+    if(node.matches?.('img'))protect(node);
+    node.querySelectorAll?.('img').forEach(protect);
+  }))).observe(document.documentElement,{childList:true,subtree:true});
+}
 function addArchiveSearch(){
   if(!/\/recipes\/?(?:index\.html)?$/.test(location.pathname))return;
   const section=document.querySelector('.section');if(!section)return;
@@ -104,6 +125,6 @@ function addSitePolish(){
   const theme=document.querySelector('meta[name="theme-color"]')||document.createElement('meta');theme.name='theme-color';theme.content='#0b2118';if(!theme.parentNode)document.head.appendChild(theme);
   document.querySelectorAll('.recipe-card a,.related-grid a,.region-card').forEach(a=>{if(!a.getAttribute('aria-label')){const card=a.closest('.recipe-card');const name=card?.dataset.recipeName||a.querySelector('h3,strong')?.textContent?.trim();if(name)a.setAttribute('aria-label',`View ${name}`)}});
 }
-function finalize(){mergeDailyCatalogAndRender();setupAdsense();fixAffiliateDisclosureState();tagAmazonLinks();addAffiliateDisclosuresAndCookware();enhanceArchiveFilters();addAccessibility();addArchiveSearch();addSitePolish();if(!document.querySelector('script[data-traffic-layer]')){const t=document.createElement('script');t.src=base+'traffic.js?v=20260830d';t.dataset.trafficLayer='true';document.body.appendChild(t)}setTimeout(()=>{fixAffiliateDisclosureState();tagAmazonLinks();addArchiveSearch()},0)}
+function finalize(){mergeDailyCatalogAndRender();guardRecipeImages();setupAdsense();fixAffiliateDisclosureState();tagAmazonLinks();addAffiliateDisclosuresAndCookware();enhanceArchiveFilters();addAccessibility();addArchiveSearch();addSitePolish();if(!document.querySelector('script[data-traffic-layer]')){const t=document.createElement('script');t.src=base+'traffic.js?v=20260830d';t.dataset.trafficLayer='true';document.body.appendChild(t)}setTimeout(()=>{fixAffiliateDisclosureState();tagAmazonLinks();addArchiveSearch()},0)}
 const core=document.createElement('script');core.src=base+'site-core.js?v=20260915a';core.onload=finalize;core.onerror=()=>{console.error('Fringe Table core script failed to load')};document.body.appendChild(core);
 })();

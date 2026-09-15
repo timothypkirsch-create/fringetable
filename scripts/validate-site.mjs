@@ -29,6 +29,29 @@ for(const slug of recipeSlugs){
   if(!/<h1>[^<]+<\/h1>/i.test(html))fail.push(`${slug}: missing recipe h1`);
   if(!/<img\b[^>]*\balt="[^"]+"/i.test(html))fail.push(`${slug}: missing descriptive image alt text`);
   if(!sitemap.includes(`<loc>${canonical}</loc>`))fail.push(`${slug}: missing from sitemap`);
+  const editorialSections=[
+    ['About this dish',/About this dish/i],
+    ['Story & History',/Story &(?:amp;)? history/i],
+    ['Ingredients & method',/Ingredients &(?:amp;)? (?:detailed|step-by-step) method/i],
+    ['Sources & context',/Sources &(?:amp;)? context/i]
+  ];
+  for(const [label,pattern] of editorialSections)if(!pattern.test(html))warn.push(`${slug}: legacy page missing standard ${label} section`);
+  const heroImage=html.match(/<section class="recipe-hero">[\s\S]*?<img\b[^>]*src="([^"]+)"/i)?.[1];
+  if(heroImage&&!/^https?:\/\//i.test(heroImage)){
+    const localImage=path.resolve(recipeDir,heroImage.split(/[?#]/)[0]);
+    if(!fs.existsSync(localImage))fail.push(`${slug}: local hero image does not exist: ${heroImage}`);
+  }
+  if(/commons\.wikimedia\.org\/wiki\/Special:FilePath/i.test(heroImage||'')&&!/commons\.wikimedia\.org\/wiki\/(?:File:|Category:)/i.test(html)){
+    fail.push(`${slug}: Wikimedia image is missing a source/license link`);
+  }
+  for(const anchor of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/gi)){
+    const href=anchor[1];
+    if(/amazon\.com/i.test(href)&&!/rel="[^"]*sponsored[^"]*nofollow[^"]*noopener[^"]*"/i.test(anchor[0]))fail.push(`${slug}: affiliate link missing sponsored nofollow noopener`);
+    if(/^(?:https?:|mailto:|tel:|#|javascript:)/i.test(href))continue;
+    const clean=href.split(/[?#]/)[0];if(!clean)continue;
+    const target=path.resolve(recipeDir,clean);
+    if(!fs.existsSync(target)&&!fs.existsSync(path.join(target,'index.html')))fail.push(`${slug}: broken internal link: ${href}`);
+  }
   const jsonLd=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi)];
   let hasRecipeSchema=false;
   for(const match of jsonLd){
@@ -59,6 +82,11 @@ const visibleCount=Number(home.match(/<span data-recipe-count>(\d+)<\/span>/)?.[
 const metaCount=Number(home.match(/content="Explore (\d+) lesser-known dishes/)?.[1]);
 if(visibleCount!==recipeFiles.length)fail.push(`homepage visible count is ${visibleCount}; expected ${recipeFiles.length}`);
 if(metaCount!==recipeFiles.length)fail.push(`homepage meta count is ${metaCount}; expected ${recipeFiles.length}`);
+const archive=read('recipes/index.html');
+const archiveVisibleCount=Number(archive.match(/<span data-recipe-count>(\d+)<\/span>/)?.[1]);
+const archiveMetaCount=Number(archive.match(/Browse all (\d+) Fringe Table recipes/)?.[1]);
+if(archiveVisibleCount!==recipeFiles.length)fail.push(`recipe archive visible count is ${archiveVisibleCount}; expected ${recipeFiles.length}`);
+if(archiveMetaCount!==recipeFiles.length)fail.push(`recipe archive meta count is ${archiveMetaCount}; expected ${recipeFiles.length}`);
 
 const ads=read('ads.txt').trim();
 const expectedAds='google.com, pub-5498764120207111, DIRECT, f08c47fec0942fa0';
