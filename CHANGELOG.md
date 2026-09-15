@@ -17,6 +17,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Modernized Eritrean Hamli and Gullah Geechee Okra Soup with stronger community-grounded context, expanded methods, and explicit texture checkpoints.
 - Added the missing standard Story & History sections to Myanmar Lahpet Thoke and Nigerian Moi Moi, clearing the remaining editorial quality warnings.
 - Modernized Himachali Siddu, Pueblo Blue Corn Atole, and Moroccan Zaalouk with source-reviewed cultural framing, expanded methods, and practical doneness checkpoints.
+- Modernized Sudanese Salata Aswad, Algerian Chorba Frik, and Assamese Aloo Pitika with stronger source attribution, staged methods, and texture controls.
 
 ## 2026-09-10 to 2026-09-14
 
