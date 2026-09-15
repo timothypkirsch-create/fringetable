@@ -10,7 +10,7 @@ for(const file of files){
   const html=await fs.readFile(path.join('recipes',file),'utf8');
   const m=html.match(/<h1>(.*?)<\/h1>/i);
   if(!m) continue;
-  const title=m[1].replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').trim();
+  const title=m[1].replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&#39;|&apos;/g,"'").trim();
   const n=norm(title);
   const hit=[...terms].sort((a,b)=>norm(b.term).length-norm(a.term).length).find(e=>n.includes(norm(e.term)));
   rows.push({file,title,covered:!!hit,term:hit?.term||'',pron:hit?.pron||''});

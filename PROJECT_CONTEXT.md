@@ -53,6 +53,7 @@ When adding or removing a recipe, reconcile the recipe page, catalog source, reg
 - Preserve detailed methods with practical doneness, texture, aroma, or visual checkpoints.
 - Do not publish culturally sensitive ceremonial material as a generic home recipe without reliable public culinary documentation.
 - Follow the full recipe standards in `CONTENT_EXPANSION.md`.
+- Every recipe page must load `assets/js/pronunciation.js` and resolve its title to a researched phonetic pronunciation and cultural/language context. Validate complete coverage with `node scripts/audit-pronunciation-coverage.mjs` after recipe publishing.
 
 ## Advertising, analytics, and affiliate configuration
 
