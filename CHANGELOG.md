@@ -67,3 +67,4 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 ## Maintenance rule
 
 Add dated entries for meaningful releases, integrations, migrations, workflow changes, monetization changes, and major editorial expansions. Routine automated Facebook history commits do not need individual entries unless the automation behavior changes or a material incident occurs.
+- Modernized Lowcountry Shrimp and Grits, Nepali Gundruk ko Jhol, and Persian Ghormeh Sabzi with deeper cultural context, staged methods, and doneness cues.
