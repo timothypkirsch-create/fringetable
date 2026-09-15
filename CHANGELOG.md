@@ -71,3 +71,4 @@ Add dated entries for meaningful releases, integrations, migrations, workflow ch
 - Restored ingredient-sourcing and affiliate disclosure sections preserved from the original pages after editorial modernization.
 - Strengthened the release gate, restored two legacy cooking sections, fixed static archive counts and internal links, and added a site-wide image fallback.
 - Added automatically maintained leaf-stew, coconut-dessert, one-pot, and beginner-friendly topic clusters.
+- Added a protected recipe-URL manifest and expanded live-release checks to prevent silent removals and broken production assets.

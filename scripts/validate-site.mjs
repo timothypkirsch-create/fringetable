@@ -10,6 +10,8 @@ const recipeFiles=fs.readdirSync(recipeDir)
   .sort();
 const recipeSlugs=recipeFiles.map(file=>file.replace(/\.html$/,''));
 const recipeSet=new Set(recipeSlugs);
+const protectedSlugs=read('data/recipe-url-manifest.txt').split(/\r?\n/).filter(Boolean);
+for(const slug of protectedSlugs)if(!recipeSet.has(slug))fail.push(`protected recipe URL removed: ${slug}`);
 
 const core=read('assets/js/site-core.js');
 const catalogSlugs=[...core.matchAll(/"slug":"([^"]+)"/g)].map(match=>match[1]);

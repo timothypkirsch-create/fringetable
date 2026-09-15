@@ -14,6 +14,7 @@ on:
       - 'scripts/validate-site.mjs'
       - 'scripts/build-topic-clusters.mjs'
       - 'collections/**'
+      - 'data/recipe-url-manifest.txt'
 permissions:
   contents: read
 jobs:

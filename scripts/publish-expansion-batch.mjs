@@ -37,6 +37,9 @@ for(const r of recipes){
 }
 if(!added.length){console.log('No new recipes in batch.');process.exit(0)}
 await fs.writeFile('assets/js/site-core.js',core);
+let manifest=(await fs.readFile('data/recipe-url-manifest.txt','utf8')).split(/\r?\n/).filter(Boolean);
+manifest=[...new Set([...manifest,...added.map(recipe=>recipe.slug)])].sort();
+await fs.writeFile('data/recipe-url-manifest.txt',`${manifest.join('\n')}\n`);
 let site=await fs.readFile('assets/js/site.js','utf8');
 const cards=added.slice(-3).map(r=>({name:r.name,region:r.region,slug:r.slug,group:r.group,type:r.type,time:r.time,image:r.image,summary:r.summary,story:r.story,shop:(r.shop||[]).map(label=>({label,url:`https://www.amazon.com/s?k=${encodeURIComponent(label)}`}))}));
 site=site.replace(/const DAILY_RECIPES=\[[\s\S]*?\];\nconst RECOVERED_RECIPES=/,`const DAILY_RECIPES=${JSON.stringify(cards)};\nconst RECOVERED_RECIPES=`);
