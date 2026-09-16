@@ -4,6 +4,7 @@ amazigh-vegetable-couscous
 anishinaabe-manoomin-stovetop-wild-rice
 armenian-ghapama
 armenian-spas
+armenian-zhingyalov-hats
 assamese-aloo-pitika
 assamese-khar-raw-papaya
 assamese-masor-tenga
@@ -125,6 +126,7 @@ nigerian-moi-moi
 northern-thai-khao-soi-gai
 ojibwe-manoomin-bagaan-porridge
 ojibwe-wild-rice-berry-porridge
+pachamanca-a-la-olla
 persian-ash-reshteh
 persian-ghormeh-sabzi
 persian-kuku-sabzi
@@ -145,6 +147,7 @@ somali-bariis-iskukaris
 somali-laxoox-canjeero
 somali-sambuus-beef-sambusa
 soupe-joumou
+southern-thai-khao-yam
 southern-vietnamese-banh-xeo
 sri-lankan-egg-hoppers
 sri-lankan-kiribath

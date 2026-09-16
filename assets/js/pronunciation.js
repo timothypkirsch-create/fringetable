@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['pachamanca','pah-chah-MAHN-kah','Quechua / Peruvian Andes','From Quechua pacha, earth, and manka, pot: an Andean meal and cooking method centered on an earth oven heated with stones.'],
+['khao yam','KHAO yahm','Southern Thai','Thai ข้าวยำ: cooked rice mixed with finely cut herbs, vegetables and seasonings; khao means rice and yam refers to mixing a salad.'],
+['zhingyalov hats','zhen-gyah-LOV hahts','Eastern Armenian / Artsakh and Syunik','Armenian ժենգյալով հաց, literally bread with herbs or greens: a thin unleavened flatbread filled generously with chopped greens.'],
 ['azerbaijani badambura','ah-zer-by-JAH-nee bah-dahm-BOO-rah','Azerbaijan','Azerbaijani layered pastry traditionally filled with ground nuts, sugar and warm spices.'],
 ['cherokee bean bread','CHAIR-uh-kee been bred','Cherokee / Indigenous Americas','A Cherokee corn-and-bean bread, traditionally wrapped and cooked.'],
 ['cherokee buffalo hominy and bean hot pot','CHAIR-uh-kee BUHF-uh-loh HOM-uh-nee and been hot pot','Cherokee / Indigenous Americas','A contemporary hot-pot preparation grounded in Cherokee ingredients and foodways.'],

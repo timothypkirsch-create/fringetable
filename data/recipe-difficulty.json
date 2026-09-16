@@ -29,6 +29,11 @@
     "reason": "Uses straightforward home-kitchen techniques without tightly coordinated components.",
     "source": "rules v1"
   },
+  "armenian-zhingyalov-hats": {
+    "level": "Moderate",
+    "reason": "Requires drying and finely cutting many greens, rolling thin dough, sealing a very full flatbread and controlling a dry griddle.",
+    "source": "editorial batch"
+  },
   "assamese-aloo-pitika": {
     "level": "Moderate",
     "reason": "Involves temperature-sensitive cooking across 9 main steps.",
@@ -209,14 +214,14 @@
     "reason": "Involves temperature-sensitive cooking across 7 main steps.",
     "source": "rules v1"
   },
-  "ethiopian-chechebsa-kita-firfir": {
-    "level": "Moderate",
-    "reason": "Involves dough shaping across 8 main steps.",
-    "source": "rules v1"
-  },
   "ethiopian-chechebsa": {
     "level": "Easy",
     "reason": "Uses straightforward home-kitchen techniques without tightly coordinated components.",
+    "source": "rules v1"
+  },
+  "ethiopian-chechebsa-kita-firfir": {
+    "level": "Moderate",
+    "reason": "Involves dough shaping across 8 main steps.",
     "source": "rules v1"
   },
   "ethiopian-doro-wat": {
@@ -634,6 +639,11 @@
     "reason": "Uses straightforward home-kitchen techniques without tightly coordinated components.",
     "source": "rules v1"
   },
+  "pachamanca-a-la-olla": {
+    "level": "Moderate",
+    "reason": "Requires an overnight marinade, careful layering, a tightly sealed pot and coordinated doneness checks for meat and several vegetables.",
+    "source": "editorial batch"
+  },
   "persian-ash-reshteh": {
     "level": "Moderate",
     "reason": "A longer cook with 7 main steps, but no specialized equipment is required.",
@@ -734,6 +744,11 @@
     "reason": "Involves multiple coordinated components across 9 main steps.",
     "source": "rules v1"
   },
+  "southern-thai-khao-yam": {
+    "level": "Moderate",
+    "reason": "Requires simmering and balancing a concentrated budu dressing while finely slicing many herbs and coordinating several toasted and fresh components.",
+    "source": "editorial batch"
+  },
   "southern-vietnamese-banh-xeo": {
     "level": "Moderate",
     "reason": "Involves multiple coordinated components across 7 main steps.",
@@ -799,12 +814,12 @@
     "reason": "Involves multiple coordinated components across 8 main steps.",
     "source": "rules v1"
   },
-  "tibetan-shapale-sha-balep": {
+  "tibetan-shapale": {
     "level": "Advanced",
     "reason": "Requires making dough, filling and sealing the pastries, then frying them evenly.",
     "source": "editorial override"
   },
-  "tibetan-shapale": {
+  "tibetan-shapale-sha-balep": {
     "level": "Advanced",
     "reason": "Requires making dough, filling and sealing the pastries, then frying them evenly.",
     "source": "editorial override"
