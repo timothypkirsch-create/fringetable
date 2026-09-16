@@ -97,6 +97,7 @@ if(!read('robots.txt').includes('https://fringetable.com/sitemap.xml'))fail.push
 const redirects=read('_redirects');
 for(const file of [...recipeFiles.map(file=>`recipes/${file}`),...fs.readdirSync('subrecipes').filter(file=>file.endsWith('.html')&&file!=='index.html').map(file=>`subrecipes/${file}`)]){const source=`/${file.replace(/\.html$/,'')}`,rule=`${source} https://fringetable.com${source}.html 301`;if(!redirects.includes(rule))fail.push(`missing canonical redirect rule: ${source}`)}
 if(/:\w+/.test(redirects.replace(/^#.*$/gm,'')))fail.push('dynamic canonical redirects are forbidden because they also match .html destinations');
+if(!read('wrangler.jsonc').includes('"html_handling": "none"'))fail.push('Wrangler must disable automatic HTML redirects to preserve .html canonicals');
 
 console.log(`Validated ${recipeFiles.length} recipe pages and ${catalogCounts.size} catalog entries.`);
 for(const message of warn.slice(0,20))console.warn(`WARNING: ${message}`);

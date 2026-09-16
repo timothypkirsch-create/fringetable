@@ -75,3 +75,4 @@ Add dated entries for meaningful releases, integrations, migrations, workflow ch
 - Applied the first Search Console-directed growth pass to the Ethiopian holiday-food and momo serving guides and recorded the performance baseline.
 - Added permanent canonical redirects for extensionless recipe, subrecipe, and nested-guide URLs identified in Search Console.
 - Replaced broad canonical redirect placeholders with exact generated rules to prevent `.html` redirect loops.
+- Disabled Cloudflare automatic HTML handling so `.html` canonicals serve directly and exact legacy redirects cannot loop.
