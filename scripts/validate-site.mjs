@@ -108,6 +108,10 @@ const expectedAds='google.com, pub-5498764120207111, DIRECT, f08c47fec0942fa0';
 if(ads!==expectedAds)fail.push('ads.txt does not match the authorized AdSense record');
 if(!read('robots.txt').includes('https://fringetable.com/sitemap.xml'))fail.push('robots.txt does not advertise the primary sitemap');
 const redirects=read('_redirects');
+if(!redirects.includes('/ /index.html 200'))fail.push('root URL is missing its index rewrite');
+for(const file of fs.readdirSync('.').filter(file=>file.endsWith('.html')&&file!=='index.html')){const source=`/${file.replace(/\.html$/,'')}`,rule=`${source} https://fringetable.com${source}.html 301`;if(!redirects.includes(rule))fail.push(`missing root-page canonical redirect: ${source}`)}
+const indexFiles=[];const collectIndexes=dir=>{for(const entry of fs.readdirSync(dir,{withFileTypes:true})){if(entry.name==='.git')continue;const file=path.join(dir,entry.name);if(entry.isDirectory())collectIndexes(file);else if(entry.name==='index.html')indexFiles.push(file)}};collectIndexes('.');
+for(const file of indexFiles){const dir=path.dirname(file).replaceAll(path.sep,'/').replace(/^\.\/?/,'');if(!dir)continue;if(!redirects.includes(`/${dir} /${dir}/ 301`))fail.push(`missing directory slash redirect: /${dir}`);if(!redirects.includes(`/${dir}/ /${dir}/index.html 200`))fail.push(`missing directory index rewrite: /${dir}/`)}
 for(const file of [...recipeFiles.map(file=>`recipes/${file}`),...fs.readdirSync('subrecipes').filter(file=>file.endsWith('.html')&&file!=='index.html').map(file=>`subrecipes/${file}`)]){const source=`/${file.replace(/\.html$/,'')}`,rule=`${source} https://fringetable.com${source}.html 301`;if(!redirects.includes(rule))fail.push(`missing canonical redirect rule: ${source}`)}
 if(/:\w+/.test(redirects.replace(/^#.*$/gm,'')))fail.push('dynamic canonical redirects are forbidden because they also match .html destinations');
 if(!read('wrangler.jsonc').includes('"html_handling": "none"'))fail.push('Wrangler must disable automatic HTML redirects to preserve .html canonicals');

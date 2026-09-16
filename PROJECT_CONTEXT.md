@@ -29,6 +29,7 @@ Do not treat a successful GitHub commit as proof that production is healthy. For
 
 Extensionless legacy recipe, subrecipe, and nested-guide URLs are permanently redirected by `_redirects` to canonical HTTPS `.html` URLs. Preserve these rules to avoid splitting search signals across duplicate URL variants.
 Cloudflare Workers must retain `"html_handling": "none"` in `wrangler.jsonc`; the default automatic HTML handling redirects canonical `.html` URLs back to extensionless paths and creates a loop with these canonicalization rules.
+Because automatic HTML handling is disabled, `_redirects` must also retain explicit internal rewrites for `/` and every directory index, plus exact redirects for root-level extensionless pages. Generate and validate the complete set with `scripts/build-canonical-redirects.mjs`.
 
 The repository-wide static quality gate is `node scripts/validate-site.mjs`. Recipe batch publishing runs it before committing generated files and then uses `scripts/verify-live-release.mjs` to confirm the production pages, sitemap, pronunciation loader, and `ads.txt`. `.github/workflows/site-quality.yml` also runs the static gate on relevant pushes and pull requests.
 

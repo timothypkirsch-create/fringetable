@@ -8,6 +8,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 - Added accessible difficulty badges and short explanations to recipe pages and cards.
 - Added a combinable difficulty filter to the complete recipe catalog.
 - Added durable difficulty metadata and publishing/quality-gate enforcement for future recipe batches.
+- Restored the homepage, section indexes, and root-level clean URLs with explicit Cloudflare rewrites while preserving canonical `.html` recipe routes.
 
 ## 2026-09-15
 
