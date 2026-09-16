@@ -1,0 +1,62 @@
+.difficulty-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 7px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  font-weight: 900;
+  vertical-align: middle;
+  background: #e8e2d4;
+  color: #0b2118;
+}
+
+.difficulty-easy { background: #dcebdd; color: #174e34; }
+.difficulty-moderate { background: #f5e7bd; color: #684c00; }
+.difficulty-advanced { background: #ead8d5; color: #702e27; }
+
+.difficulty-explanation {
+  margin: 9px 0 0 !important;
+  max-width: 580px;
+  font-size: 13px !important;
+  line-height: 1.5;
+  color: #646a65 !important;
+}
+
+.difficulty-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -14px 0 28px;
+}
+
+.difficulty-filter label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  font-weight: 900;
+  color: #555d57;
+}
+
+.difficulty-filter select {
+  min-width: 170px;
+  padding: 10px 36px 10px 12px;
+  border: 1px solid rgba(11,33,24,.22);
+  border-radius: 8px;
+  background: #fffdf8;
+  color: #0b2118;
+  font: 700 14px Arial,sans-serif;
+}
+
+.difficulty-filter select:focus {
+  outline: 3px solid #e8b83e;
+  outline-offset: 3px;
+}
+
+@media (max-width: 560px) {
+  .difficulty-filter { align-items: stretch; flex-direction: column; }
+  .difficulty-filter select { width: 100%; }
+}

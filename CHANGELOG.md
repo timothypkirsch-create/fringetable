@@ -2,6 +2,13 @@
 
 This is a human-readable milestone history reconstructed from Git commits. Git remains the detailed record for individual file changes and exact commit dates.
 
+## 2026-09-16
+
+- Classified all 180 recipes as Easy, Moderate, or Advanced using consistent technique, precision, time, and coordination criteria.
+- Added accessible difficulty badges and short explanations to recipe pages and cards.
+- Added a combinable difficulty filter to the complete recipe catalog.
+- Added durable difficulty metadata and publishing/quality-gate enforcement for future recipe batches.
+
 ## 2026-09-15
 
 - Added durable project context and repository-wide working instructions after the loss of several earlier project conversations.

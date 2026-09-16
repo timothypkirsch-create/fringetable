@@ -28,6 +28,7 @@ These instructions apply to the entire repository and to every future coding or 
 - Preserve accessibility: descriptive alternative text, semantic headings, keyboard-usable controls, sufficient contrast, and responsive layouts.
 - Update all affected discovery surfaces when publishing recipes: catalog data, region hubs, collections/guides, internal links, image credits, and sitemaps.
 - Preserve the recipe-name pronunciation guide on every recipe page. New batches must include pronunciation metadata, update `assets/js/pronunciation.js`, load that script on the generated page, and pass `scripts/audit-pronunciation-coverage.mjs` with no missing titles.
+- Preserve recipe difficulty metadata and explanations. New batches must classify each recipe as Easy, Moderate, or Advanced based on technique, precision, and coordination—not ingredient rarity or cultural unfamiliarity.
 
 ## Advertising and monetization
 

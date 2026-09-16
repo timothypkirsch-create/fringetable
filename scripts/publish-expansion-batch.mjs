@@ -4,12 +4,17 @@ const batchPath=process.argv[2];
 if(!batchPath)throw new Error('Usage: node scripts/publish-expansion-batch.mjs <batch.json>');
 const recipes=JSON.parse(await fs.readFile(batchPath,'utf8'));
 if(!Array.isArray(recipes)||!recipes.length)throw new Error('Batch must be a non-empty JSON array.');
+const allowedDifficulty=new Set(['Easy','Moderate','Advanced']);
+for(const recipe of recipes){
+ if(!allowedDifficulty.has(recipe.difficulty))throw new Error(`${recipe.slug||recipe.name||'recipe'}: difficulty must be Easy, Moderate, or Advanced`);
+ if(typeof recipe.difficultyReason!=='string'||recipe.difficultyReason.trim().length<20)throw new Error(`${recipe.slug||recipe.name||'recipe'}: difficultyReason must briefly explain the techniques or coordination involved`);
+}
 
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const amazon=q=>`https://www.amazon.com/s?k=${encodeURIComponent(q)}&tag=fringetable-20`;
 const external=u=>/^https?:\/\//i.test(u);
 function renderPage(r){
- const required=['name','slug','region','group','type','time','yield','prepTime','cookTime','totalTime','cuisine','category','image','imageAlt','imageCredit','imageCreditUrl','summary','lead','about','story','caveat','prepNotes','ingredients','steps','sources','pronunciation','pronunciationRegion','pronunciationDefinition'];
+ const required=['name','slug','region','group','type','time','yield','prepTime','cookTime','totalTime','cuisine','category','image','imageAlt','imageCredit','imageCreditUrl','summary','lead','about','story','caveat','prepNotes','ingredients','steps','sources','pronunciation','pronunciationRegion','pronunciationDefinition','difficulty','difficultyReason'];
  for(const k of required)if(r[k]==null)throw new Error(`${r.slug||r.name||'recipe'} missing ${k}`);
  if(r.ingredients.length<5)throw new Error(`${r.slug}: at least five ingredients are required`);
  if(r.steps.length<6)throw new Error(`${r.slug}: at least six detailed method steps are required`);
@@ -37,6 +42,11 @@ for(const r of recipes){
 }
 if(!added.length){console.log('No new recipes in batch.');process.exit(0)}
 await fs.writeFile('assets/js/site-core.js',core);
+const difficulty=JSON.parse(await fs.readFile('data/recipe-difficulty.json','utf8'));
+for(const recipe of added)difficulty[recipe.slug]={level:recipe.difficulty,reason:recipe.difficultyReason.trim(),source:'editorial batch'};
+const orderedDifficulty=Object.fromEntries(Object.entries(difficulty).sort(([a],[b])=>a.localeCompare(b)));
+await fs.writeFile('data/recipe-difficulty.json',`${JSON.stringify(orderedDifficulty,null,2)}\n`);
+await fs.writeFile('assets/js/recipe-difficulty.js',`window.FringeTableDifficulty=${JSON.stringify(orderedDifficulty)};\n`);
 let manifest=(await fs.readFile('data/recipe-url-manifest.txt','utf8')).split(/\r?\n/).filter(Boolean);
 manifest=[...new Set([...manifest,...added.map(recipe=>recipe.slug)])].sort();
 await fs.writeFile('data/recipe-url-manifest.txt',`${manifest.join('\n')}\n`);

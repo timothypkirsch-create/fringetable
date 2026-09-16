@@ -12,6 +12,19 @@ const recipeSlugs=recipeFiles.map(file=>file.replace(/\.html$/,''));
 const recipeSet=new Set(recipeSlugs);
 const protectedSlugs=read('data/recipe-url-manifest.txt').split(/\r?\n/).filter(Boolean);
 for(const slug of protectedSlugs)if(!recipeSet.has(slug))fail.push(`protected recipe URL removed: ${slug}`);
+const difficulty=JSON.parse(read('data/recipe-difficulty.json'));
+const allowedDifficulty=new Set(['Easy','Moderate','Advanced']);
+for(const slug of recipeSlugs){
+  const item=difficulty[slug];
+  if(!item)fail.push(`${slug}: missing difficulty metadata`);
+  else{
+    if(!allowedDifficulty.has(item.level))fail.push(`${slug}: invalid difficulty level ${item.level}`);
+    if(typeof item.reason!=='string'||item.reason.trim().length<20)fail.push(`${slug}: difficulty reason is missing or too short`);
+  }
+}
+for(const slug of Object.keys(difficulty))if(!recipeSet.has(slug))fail.push(`difficulty metadata has no recipe page: ${slug}`);
+const difficultyAsset=read('assets/js/recipe-difficulty.js');
+for(const slug of recipeSlugs)if(!difficultyAsset.includes(`"${slug}":`))fail.push(`${slug}: missing from browser difficulty registry`);
 
 const core=read('assets/js/site-core.js');
 const catalogSlugs=[...core.matchAll(/"slug":"([^"]+)"/g)].map(match=>match[1]);

@@ -39,6 +39,7 @@ Every recipe added during this expansion must follow the current Fringe Table fo
 16. `assets/js/site.js` / `assets/js/site-core.js` remain the catalog source of truth; every new recipe must appear in the catalog, region hub, search, sitemap, and related-discovery system.
 17. Do not publish culturally sensitive ceremonial material as a generic home recipe when reliable public culinary documentation does not support doing so. Use explicit home-adaptation language where appropriate.
 18. Add a researched phonetic pronunciation, cultural/language label, and concise meaning for every recipe title. Every generated recipe page must load `assets/js/pronunciation.js`, and `node scripts/audit-pronunciation-coverage.mjs` must report complete coverage before publishing.
+19. Assign `difficulty` as exactly `Easy`, `Moderate`, or `Advanced`, plus a concise `difficultyReason` based on technique, precision, and coordination—not ingredient rarity or unfamiliarity with the cuisine.
 
 ## Expansion backlog
 

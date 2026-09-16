@@ -41,6 +41,7 @@ As of the verification date, the repository contains:
 - 41 guide pages below `guides/`
 - Regional hubs, collections, ingredient guidance, pronunciation content, saved recipes, legal/disclosure pages, and image credits
 - Catalog/search behavior primarily driven by `assets/js/site.js` and `assets/js/site-core.js`
+- Recipe difficulty metadata is maintained in `data/recipe-difficulty.json`, rendered through `assets/js/recipe-difficulty.js`, and enforced by the site quality gate. Levels reflect technique and coordination, never cultural unfamiliarity or ingredient rarity.
 - Primary sitemap: `sitemap.xml`
 - Additional recipe sitemap: `sitemap-recipes-20260830.xml`
 - Crawler rules: `robots.txt`
