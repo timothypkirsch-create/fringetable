@@ -72,3 +72,4 @@ Add dated entries for meaningful releases, integrations, migrations, workflow ch
 - Strengthened the release gate, restored two legacy cooking sections, fixed static archive counts and internal links, and added a site-wide image fallback.
 - Added automatically maintained leaf-stew, coconut-dessert, one-pot, and beginner-friendly topic clusters.
 - Added a protected recipe-URL manifest and expanded live-release checks to prevent silent removals and broken production assets.
+- Applied the first Search Console-directed growth pass to the Ethiopian holiday-food and momo serving guides and recorded the performance baseline.
