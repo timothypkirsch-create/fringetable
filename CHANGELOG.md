@@ -4,6 +4,7 @@ This is a human-readable milestone history reconstructed from Git commits. Git r
 
 ## 2026-09-16
 
+- Expanded the About page into a fuller editorial statement covering Fringe Table's purpose, recipe-development approach, editorial standards, transparency practices, corrections process, and paths into the collection.
 - Repaired expansion publishing after batch 035 exposed a validation-order gap: the workflow now rebuilds canonical redirects before validation and commits generated difficulty metadata alongside each batch.
 - Classified all 180 recipes as Easy, Moderate, or Advanced using consistent technique, precision, time, and coordination criteria.
 - Added accessible difficulty badges and short explanations to recipe pages and cards.
