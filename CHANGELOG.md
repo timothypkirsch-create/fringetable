@@ -76,3 +76,4 @@ Add dated entries for meaningful releases, integrations, migrations, workflow ch
 - Added permanent canonical redirects for extensionless recipe, subrecipe, and nested-guide URLs identified in Search Console.
 - Replaced broad canonical redirect placeholders with exact generated rules to prevent `.html` redirect loops.
 - Disabled Cloudflare automatic HTML handling so `.html` canonicals serve directly and exact legacy redirects cannot loop.
+- Added Search Console-directed FAQs and contextual internal links for Burmese Tofu Nway and Eritrean Hamli, including clear differentiation from Zebhi Hamli.
