@@ -1,0 +1,4 @@
+# Consolidate extensionless legacy URLs into the canonical HTTPS .html URLs.
+/recipes/:slug https://fringetable.com/recipes/:slug.html 301
+/subrecipes/:slug https://fringetable.com/subrecipes/:slug.html 301
+/guides/:section/:slug https://fringetable.com/guides/:section/:slug.html 301

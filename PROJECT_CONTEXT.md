@@ -27,6 +27,8 @@ This document is the durable operational record for FringeTable.com. Update it w
 
 Do not treat a successful GitHub commit as proof that production is healthy. For deployment-sensitive changes, verify both the live URL and the expected response/content after deployment.
 
+Extensionless legacy recipe, subrecipe, and nested-guide URLs are permanently redirected by `_redirects` to canonical HTTPS `.html` URLs. Preserve these rules to avoid splitting search signals across duplicate URL variants.
+
 The repository-wide static quality gate is `node scripts/validate-site.mjs`. Recipe batch publishing runs it before committing generated files and then uses `scripts/verify-live-release.mjs` to confirm the production pages, sitemap, pronunciation loader, and `ads.txt`. `.github/workflows/site-quality.yml` also runs the static gate on relevant pushes and pull requests.
 
 ## Current site architecture

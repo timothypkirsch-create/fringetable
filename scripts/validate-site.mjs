@@ -94,6 +94,8 @@ const ads=read('ads.txt').trim();
 const expectedAds='google.com, pub-5498764120207111, DIRECT, f08c47fec0942fa0';
 if(ads!==expectedAds)fail.push('ads.txt does not match the authorized AdSense record');
 if(!read('robots.txt').includes('https://fringetable.com/sitemap.xml'))fail.push('robots.txt does not advertise the primary sitemap');
+const redirects=read('_redirects');
+for(const rule of ['/recipes/:slug https://fringetable.com/recipes/:slug.html 301','/subrecipes/:slug https://fringetable.com/subrecipes/:slug.html 301','/guides/:section/:slug https://fringetable.com/guides/:section/:slug.html 301'])if(!redirects.includes(rule))fail.push(`missing canonical redirect rule: ${rule}`);
 
 console.log(`Validated ${recipeFiles.length} recipe pages and ${catalogCounts.size} catalog entries.`);
 for(const message of warn.slice(0,20))console.warn(`WARNING: ${message}`);
