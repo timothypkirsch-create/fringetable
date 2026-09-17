@@ -10,7 +10,8 @@ const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const esc=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 let lastErrors=[];
 
-for(let attempt=1;attempt<=12;attempt++){
+const maxAttempts=30;
+for(let attempt=1;attempt<=maxAttempts;attempt++){
   const errors=[];
   for(const recipe of recipes){
     const url=`https://fringetable.com/recipes/${recipe.slug}.html`;
@@ -44,7 +45,7 @@ for(let attempt=1;attempt<=12;attempt++){
   }
   lastErrors=errors;
   console.log(`Production not ready on attempt ${attempt}; retrying.`);
-  if(attempt<12)await pause(10000);
+  if(attempt<maxAttempts)await pause(10000);
 }
 
 for(const error of lastErrors)console.error(`ERROR: ${error}`);
