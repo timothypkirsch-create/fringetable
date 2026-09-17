@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['pepperpot','PEP-er-pot','Guyana / Caribbean English','In Guyana, a dark slow-cooked meat stew whose defining seasoning is cassareep, a concentrated cassava sauce.'],
+['baasto iyo suugo','bahs-TOH ee-yoh SOO-goh','Somali / Horn of Africa','Somali for pasta and sauce: baasto is pasta, iyo is and, and suugo is the seasoned tomato sauce served with it.'],
+['num banh chok','nohm bahn-CHOKE','Khmer / Cambodia','Khmer នំបញ្ចុក: rice-flour noodles, commonly served in coiled portions with fish gravy, herbs and fresh vegetables; banh chok also carries the sense of feeding or putting food into the mouth.'],
 ['pachamanca','pah-chah-MAHN-kah','Quechua / Peruvian Andes','From Quechua pacha, earth, and manka, pot: an Andean meal and cooking method centered on an earth oven heated with stones.'],
 ['khao yam','KHAO yahm','Southern Thai','Thai ข้าวยำ: cooked rice mixed with finely cut herbs, vegetables and seasonings; khao means rice and yam refers to mixing a salad.'],
 ['zhingyalov hats','zhen-gyah-LOV hahts','Eastern Armenian / Artsakh and Syunik','Armenian ժենգյալով հաց, literally bread with herbs or greens: a thin unleavened flatbread filled generously with chopped greens.'],

@@ -129,6 +129,11 @@
     "reason": "Requires building the aromatic curry paste, balancing the custard-like mixture, and steaming it gently.",
     "source": "editorial override"
   },
+  "cambodian-num-banh-chok": {
+    "level": "Moderate",
+    "reason": "Requires making a fine fresh kroeung, poaching and meticulously deboning fish, balancing fermented seasoning and coordinating noodles with several raw accompaniments.",
+    "source": "editorial batch"
+  },
   "cherokee-bean-bread": {
     "level": "Moderate",
     "reason": "Requires attention across 10 main steps, using accessible home-kitchen techniques.",
@@ -353,6 +358,11 @@
     "level": "Moderate",
     "reason": "Requires attention across 11 main steps, using accessible home-kitchen techniques.",
     "source": "rules v1"
+  },
+  "guyanese-pepperpot": {
+    "level": "Moderate",
+    "reason": "Requires browning in batches, controlling a long gentle braise, balancing a variable cassareep product and cooling or reheating the large pot safely.",
+    "source": "editorial batch"
   },
   "haitian-diri-kole-pwa-rouj": {
     "level": "Moderate",
@@ -723,6 +733,11 @@
     "level": "Moderate",
     "reason": "A longer cook with 10 main steps, but no specialized equipment is required.",
     "source": "rules v1"
+  },
+  "somali-baasto-iyo-suugo": {
+    "level": "Easy",
+    "reason": "Uses straightforward stovetop pasta and meat-sauce techniques, with the main judgment points being blooming the xawaash and reducing the tomatoes without scorching.",
+    "source": "editorial batch"
   },
   "somali-bariis-iskukaris": {
     "level": "Moderate",

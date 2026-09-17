@@ -24,6 +24,7 @@ burmese-ohn-no-khao-swe
 burmese-shan-noodles
 burmese-tofu-nway
 cambodian-fish-amok
+cambodian-num-banh-chok
 cherokee-bean-bread
 cherokee-buffalo-hominy-bean-hot-pot
 cherokee-kanuchi
@@ -69,6 +70,7 @@ grape-dumplings
 grenadian-oil-down
 gullah-geechee-okra-soup
 gullah-red-rice
+guyanese-pepperpot
 haitian-diri-kole-pwa-rouj
 haitian-griot
 haitian-legim
@@ -143,6 +145,7 @@ senegalese-mafe
 senegalese-thiakry
 shiro-wot
 sierra-leonean-cassava-leaf-stew
+somali-baasto-iyo-suugo
 somali-bariis-iskukaris
 somali-laxoox-canjeero
 somali-sambuus-beef-sambusa
