@@ -3,6 +3,7 @@ algerian-chorba-frik
 amazigh-vegetable-couscous
 anishinaabe-manoomin-stovetop-wild-rice
 armenian-ghapama
+armenian-harisa
 armenian-spas
 armenian-zhingyalov-hats
 assamese-aloo-pitika
@@ -61,6 +62,7 @@ georgian-ghomi-sulguni
 georgian-khinkali
 georgian-lobio
 georgian-rachan-lobiani
+ghanaian-ga-kenkey
 ghanaian-groundnut-soup
 ghanaian-kelewele
 ghanaian-red-red
@@ -129,6 +131,7 @@ northern-thai-khao-soi-gai
 ojibwe-manoomin-bagaan-porridge
 ojibwe-wild-rice-berry-porridge
 pachamanca-a-la-olla
+pakistani-beef-nihari
 persian-ash-reshteh
 persian-ghormeh-sabzi
 persian-kuku-sabzi

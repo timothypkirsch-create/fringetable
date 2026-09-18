@@ -24,6 +24,11 @@
     "reason": "A longer cook with 8 main steps, but no specialized equipment is required.",
     "source": "rules v1"
   },
+  "armenian-harisa": {
+    "level": "Advanced",
+    "reason": "Requires managing a multi-hour grain simmer without scorching, judging when the wheat has fully burst and vigorously beating the hot mixture to its defining texture.",
+    "source": "editorial batch"
+  },
   "armenian-spas": {
     "level": "Easy",
     "reason": "Uses straightforward home-kitchen techniques without tightly coordinated components.",
@@ -313,6 +318,11 @@
     "level": "Advanced",
     "reason": "Requires dough shaping and multiple coordinated components across 9 main steps.",
     "source": "rules v1"
+  },
+  "ghanaian-ga-kenkey": {
+    "level": "Advanced",
+    "reason": "Requires monitoring a spontaneous fermentation, cooking a lump-free aflata, recombining two dough textures and wrapping leakproof packets for a long boil.",
+    "source": "editorial batch"
   },
   "ghanaian-groundnut-soup": {
     "level": "Moderate",
@@ -652,6 +662,11 @@
   "pachamanca-a-la-olla": {
     "level": "Moderate",
     "reason": "Requires an overnight marinade, careful layering, a tightly sealed pot and coordinated doneness checks for meat and several vegetables.",
+    "source": "editorial batch"
+  },
+  "pakistani-beef-nihari": {
+    "level": "Advanced",
+    "reason": "Requires batch browning, a multi-hour low simmer, careful handling of bone-in shank and controlled flour thickening for a silky rather than pasty gravy.",
     "source": "editorial batch"
   },
   "persian-ash-reshteh": {

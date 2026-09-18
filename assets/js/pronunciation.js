@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['kenkey','KENG-kay','Ga / Ghana','A Ghanaian staple of fermented maize dough, partly precooked, wrapped in husks or leaves and boiled until firm.'],
+['harisa','hah-ree-SAH','Eastern and Western Armenian','Armenian հարիսա: hulled wheat and meat slowly cooked and beaten into a homogeneous porridge; distinct from North African chile paste.'],
+['nihari','nih-HAH-ree','Urdu and Punjabi / Pakistan','A slow-cooked meat stew whose name is linked to the Persian and Arabic word for morning or daytime, recalling its traditional dawn service.'],
 ['pepperpot','PEP-er-pot','Guyana / Caribbean English','In Guyana, a dark slow-cooked meat stew whose defining seasoning is cassareep, a concentrated cassava sauce.'],
 ['baasto iyo suugo','bahs-TOH ee-yoh SOO-goh','Somali / Horn of Africa','Somali for pasta and sauce: baasto is pasta, iyo is and, and suugo is the seasoned tomato sauce served with it.'],
 ['num banh chok','nohm bahn-CHOKE','Khmer / Cambodia','Khmer នំបញ្ចុក: rice-flour noodles, commonly served in coiled portions with fish gravy, herbs and fresh vegetables; banh chok also carries the sense of feeding or putting food into the mouth.'],
