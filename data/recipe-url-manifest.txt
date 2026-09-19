@@ -38,6 +38,7 @@ dominican-mangu
 ebci-bean-and-hominy
 ebci-black-walnut-pound-cake
 ebci-blue-corn-tortillas
+egyptian-koshary
 eritrean-alicha-birsen
 eritrean-hamli
 eritrean-taita-fit-fit
@@ -105,6 +106,7 @@ lao-tam-mak-hoong
 lowcountry-benne-wafers
 lowcountry-hoppin-john
 lowcountry-shrimp-and-grits
+malaysian-asam-pedas-ikan
 malaysian-nasi-lemak
 mandalay-nan-gyi-thoke
 minangkabau-beef-rendang
@@ -135,6 +137,7 @@ pakistani-beef-nihari
 persian-ash-reshteh
 persian-ghormeh-sabzi
 persian-kuku-sabzi
+peruvian-causa-a-la-limena
 pueblo-blue-corn-atole
 pueblo-posole-red-chile
 puerto-rican-arroz-con-gandules

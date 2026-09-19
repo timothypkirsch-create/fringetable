@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['causa a la limeña','KOW-sah ah lah lee-MEH-nyah','Peruvian Spanish / Lima','A Lima-style chilled dish of ají-and-lime-seasoned yellow potato layered around a savory filling; limeña means \'from Lima.\''],
+['asam pedas','AH-sahm puh-DAHS','Malay / Malaysia','Malay for \'sour spicy,\' naming a family of chile-hot, sour stews commonly made with fish in Malaysia and neighboring maritime Southeast Asia.'],
+['koshary','KOH-sha-ree','Egyptian Arabic / Egypt','Egyptian Arabic كُشَرِي: a layered everyday dish of rice, lentils, pasta and chickpeas with tomato sauce, garlic vinegar, chile and fried onions.'],
 ['kenkey','KENG-kay','Ga / Ghana','A Ghanaian staple of fermented maize dough, partly precooked, wrapped in husks or leaves and boiled until firm.'],
 ['harisa','hah-ree-SAH','Eastern and Western Armenian','Armenian հարիսա: hulled wheat and meat slowly cooked and beaten into a homogeneous porridge; distinct from North African chile paste.'],
 ['nihari','nih-HAH-ree','Urdu and Punjabi / Pakistan','A slow-cooked meat stew whose name is linked to the Persian and Arabic word for morning or daytime, recalling its traditional dawn service.'],

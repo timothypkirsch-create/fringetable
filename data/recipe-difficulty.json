@@ -199,6 +199,11 @@
     "reason": "Involves dough shaping across 8 main steps.",
     "source": "rules v1"
   },
+  "egyptian-koshary": {
+    "level": "Moderate",
+    "reason": "Requires coordinating several separately cooked components, frying onions evenly and assembling while preserving distinct textures and crispness.",
+    "source": "editorial batch"
+  },
   "eritrean-alicha-birsen": {
     "level": "Moderate",
     "reason": "Involves multiple coordinated components across 9 main steps.",
@@ -534,6 +539,11 @@
     "reason": "Involves multiple coordinated components across 10 main steps.",
     "source": "rules v1"
   },
+  "malaysian-asam-pedas-ikan": {
+    "level": "Moderate",
+    "reason": "Requires blending and frying a chile paste to the oil-separation stage, balancing sourness and heat, and poaching fish without breaking or overcooking it.",
+    "source": "editorial batch"
+  },
   "malaysian-nasi-lemak": {
     "level": "Moderate",
     "reason": "Several components—coconut rice, sambal, garnishes, and accompaniments—must be prepared and assembled together.",
@@ -683,6 +693,11 @@
     "level": "Moderate",
     "reason": "Involves temperature-sensitive cooking across 11 main steps.",
     "source": "rules v1"
+  },
+  "peruvian-causa-a-la-limena": {
+    "level": "Moderate",
+    "reason": "Requires controlling potato moisture, seasoning the mash without making it gummy and assembling distinct chilled layers that release and slice cleanly.",
+    "source": "editorial batch"
   },
   "pueblo-blue-corn-atole": {
     "level": "Easy",
