@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['Jamaican Beef Patties','juh-MAY-kun PAT-ee','Jamaican English / Jamaica','A Jamaican half-moon pastry with a flaky yellow shell and a seasoned savory filling, most famously spiced ground beef.'],
+['suya','SOO-yah','Standard Kano Hausa / Northern Nigeria','A Hausa and Nigerian street food of thin, seasoned meat grilled on skewers and served with yaji spice and fresh garnishes.'],
+['shorshe ilish','SHOR-shay EE-leesh','Dhaka Bengali / Bangladesh','Bengali for \'mustard hilsa,\' naming hilsa fish cooked in a pungent fresh-mustard sauce.'],
 ['causa a la limeña','KOW-sah ah lah lee-MEH-nyah','Peruvian Spanish / Lima','A Lima-style chilled dish of ají-and-lime-seasoned yellow potato layered around a savory filling; limeña means \'from Lima.\''],
 ['asam pedas','AH-sahm puh-DAHS','Malay / Malaysia','Malay for \'sour spicy,\' naming a family of chile-hot, sour stews commonly made with fish in Malaysia and neighboring maritime Southeast Asia.'],
 ['koshary','KOH-sha-ree','Egyptian Arabic / Egypt','Egyptian Arabic كُشَرِي: a layered everyday dish of rice, lentils, pasta and chickpeas with tomato sauce, garlic vinegar, chile and fried onions.'],

@@ -14,6 +14,7 @@ azerbaijani-dovga
 azerbaijani-meat-qutab
 azerbaijani-sheki-piti
 azerbaijani-suzme-plov
+bengali-shorshe-ilish
 betawi-gado-gado
 bhutanese-ema-datshi
 bhutanese-hoentay
@@ -89,6 +90,7 @@ hopi-piki-bread
 imeretian-khachapuri
 indonesian-soto-ayam
 jamaican-ackee-saltfish
+jamaican-beef-patties
 jamaican-brown-stew-chicken
 jamaican-callaloo
 jamaican-escovitch-fish
@@ -125,6 +127,7 @@ nepali-sel-roti
 newari-chatamari
 newari-yomari
 nigerian-akara
+nigerian-beef-suya
 nigerian-efo-riro
 nigerian-egusi-soup
 nigerian-jollof-rice

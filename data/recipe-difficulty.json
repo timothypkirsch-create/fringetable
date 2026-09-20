@@ -79,6 +79,11 @@
     "reason": "Involves multiple coordinated components across 9 main steps.",
     "source": "rules v1"
   },
+  "bengali-shorshe-ilish": {
+    "level": "Moderate",
+    "reason": "Requires grinding mustard without bitterness, sourcing and handling very bony delicate hilsa, and gently cooking the steaks without breaking them.",
+    "source": "editorial batch"
+  },
   "betawi-gado-gado": {
     "level": "Moderate",
     "reason": "Involves multiple coordinated components across 7 main steps.",
@@ -454,6 +459,11 @@
     "reason": "Uses straightforward home-kitchen techniques without tightly coordinated components.",
     "source": "rules v1"
   },
+  "jamaican-beef-patties": {
+    "level": "Moderate",
+    "reason": "Requires keeping pastry fat cold, reducing and cooling the filling, rolling thin rounds and sealing them securely before a coordinated bake.",
+    "source": "editorial batch"
+  },
   "jamaican-brown-stew-chicken": {
     "level": "Moderate",
     "reason": "Involves multiple coordinated components across 8 main steps.",
@@ -633,6 +643,11 @@
     "level": "Moderate",
     "reason": "A longer cook with 8 main steps, but no specialized equipment is required.",
     "source": "rules v1"
+  },
+  "nigerian-beef-suya": {
+    "level": "Moderate",
+    "reason": "Requires slicing beef uniformly thin, managing separate grilling and serving spices, threading flat skewers and controlling a high two-zone fire.",
+    "source": "editorial batch"
   },
   "nigerian-efo-riro": {
     "level": "Easy",
