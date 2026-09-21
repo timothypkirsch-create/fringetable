@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['Llapingachos','yah-peen-GAH-choss','Ecuadorian Spanish / Andean Ecuador (Kichwa-derived)','Ecuadorian griddled potato cakes, typically seasoned with achiote, filled with cheese and served with savory accompaniments.'],
+['Rawon','RAH-wawn','Standard Indonesian / East Java','An East Javanese dark beef soup whose characteristic color and earthy flavor come from processed kluwek.'],
+['Musakhan','moo-SAKH-khan','Palestinian Arabic / Palestine','A Palestinian shared dish of sumac-and-onion-topped taboon bread with roasted chicken; its Arabic name means \'heated\' or \'warmed.\''],
 ['Jamaican Beef Patties','juh-MAY-kun PAT-ee','Jamaican English / Jamaica','A Jamaican half-moon pastry with a flaky yellow shell and a seasoned savory filling, most famously spiced ground beef.'],
 ['suya','SOO-yah','Standard Kano Hausa / Northern Nigeria','A Hausa and Nigerian street food of thin, seasoned meat grilled on skewers and served with yaji spice and fresh garnishes.'],
 ['shorshe ilish','SHOR-shay EE-leesh','Dhaka Bengali / Bangladesh','Bengali for \'mustard hilsa,\' naming hilsa fish cooked in a pungent fresh-mustard sauce.'],

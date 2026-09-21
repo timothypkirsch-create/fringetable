@@ -189,6 +189,11 @@
     "reason": "Requires attention across 10 main steps, using accessible home-kitchen techniques.",
     "source": "rules v1"
   },
+  "east-javanese-rawon": {
+    "level": "Moderate",
+    "reason": "Requires verifying a specialist processed ingredient, grinding and fully frying a wet bumbu, and holding beef at a controlled simmer until tender.",
+    "source": "editorial batch"
+  },
   "ebci-bean-and-hominy": {
     "level": "Moderate",
     "reason": "A longer cook with 7 main steps, but no specialized equipment is required.",
@@ -203,6 +208,11 @@
     "level": "Moderate",
     "reason": "Involves dough shaping across 8 main steps.",
     "source": "rules v1"
+  },
+  "ecuadorian-llapingachos": {
+    "level": "Moderate",
+    "reason": "Requires controlling potato moisture, enclosing cheese without cracks and turning delicate chilled cakes only after a stable crust forms.",
+    "source": "editorial batch"
   },
   "egyptian-koshary": {
     "level": "Moderate",
@@ -692,6 +702,11 @@
   "pakistani-beef-nihari": {
     "level": "Advanced",
     "reason": "Requires batch browning, a multi-hour low simmer, careful handling of bone-in shank and controlled flour thickening for a silky rather than pasty gravy.",
+    "source": "editorial batch"
+  },
+  "palestinian-musakhan": {
+    "level": "Moderate",
+    "reason": "Requires coordinating chicken roasting, slow onion softening and a brief final assembly so the bread absorbs juices without becoming soggy.",
     "source": "editorial batch"
   },
   "persian-ash-reshteh": {

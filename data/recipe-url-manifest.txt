@@ -36,9 +36,11 @@ circassian-chicken
 dine-blue-corn-mush
 dine-kneel-down-bread
 dominican-mangu
+east-javanese-rawon
 ebci-bean-and-hominy
 ebci-black-walnut-pound-cake
 ebci-blue-corn-tortillas
+ecuadorian-llapingachos
 egyptian-koshary
 eritrean-alicha-birsen
 eritrean-hamli
@@ -137,6 +139,7 @@ ojibwe-manoomin-bagaan-porridge
 ojibwe-wild-rice-berry-porridge
 pachamanca-a-la-olla
 pakistani-beef-nihari
+palestinian-musakhan
 persian-ash-reshteh
 persian-ghormeh-sabzi
 persian-kuku-sabzi
