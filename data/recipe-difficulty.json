@@ -189,6 +189,11 @@
     "reason": "Requires attention across 10 main steps, using accessible home-kitchen techniques.",
     "source": "rules v1"
   },
+  "dominican-sancocho": {
+    "level": "Advanced",
+    "reason": "Requires coordinating three meats with different cooking times, preparing several dense roots safely and controlling the stew's texture without breaking every piece down.",
+    "source": "editorial batch"
+  },
   "east-javanese-rawon": {
     "level": "Moderate",
     "reason": "Requires verifying a specialist processed ingredient, grinding and fully frying a wet bumbu, and holding beef at a controlled simmer until tender.",
@@ -217,6 +222,11 @@
   "egyptian-koshary": {
     "level": "Moderate",
     "reason": "Requires coordinating several separately cooked components, frying onions evenly and assembling while preserving distinct textures and crispness.",
+    "source": "editorial batch"
+  },
+  "egyptian-molokhia": {
+    "level": "Moderate",
+    "reason": "Requires preparing and seasoning a clear chicken broth, keeping the leaves below a hard boil and timing a fast garlic-coriander tasha without burning it.",
     "source": "editorial batch"
   },
   "eritrean-alicha-birsen": {
@@ -628,6 +638,11 @@
     "level": "Moderate",
     "reason": "Involves multiple coordinated components across 10 main steps.",
     "source": "rules v1"
+  },
+  "nepali-kwati": {
+    "level": "Moderate",
+    "reason": "Requires hygienic two-day sprouting, complete cooking across differently sized legumes and a brief final jwano tempering without scorching the seeds.",
+    "source": "editorial batch"
   },
   "nepali-momos": {
     "level": "Advanced",

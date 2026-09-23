@@ -1,5 +1,8 @@
 (()=>{
 const entries=[
+['Molokhia','moh-loo-KHEE-yah','Egyptian Arabic / Egypt; English-friendly transliteration','The Arabic name for jute mallow leaves and, in Egypt, the finely chopped green soup made from them.'],
+['Sancocho','sahn-KOH-choh','Dominican Spanish / Dominican Republic','A hearty stew or soup; the Dominican celebration version combines several meats with plantains, roots, corn and squash.'],
+['Kwati','KWAH-tee','Nepal Bhasa (Newar) / Kathmandu Valley, Nepal','A Newar and Nepali soup of mixed sprouted legumes, especially associated with Gunhi Punhi and Janai Purnima.'],
 ['Llapingachos','yah-peen-GAH-choss','Ecuadorian Spanish / Andean Ecuador (Kichwa-derived)','Ecuadorian griddled potato cakes, typically seasoned with achiote, filled with cheese and served with savory accompaniments.'],
 ['Rawon','RAH-wawn','Standard Indonesian / East Java','An East Javanese dark beef soup whose characteristic color and earthy flavor come from processed kluwek.'],
 ['Musakhan','moo-SAKH-khan','Palestinian Arabic / Palestine','A Palestinian shared dish of sumac-and-onion-topped taboon bread with roasted chicken; its Arabic name means \'heated\' or \'warmed.\''],

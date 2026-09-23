@@ -36,12 +36,14 @@ circassian-chicken
 dine-blue-corn-mush
 dine-kneel-down-bread
 dominican-mangu
+dominican-sancocho
 east-javanese-rawon
 ebci-bean-and-hominy
 ebci-black-walnut-pound-cake
 ebci-blue-corn-tortillas
 ecuadorian-llapingachos
 egyptian-koshary
+egyptian-molokhia
 eritrean-alicha-birsen
 eritrean-hamli
 eritrean-taita-fit-fit
@@ -124,6 +126,7 @@ myanmar-mohinga
 nepali-aloo-tama-bodi
 nepali-dal-bhat
 nepali-gundruk-ko-jhol
+nepali-kwati
 nepali-momos
 nepali-sel-roti
 newari-chatamari
