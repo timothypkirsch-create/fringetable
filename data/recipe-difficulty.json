@@ -411,8 +411,8 @@
   },
   "haitian-griot": {
     "level": "Moderate",
-    "reason": "Involves multiple coordinated components across 8 main steps.",
-    "source": "rules v1"
+    "reason": "Requires braising pork until tender, drying it thoroughly and controlling 350°F frying oil to crisp the exterior without drying the center.",
+    "source": "editorial legacy upgrade"
   },
   "haitian-legim": {
     "level": "Moderate",
@@ -686,8 +686,8 @@
   },
   "nigerian-jollof-rice": {
     "level": "Moderate",
-    "reason": "Involves multiple coordinated components across 9 main steps.",
-    "source": "rules v1"
+    "reason": "Requires fully reducing the pepper-tomato base, judging the stock level and steaming the rice in a tightly sealed pot without turning the grains soft.",
+    "source": "editorial legacy upgrade"
   },
   "nigerian-moi-moi": {
     "level": "Moderate",
@@ -786,8 +786,8 @@
   },
   "senegalese-chicken-yassa": {
     "level": "Moderate",
-    "reason": "A longer cook with 7 main steps, but no specialized equipment is required.",
-    "source": "rules v1"
+    "reason": "Requires coordinating a citrus marinade, high-heat browning, patient onion softening and a final covered braise without overcooking the breast meat.",
+    "source": "editorial legacy upgrade"
   },
   "senegalese-mafe": {
     "level": "Moderate",

@@ -230,6 +230,23 @@ for (const recipe of pages) {
 core = core.replace(catalogMatch[0], `const catalog=${JSON.stringify(catalog)};`);
 fs.writeFileSync(coreFile, core);
 
+const difficultyFile = 'data/recipe-difficulty.json';
+const difficulty = JSON.parse(fs.readFileSync(difficultyFile, 'utf8'));
+Object.assign(difficulty['senegalese-chicken-yassa'], {
+  reason: 'Requires coordinating a citrus marinade, high-heat browning, patient onion softening and a final covered braise without overcooking the breast meat.',
+  source: 'editorial legacy upgrade'
+});
+Object.assign(difficulty['nigerian-jollof-rice'], {
+  reason: 'Requires fully reducing the pepper-tomato base, judging the stock level and steaming the rice in a tightly sealed pot without turning the grains soft.',
+  source: 'editorial legacy upgrade'
+});
+Object.assign(difficulty['haitian-griot'], {
+  reason: 'Requires braising pork until tender, drying it thoroughly and controlling 350°F frying oil to crisp the exterior without drying the center.',
+  source: 'editorial legacy upgrade'
+});
+fs.writeFileSync(difficultyFile, `${JSON.stringify(difficulty, null, 2)}\n`);
+fs.writeFileSync('assets/js/recipe-difficulty.js', `window.FringeTableDifficulty=${JSON.stringify(difficulty)};\n`);
+
 const riceCollectionFile = 'collections/rice-recipes.html';
 let riceCollection = fs.readFileSync(riceCollectionFile, 'utf8');
 riceCollection = riceCollection.replace(
