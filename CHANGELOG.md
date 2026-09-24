@@ -2,6 +2,11 @@
 
 This is a human-readable milestone history reconstructed from Git commits. Git remains the detailed record for individual file changes and exact commit dates.
 
+## 2026-09-24
+
+- Upgraded Senegalese Chicken Yassa, Nigerian Jollof Rice, and Haitian Griot using the Search Console growth baseline, culturally grounded sources, precise home-kitchen measurements, food-safety guidance, and detailed technique checkpoints.
+- Preserved all three established URLs, pronunciation behavior, licensed Wikimedia Commons images, and affiliate disclosures while synchronizing catalog stories, cooking times, internal topic links, and sitemap modification dates.
+
 ## 2026-09-16
 
 - Expanded the About page into a fuller editorial statement covering Fringe Table's purpose, recipe-development approach, editorial standards, transparency practices, corrections process, and paths into the collection.
