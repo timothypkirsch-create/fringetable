@@ -2,6 +2,11 @@
 
 This is a human-readable milestone history reconstructed from Git commits. Git remains the detailed record for individual file changes and exact commit dates.
 
+## 2026-09-26
+
+- Repaired Recipe structured data across the full catalog after a Search Console alert: restored missing prep/cook durations on 12 legacy recipes and converted human-readable duration values on 27 newer recipes to valid ISO 8601 values.
+- Strengthened the site quality gate so every Recipe schema must include an absolute HTTPS image plus valid `prepTime`, `cookTime`, and `totalTime` values before publication.
+
 ## 2026-09-24
 
 - Upgraded Senegalese Chicken Yassa, Nigerian Jollof Rice, and Haitian Griot using the Search Console growth baseline, culturally grounded sources, precise home-kitchen measurements, food-safety guidance, and detailed technique checkpoints.

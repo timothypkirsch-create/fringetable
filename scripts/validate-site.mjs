@@ -72,7 +72,17 @@ for(const slug of recipeSlugs){
   for(const match of jsonLd){
     try{
       const value=JSON.parse(match[1]);
-      if(value?.['@type']==='Recipe')hasRecipeSchema=true;
+      const objects=value?.['@graph']||[value];
+      for(const object of objects){
+        const types=Array.isArray(object?.['@type'])?object['@type']:[object?.['@type']];
+        if(!types.includes('Recipe'))continue;
+        hasRecipeSchema=true;
+        const images=Array.isArray(object.image)?object.image:[object.image];
+        if(!images.length||images.some(image=>typeof image!=='string'||!/^https:\/\/[^\s]+$/i.test(image)))fail.push(`${slug}: Recipe JSON-LD image must contain an absolute HTTPS URL`);
+        for(const field of ['prepTime','cookTime','totalTime']){
+          if(typeof object[field]!=='string'||!/^P(?=\d|T\d)(?:\d+D)?(?:T(?=\d)(?:\d+H)?(?:\d+M)?(?:\d+S)?)?$/.test(object[field]))fail.push(`${slug}: Recipe JSON-LD ${field} is missing or is not an ISO 8601 duration`);
+        }
+      }
     }catch{fail.push(`${slug}: invalid JSON-LD`)}
   }
   if(!hasRecipeSchema)fail.push(`${slug}: missing Recipe JSON-LD`);

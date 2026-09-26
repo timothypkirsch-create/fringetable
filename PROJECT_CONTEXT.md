@@ -1,6 +1,6 @@
 # Fringe Table Project Context
 
-Last verified: 2026-09-15
+Last verified: 2026-09-26
 
 This document is the durable operational record for FringeTable.com. Update it whenever a project-wide decision, external service, publishing process, or important identifier changes. Chat history and memory are useful context, but this repository is the source of truth.
 
@@ -31,7 +31,7 @@ Extensionless legacy recipe, subrecipe, and nested-guide URLs are permanently re
 Cloudflare Workers must retain `"html_handling": "none"` in `wrangler.jsonc`; the default automatic HTML handling redirects canonical `.html` URLs back to extensionless paths and creates a loop with these canonicalization rules.
 Because automatic HTML handling is disabled, `_redirects` must also retain explicit internal rewrites for `/` and every directory index, plus exact redirects for root-level extensionless pages. Generate and validate the complete set with `scripts/build-canonical-redirects.mjs`.
 
-The repository-wide static quality gate is `node scripts/validate-site.mjs`. Recipe batch publishing runs it before committing generated files and then uses `scripts/verify-live-release.mjs` to confirm the production pages, sitemap, pronunciation loader, and `ads.txt`. `.github/workflows/site-quality.yml` also runs the static gate on relevant pushes and pull requests.
+The repository-wide static quality gate is `node scripts/validate-site.mjs`. Every Recipe JSON-LD object must include an absolute HTTPS image URL and ISO 8601 `prepTime`, `cookTime`, and `totalTime` values. Recipe batch publishing runs the gate before committing generated files and then uses `scripts/verify-live-release.mjs` to confirm the production pages, sitemap, pronunciation loader, and `ads.txt`. `.github/workflows/site-quality.yml` also runs the static gate on relevant pushes and pull requests.
 
 ## Current site architecture
 
