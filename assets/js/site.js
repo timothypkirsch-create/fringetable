@@ -11,7 +11,15 @@ const RECOVERED_RECIPES=[
 ];
 
 function amazonUrl(query){return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`}
+function isAdEligiblePage(){
+  if(/\bnoindex\b/i.test(document.querySelector('meta[name="robots"]')?.content||''))return false;
+  const page=location.pathname.replace(/\/+$/,'/');
+  if(/^\/(?:about|contact|privacy|terms|affiliate-disclosure|image-credits|saved|pronunciation)(?:\.html)?$/i.test(page))return false;
+  if(/\/(?:recipes|guides|collections|subrecipes|ingredients)\/(?:index\.html)?$/i.test(page))return false;
+  return true;
+}
 function setupAdsense(){
+  if(!isAdEligiblePage())return;
   if(document.querySelector(`script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}"]`))return;
   const s=document.createElement('script');s.async=true;s.crossOrigin='anonymous';s.src=`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;document.head.appendChild(s);
 }
@@ -139,6 +147,7 @@ function addSitePolish(){
   document.documentElement.classList.add('js');
   const theme=document.querySelector('meta[name="theme-color"]')||document.createElement('meta');theme.name='theme-color';theme.content='#0b2118';if(!theme.parentNode)document.head.appendChild(theme);
   document.querySelectorAll('.recipe-card a,.related-grid a,.region-card').forEach(a=>{if(!a.getAttribute('aria-label')){const card=a.closest('.recipe-card');const name=card?.dataset.recipeName||a.querySelector('h3,strong')?.textContent?.trim();if(name)a.setAttribute('aria-label',`View ${name}`)}});
+  document.querySelectorAll('.footer-links').forEach(footer=>{if(!footer.querySelector('[data-editorial-process]')){const link=document.createElement('a');link.href=new URL('editorial-process.html',base.replace('/assets/js/','/')).href;link.textContent='Editorial Process';link.dataset.editorialProcess='true';footer.append(link)}});
 }
 function finalize(){mergeDailyCatalogAndRender();guardRecipeImages();setupAdsense();fixAffiliateDisclosureState();tagAmazonLinks();addAffiliateDisclosuresAndCookware();enhanceArchiveFilters();addAccessibility();addArchiveSearch();addDifficultyExperience();addSitePolish();if(!document.querySelector('script[data-traffic-layer]')){const t=document.createElement('script');t.src=base+'traffic.js?v=20260830d';t.dataset.trafficLayer='true';document.body.appendChild(t)}setTimeout(()=>{fixAffiliateDisclosureState();tagAmazonLinks();addArchiveSearch()},0)}
 function loadCore(){const core=document.createElement('script');core.src=base+'site-core.js?v=20260915a';core.onload=finalize;core.onerror=()=>{console.error('Fringe Table core script failed to load')};document.body.appendChild(core)}

@@ -9,13 +9,20 @@ on:
       - 'robots.txt'
       - '_redirects'
       - 'sitemap.xml'
+      - 'sitemap-recipes-20260830.xml'
+      - 'editorial-process.html'
       - 'recipes/**'
+      - 'guides/**'
+      - 'subrecipes/**'
       - 'assets/js/site-core.js'
+      - 'assets/js/site.js'
       - 'assets/js/pronunciation.js'
       - 'scripts/validate-site.mjs'
       - 'scripts/build-topic-clusters.mjs'
       - 'collections/**'
       - 'data/recipe-url-manifest.txt'
+      - 'data/recipe-consolidations.json'
+      - 'data/adsense-noindex-pages.txt'
 permissions:
   contents: read
 jobs:

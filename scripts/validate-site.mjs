@@ -8,13 +8,16 @@ const recipeDir='recipes';
 const recipeFiles=fs.readdirSync(recipeDir)
   .filter(file=>file.endsWith('.html')&&file!=='index.html')
   .sort();
-const recipeSlugs=recipeFiles.map(file=>file.replace(/\.html$/,''));
+const allRecipeSlugs=recipeFiles.map(file=>file.replace(/\.html$/,''));
+const consolidations=JSON.parse(read('data/recipe-consolidations.json'));
+const recipeSlugs=allRecipeSlugs.filter(slug=>!consolidations[slug]);
+const activeRecipeFiles=recipeSlugs.map(slug=>`${slug}.html`);
 const recipeSet=new Set(recipeSlugs);
 const protectedSlugs=read('data/recipe-url-manifest.txt').split(/\r?\n/).filter(Boolean);
-for(const slug of protectedSlugs)if(!recipeSet.has(slug))fail.push(`protected recipe URL removed: ${slug}`);
+for(const slug of protectedSlugs)if(!recipeSet.has(slug)&&!consolidations[slug])fail.push(`protected recipe URL removed without consolidation: ${slug}`);
 const difficulty=JSON.parse(read('data/recipe-difficulty.json'));
 const allowedDifficulty=new Set(['Easy','Moderate','Advanced']);
-for(const slug of recipeSlugs){
+for(const slug of allRecipeSlugs){
   const item=difficulty[slug];
   if(!item)fail.push(`${slug}: missing difficulty metadata`);
   else{
@@ -22,9 +25,9 @@ for(const slug of recipeSlugs){
     if(typeof item.reason!=='string'||item.reason.trim().length<20)fail.push(`${slug}: difficulty reason is missing or too short`);
   }
 }
-for(const slug of Object.keys(difficulty))if(!recipeSet.has(slug))fail.push(`difficulty metadata has no recipe page: ${slug}`);
+for(const slug of Object.keys(difficulty))if(!allRecipeSlugs.includes(slug))fail.push(`difficulty metadata has no recipe page: ${slug}`);
 const difficultyAsset=read('assets/js/recipe-difficulty.js');
-for(const slug of recipeSlugs)if(!difficultyAsset.includes(`"${slug}":`))fail.push(`${slug}: missing from browser difficulty registry`);
+for(const slug of allRecipeSlugs)if(!difficultyAsset.includes(`"${slug}":`))fail.push(`${slug}: missing from browser difficulty registry`);
 
 const core=read('assets/js/site-core.js');
 const catalogSlugs=[...core.matchAll(/"slug":"([^"]+)"/g)].map(match=>match[1]);
@@ -35,6 +38,7 @@ for(const slug of recipeSlugs)if(!catalogCounts.has(slug))fail.push(`recipe miss
 for(const slug of catalogCounts.keys())if(!recipeSet.has(slug))fail.push(`catalog entry missing recipe page: ${slug}`);
 
 const sitemap=read('sitemap.xml');
+const recipeSitemap=read('sitemap-recipes-20260830.xml');
 for(const slug of recipeSlugs){
   const file=path.join(recipeDir,`${slug}.html`);
   const html=read(file);
@@ -43,7 +47,9 @@ for(const slug of recipeSlugs){
   if(!html.includes('assets/js/pronunciation.js'))fail.push(`${slug}: pronunciation script not loaded`);
   if(!/<h1>[^<]+<\/h1>/i.test(html))fail.push(`${slug}: missing recipe h1`);
   if(!/<img\b[^>]*\balt="[^"]+"/i.test(html))fail.push(`${slug}: missing descriptive image alt text`);
-  if(!sitemap.includes(`<loc>${canonical}</loc>`))fail.push(`${slug}: missing from sitemap`);
+  const noindex=/<meta name="robots" content="[^"]*noindex/i.test(html);
+  if(noindex&&sitemap.includes(`<loc>${canonical}</loc>`))fail.push(`${slug}: noindex recipe must not appear in sitemap`);
+  if(!noindex&&!sitemap.includes(`<loc>${canonical}</loc>`))fail.push(`${slug}: missing from sitemap`);
   const editorialSections=[
     ['About this dish',/About this dish/i],
     ['Story & History',/Story &(?:amp;)? history/i],
@@ -95,7 +101,7 @@ const terms=[...pronunciation.matchAll(/\['((?:\\'|[^'])+)'\s*,\s*'([^']+)'/g)]
 const normalize=value=>String(value||'').toLowerCase().normalize('NFD')
   .replace(/[\u0300-\u036f]/g,'').replace(/&amp;/g,'&')
   .replace(/&#39;|&apos;/g,"'").replace(/[^a-z0-9]+/g,' ').trim();
-for(const file of recipeFiles){
+for(const file of activeRecipeFiles){
   const html=read(path.join(recipeDir,file));
   const title=html.match(/<h1>(.*?)<\/h1>/i)?.[1]?.replace(/<[^>]+>/g,'')||'';
   const normalized=normalize(title);
@@ -105,13 +111,13 @@ for(const file of recipeFiles){
 const home=read('index.html');
 const visibleCount=Number(home.match(/<span data-recipe-count>(\d+)<\/span>/)?.[1]);
 const metaCount=Number(home.match(/content="Explore (\d+) lesser-known dishes/)?.[1]);
-if(visibleCount!==recipeFiles.length)fail.push(`homepage visible count is ${visibleCount}; expected ${recipeFiles.length}`);
-if(metaCount!==recipeFiles.length)fail.push(`homepage meta count is ${metaCount}; expected ${recipeFiles.length}`);
+if(visibleCount!==activeRecipeFiles.length)fail.push(`homepage visible count is ${visibleCount}; expected ${activeRecipeFiles.length}`);
+if(metaCount!==activeRecipeFiles.length)fail.push(`homepage meta count is ${metaCount}; expected ${activeRecipeFiles.length}`);
 const archive=read('recipes/index.html');
 const archiveVisibleCount=Number(archive.match(/<span data-recipe-count>(\d+)<\/span>/)?.[1]);
 const archiveMetaCount=Number(archive.match(/Browse all (\d+) Fringe Table recipes/)?.[1]);
-if(archiveVisibleCount!==recipeFiles.length)fail.push(`recipe archive visible count is ${archiveVisibleCount}; expected ${recipeFiles.length}`);
-if(archiveMetaCount!==recipeFiles.length)fail.push(`recipe archive meta count is ${archiveMetaCount}; expected ${recipeFiles.length}`);
+if(archiveVisibleCount!==activeRecipeFiles.length)fail.push(`recipe archive visible count is ${archiveVisibleCount}; expected ${activeRecipeFiles.length}`);
+if(archiveMetaCount!==activeRecipeFiles.length)fail.push(`recipe archive meta count is ${archiveMetaCount}; expected ${activeRecipeFiles.length}`);
 
 const ads=read('ads.txt').trim();
 const expectedAds='google.com, pub-5498764120207111, DIRECT, f08c47fec0942fa0';
@@ -122,11 +128,14 @@ if(!redirects.includes('/ /index.html 200'))fail.push('root URL is missing its i
 for(const file of fs.readdirSync('.').filter(file=>file.endsWith('.html')&&file!=='index.html')){const source=`/${file.replace(/\.html$/,'')}`,rule=`${source} https://fringetable.com${source}.html 301`;if(!redirects.includes(rule))fail.push(`missing root-page canonical redirect: ${source}`)}
 const indexFiles=[];const collectIndexes=dir=>{for(const entry of fs.readdirSync(dir,{withFileTypes:true})){if(entry.name==='.git')continue;const file=path.join(dir,entry.name);if(entry.isDirectory())collectIndexes(file);else if(entry.name==='index.html')indexFiles.push(file)}};collectIndexes('.');
 for(const file of indexFiles){const dir=path.dirname(file).replaceAll(path.sep,'/').replace(/^\.\/?/,'');if(!dir)continue;if(!redirects.includes(`/${dir} /${dir}/ 301`))fail.push(`missing directory slash redirect: /${dir}`);if(!redirects.includes(`/${dir}/ /${dir}/index.html 200`))fail.push(`missing directory index rewrite: /${dir}/`)}
-for(const file of [...recipeFiles.map(file=>`recipes/${file}`),...fs.readdirSync('subrecipes').filter(file=>file.endsWith('.html')&&file!=='index.html').map(file=>`subrecipes/${file}`)]){const source=`/${file.replace(/\.html$/,'')}`,rule=`${source} https://fringetable.com${source}.html 301`;if(!redirects.includes(rule))fail.push(`missing canonical redirect rule: ${source}`)}
+for(const file of [...activeRecipeFiles.map(file=>`recipes/${file}`),...fs.readdirSync('subrecipes').filter(file=>file.endsWith('.html')&&file!=='index.html').map(file=>`subrecipes/${file}`)]){const source=`/${file.replace(/\.html$/,'')}`,rule=`${source} https://fringetable.com${source}.html 301`;if(!redirects.includes(rule))fail.push(`missing canonical redirect rule: ${source}`)}
+for(const [sourceSlug,targetSlug] of Object.entries(consolidations)){const destination=`https://fringetable.com/recipes/${targetSlug}.html`;for(const source of [`/recipes/${sourceSlug}`,`/recipes/${sourceSlug}.html`])if(!redirects.includes(`${source} ${destination} 301`))fail.push(`missing recipe consolidation redirect: ${source}`)}
+const noindexFiles=read('data/adsense-noindex-pages.txt').split(/\r?\n/).filter(Boolean);
+for(const file of noindexFiles){if(!fs.existsSync(file))fail.push(`AdSense remediation file is missing: ${file}`);else if(!/<meta name="robots" content="[^"]*noindex/i.test(read(file)))fail.push(`AdSense remediation page must remain noindex: ${file}`);const canonical=fs.existsSync(file)?read(file).match(/<link rel="canonical" href="([^"]+)"/i)?.[1]:'';if(canonical&&(sitemap.includes(`<loc>${canonical}</loc>`)||recipeSitemap.includes(`<loc>${canonical}</loc>`)))fail.push(`noindex page remains in sitemap: ${file}`)}
 if(/:\w+/.test(redirects.replace(/^#.*$/gm,'')))fail.push('dynamic canonical redirects are forbidden because they also match .html destinations');
 if(!read('wrangler.jsonc').includes('"html_handling": "none"'))fail.push('Wrangler must disable automatic HTML redirects to preserve .html canonicals');
 
-console.log(`Validated ${recipeFiles.length} recipe pages and ${catalogCounts.size} catalog entries.`);
+console.log(`Validated ${activeRecipeFiles.length} active recipe pages, ${Object.keys(consolidations).length} consolidated URL and ${catalogCounts.size} catalog entries.`);
 for(const message of warn.slice(0,20))console.warn(`WARNING: ${message}`);
 if(warn.length>20)console.warn(`WARNING: ${warn.length-20} additional warnings omitted.`);
 if(fail.length){

@@ -2,6 +2,15 @@
 
 This is a human-readable milestone history reconstructed from Git commits. Git remains the detailed record for individual file changes and exact commit dates.
 
+## 2026-09-28
+
+- Began AdSense low-value-content remediation by pausing scheduled new-recipe publishing and withholding 68 thin supporting or legacy pages from search indexing, sitemaps and advertising while keeping their URLs accessible for later improvement.
+- Preserved the thin pages already demonstrating Search Console clicks rather than removing useful early search traction indiscriminately.
+- Restricted AdSense loading and reserved ad placements to substantive, indexable content instead of legal, contact, archive, directory and `noindex` pages.
+- Consolidated the duplicate Tibetan Shapale listing into `tibetan-shapale-sha-balep.html` with permanent redirects from the earlier URL.
+- Added a public editorial-process page explaining sourcing, adaptation, automation, testing limits, imagery and corrections without adding personal owner information.
+- Extended the static quality gate to enforce the remediation inventory, consolidated recipe redirects, sitemap exclusions and the active 200-recipe catalog count.
+
 ## 2026-09-26
 
 - Repaired Recipe structured data across the full catalog after a Search Console alert: restored missing prep/cook durations on 12 legacy recipes and converted human-readable duration values on 27 newer recipes to valid ISO 8601 values.

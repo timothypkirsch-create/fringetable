@@ -39,6 +39,7 @@
 /about https://fringetable.com/about.html 301
 /affiliate-disclosure https://fringetable.com/affiliate-disclosure.html 301
 /contact https://fringetable.com/contact.html 301
+/editorial-process https://fringetable.com/editorial-process.html 301
 /image-credits https://fringetable.com/image-credits.html 301
 /privacy https://fringetable.com/privacy.html 301
 /saved https://fringetable.com/saved.html 301
@@ -267,7 +268,8 @@
 /recipes/sudanese-salata-aswad https://fringetable.com/recipes/sudanese-salata-aswad.html 301
 /recipes/sudanese-tamia https://fringetable.com/recipes/sudanese-tamia.html 301
 /recipes/tibetan-shapale-sha-balep https://fringetable.com/recipes/tibetan-shapale-sha-balep.html 301
-/recipes/tibetan-shapale https://fringetable.com/recipes/tibetan-shapale.html 301
+/recipes/tibetan-shapale https://fringetable.com/recipes/tibetan-shapale-sha-balep.html 301
+/recipes/tibetan-shapale.html https://fringetable.com/recipes/tibetan-shapale-sha-balep.html 301
 /recipes/tibetan-thenthuk https://fringetable.com/recipes/tibetan-thenthuk.html 301
 /recipes/trinidad-aloo-pie https://fringetable.com/recipes/trinidad-aloo-pie.html 301
 /recipes/trinidad-callaloo https://fringetable.com/recipes/trinidad-callaloo.html 301
