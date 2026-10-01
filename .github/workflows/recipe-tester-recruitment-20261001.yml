@@ -1,0 +1,36 @@
+name: Recipe Tester Recruitment 2026-10-01
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/recipe-tester-recruitment-20261001.yml']
+permissions:
+  contents: read
+jobs:
+  publish:
+    if: github.event.created == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Publish volunteer recipe tester request
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_POST_LINK: https://fringetable.com
+          META_POST_MESSAGE: |
+            Home cooks wanted: help improve Fringe Table recipes
+            
+            Enjoy trying dishes beyond your usual rotation? Fringe Table is looking for volunteer home cooks to try one recipe and share honest results.
+            
+            We publish researched adaptations of regional dishes for home kitchens. We'd like to know how clearly our instructions work in yours—what went well, what was confusing, and what needs improvement.
+            
+            All experience levels are welcome. We're asking for your preparation and cooking time, any substitutions, approximate servings, a finished-dish photo, and candid feedback. Process photos are welcome but optional.
+            
+            This is unpaid, and volunteers provide their own ingredients. There's no requirement to post publicly or give a positive review. We'll ask separately before publishing your photos or comments, and you can choose whether to be credited.
+            
+            Interested? Email hello@fringetable.com with "Recipe tester" in the subject line and tell us what you enjoy cooking and any dietary restrictions.
+            
+            Explore the collection: https://fringetable.com
+        run: node scripts/meta-facebook-post.mjs
