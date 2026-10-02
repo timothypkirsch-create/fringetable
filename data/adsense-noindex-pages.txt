@@ -27,13 +27,11 @@ guides/maghreb-west-africa-pantry-guide.html
 guides/occasions/haitian-new-year-foods.html
 guides/occasions/nowruz-foods.html
 guides/occasions/yomari-punhi-foods.html
-guides/serve-with/what-to-serve-with-doro-wat.html
 guides/serve-with/what-to-serve-with-egusi-soup.html
 guides/serve-with/what-to-serve-with-georgian-lobio.html
 guides/serve-with/what-to-serve-with-uzbek-palov.html
 guides/southeast-asia-food-guide.html
 guides/southeast-asia-pantry-guide.html
-guides/substitutions/banana-stem-substitute-for-mohinga.html
 guides/substitutions/doro-wat-without-niter-kibbeh.html
 guides/substitutions/egusi-seed-substitute.html
 guides/substitutions/momos-without-steamer.html
@@ -43,7 +41,6 @@ guides/techniques/how-to-cook-with-berbere.html
 guides/techniques/how-to-keep-palov-rice-separate.html
 guides/techniques/how-to-steam-dumplings-without-bamboo-steamer.html
 recipes/armenian-spas.html
-recipes/bhutanese-hoentay.html
 recipes/kashmiri-haak.html
 recipes/lao-mok-pa.html
 recipes/ojibwe-wild-rice-berry-porridge.html
@@ -51,7 +48,6 @@ recipes/roasted-squash-maple-pepitas.html
 recipes/sudanese-asida.html
 recipes/tunisian-ojja.html
 subrecipes/afghan-garlic-yogurt.html
-subrecipes/afghan-tomato-sauce.html
 subrecipes/basic-dumpling-wrappers.html
 subrecipes/ethiopian-berbere.html
 subrecipes/ethiopian-injera.html

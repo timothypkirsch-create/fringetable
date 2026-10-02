@@ -2,6 +2,13 @@
 
 This is a human-readable milestone history reconstructed from Git commits. Git remains the detailed record for individual file changes and exact commit dates.
 
+## 2026-10-02
+
+- Used the latest Search Console page and query evidence to prioritize upgrades for Cherokee Grape Dumplings, Burmese Tofu Nway, Uzbek Palov and Ethiopian Holiday Foods.
+- Corrected the Grape Dumplings Recipe schema so all 11 visible method steps have matching structured-data names, instructions and anchors.
+- Substantially expanded Bhutanese Hoentay, Afghan Tomato Sauce, the banana-stem substitution guide and the doro-wat serving guide with practical technique, cultural context and source links.
+- Returned those four upgraded pages to indexing and the primary sitemap, reducing the AdSense remediation inventory from 68 to 64 pages while leaving all other thin pages withheld.
+
 ## 2026-09-28
 
 - Began AdSense low-value-content remediation by pausing scheduled new-recipe publishing and withholding 68 thin supporting or legacy pages from search indexing, sitemaps and advertising while keeping their URLs accessible for later improvement.

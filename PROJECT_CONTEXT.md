@@ -1,6 +1,6 @@
 # Fringe Table Project Context
 
-Last verified: 2026-09-28
+Last verified: 2026-10-02
 
 This document is the durable operational record for FringeTable.com. Update it whenever a project-wide decision, external service, publishing process, or important identifier changes. Chat history and memory are useful context, but this repository is the source of truth.
 
@@ -76,6 +76,7 @@ When adding or removing a recipe, reconcile the recipe page, catalog source, reg
 - Always verify `https://fringetable.com/ads.txt` returns HTTP 200, `text/plain`, and the exact authorized line after a deployment change.
 - AdSense may continue showing a stale status while Google recrawls the site. Do not change a correct live file solely because the dashboard has not refreshed.
 - AdSense rejected the site for low-value content on 2026-09-28. During remediation, the weekly new-recipe automation is paused. Pages listed in `data/adsense-noindex-pages.txt` remain available to readers but must stay `noindex,follow`, outside the sitemap and ineligible for AdSense until substantially upgraded.
+- Search Console evidence guides the recovery sequence. On 2026-10-02, four substantially upgraded pages—Bhutanese Hoentay, Afghan Tomato Sauce, the banana-stem substitution guide and the doro-wat serving guide—were removed from the remediation inventory and returned to the sitemap. The remaining inventory contains 64 pages.
 - AdSense code and reserved ad placements are intentionally excluded from legal/contact pages, archive and directory indexes, pronunciation/saved pages, and every `noindex` page.
 - The organization-led editorial and recipe-development disclosure is published at `editorial-process.html`. Keep its statements aligned with actual sourcing, automation, review, testing and photography practices.
 
