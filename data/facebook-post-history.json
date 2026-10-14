@@ -2,16 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-02T14:42:01.716Z",
-      "slug": "haitian-pikliz",
-      "name": "Haitian Pikliz",
-      "group": "caribbean-lowcountry",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122104755885455847"
-    },
-    {
       "published_at": "2026-09-02T15:01:40.393Z",
       "slug": "nigerian-moi-moi",
       "name": "Nigerian Moi Moi",
@@ -1318,6 +1308,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122120598621455847",
       "tracked_url": "https://fringetable.com/recipes/jamaican-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-14T20:17:21.366Z",
+      "slug": "ethiopian-doro-wat",
+      "name": "Ethiopian Doro Wat",
+      "group": "horn-northeast-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122120643591455847",
+      "tracked_url": "https://fringetable.com/recipes/ethiopian-doro-wat.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
