@@ -2,16 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-02T15:01:40.393Z",
-      "slug": "nigerian-moi-moi",
-      "name": "Nigerian Moi Moi",
-      "group": "maghreb-west-africa",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122104768467455847"
-    },
-    {
       "published_at": "2026-09-04T13:15:51.670Z",
       "slug": "tibetan-shapale",
       "name": "Tibetan Shapale",
@@ -1319,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122120643591455847",
       "tracked_url": "https://fringetable.com/recipes/ethiopian-doro-wat.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-15T00:52:38.601Z",
+      "slug": "gullah-red-rice",
+      "name": "Gullah Red Rice",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122120682267455847",
+      "tracked_url": "https://fringetable.com/recipes/gullah-red-rice.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
