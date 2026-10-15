@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-04T13:15:51.670Z",
-      "slug": "tibetan-shapale",
-      "name": "Tibetan Shapale",
-      "group": "himalayas-south-asia",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122106320757455847",
-      "tracked_url": "https://fringetable.com/recipes/tibetan-shapale.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-04T16:34:55.255Z",
       "slug": "ebci-blue-corn-tortillas",
       "name": "EBCI Blue Corn Tortillas",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122120682267455847",
       "tracked_url": "https://fringetable.com/recipes/gullah-red-rice.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-15T16:47:28.086Z",
+      "slug": "sri-lankan-kottu-roti",
+      "name": "Sri Lankan Kottu Roti",
+      "group": "himalayas-south-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122120853489455847",
+      "tracked_url": "https://fringetable.com/recipes/sri-lankan-kottu-roti.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
