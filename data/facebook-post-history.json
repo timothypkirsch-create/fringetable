@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-05T23:04:07.736Z",
-      "slug": "azerbaijani-suzme-plov",
-      "name": "Azerbaijani Suzme Plov",
-      "group": "caucasus-central-west-asia",
-      "slot": "evening",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122106911721455847",
-      "tracked_url": "https://fringetable.com/recipes/azerbaijani-suzme-plov.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-06T11:55:33.146Z",
       "slug": "assamese-aloo-pitika",
       "name": "Assamese Aloo Pitika",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121133989455847",
       "tracked_url": "https://fringetable.com/recipes/dine-blue-corn-mush.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-16T19:51:17.646Z",
+      "slug": "persian-ghormeh-sabzi",
+      "name": "Persian Ghormeh Sabzi",
+      "group": "caucasus-central-west-asia",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121167847455847",
+      "tracked_url": "https://fringetable.com/recipes/persian-ghormeh-sabzi.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
