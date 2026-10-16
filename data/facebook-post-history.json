@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-04T23:08:42.344Z",
-      "slug": "sudanese-salata-aswad",
-      "name": "Sudanese Salata Aswad",
-      "group": "horn-northeast-africa",
-      "slot": "evening",
-      "style": "story",
-      "mode": "link",
-      "post_id": "1243283225542345_122106502575455847",
-      "tracked_url": "https://fringetable.com/recipes/sudanese-salata-aswad.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-05T17:57:58.707Z",
       "slug": "vietnamese-banh-xeo",
       "name": "Vietnamese Bánh Xèo",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122120900697455847",
       "tracked_url": "https://fringetable.com/recipes/seminole-rice-sofkee.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-16T01:15:00.094Z",
+      "slug": "lowcountry-shrimp-and-grits",
+      "name": "Lowcountry Shrimp and Grits",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122120940255455847",
+      "tracked_url": "https://fringetable.com/recipes/lowcountry-shrimp-and-grits.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
