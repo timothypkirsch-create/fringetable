@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-06T16:24:58.812Z",
-      "slug": "georgian-cabbage-pkhali",
-      "name": "Georgian Cabbage Pkhali",
-      "group": "caucasus-central-west-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107193619455847",
-      "tracked_url": "https://fringetable.com/recipes/georgian-cabbage-pkhali.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-06T22:30:19.680Z",
       "slug": "moroccan-bissara",
       "name": "Northern Moroccan Bissara (Fava Bean Purée)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121205557455847",
       "tracked_url": "https://fringetable.com/recipes/moroccan-harira.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-17T15:29:21.021Z",
+      "slug": "southern-thai-khao-yam",
+      "name": "Southern Thai Khao Yam (Herbal Rice Salad)",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121354459455847",
+      "tracked_url": "https://fringetable.com/recipes/southern-thai-khao-yam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
