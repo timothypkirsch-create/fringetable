@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-06T22:30:19.680Z",
-      "slug": "moroccan-bissara",
-      "name": "Northern Moroccan Bissara (Fava Bean Purée)",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107277577455847",
-      "tracked_url": "https://fringetable.com/recipes/moroccan-bissara.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-07T11:13:12.544Z",
       "slug": "mandalay-nan-gyi-thoke",
       "name": "Mandalay Nan Gyi Thoke",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121354459455847",
       "tracked_url": "https://fringetable.com/recipes/southern-thai-khao-yam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-17T18:29:09.568Z",
+      "slug": "egyptian-koshary",
+      "name": "Egyptian Koshary (Rice, Lentils, Pasta and Chickpeas)",
+      "group": "horn-northeast-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121386733455847",
+      "tracked_url": "https://fringetable.com/recipes/egyptian-koshary.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
