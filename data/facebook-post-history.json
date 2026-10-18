@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-07T17:06:04.864Z",
-      "slug": "ethiopian-gomen",
-      "name": "Ethiopian Gomen",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107578957455847",
-      "tracked_url": "https://fringetable.com/recipes/ethiopian-gomen.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-07T23:49:00.708Z",
       "slug": "jamaican-rice-and-peas",
       "name": "Jamaican Rice and Peas",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121435639455847",
       "tracked_url": "https://fringetable.com/recipes/senegalese-thiakry.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-18T14:25:30.311Z",
+      "slug": "lao-mok-pa",
+      "name": "Lao Mok Pa",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "story",
+      "mode": "link",
+      "post_id": "1243283225542345_122121566823455847",
+      "tracked_url": "https://fringetable.com/recipes/lao-mok-pa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
