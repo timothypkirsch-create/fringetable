@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-07T11:13:12.544Z",
-      "slug": "mandalay-nan-gyi-thoke",
-      "name": "Mandalay Nan Gyi Thoke",
-      "group": "southeast-asia",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107475625455847",
-      "tracked_url": "https://fringetable.com/recipes/mandalay-nan-gyi-thoke.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-07T17:06:04.864Z",
       "slug": "ethiopian-gomen",
       "name": "Ethiopian Gomen",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121386733455847",
       "tracked_url": "https://fringetable.com/recipes/egyptian-koshary.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-18T00:59:34.608Z",
+      "slug": "senegalese-thiakry",
+      "name": "Senegalese Thiakry",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121435639455847",
+      "tracked_url": "https://fringetable.com/recipes/senegalese-thiakry.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
