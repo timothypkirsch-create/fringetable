@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-07T23:49:00.708Z",
-      "slug": "jamaican-rice-and-peas",
-      "name": "Jamaican Rice and Peas",
-      "group": "caribbean-lowcountry",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107685655455847",
-      "tracked_url": "https://fringetable.com/recipes/jamaican-rice-and-peas.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-08T11:40:19.649Z",
       "slug": "ebci-bean-and-hominy",
       "name": "EBCI Bean and Hominy",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122121566823455847",
       "tracked_url": "https://fringetable.com/recipes/lao-mok-pa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-18T19:33:14.995Z",
+      "slug": "tibetan-shapale-sha-balep",
+      "name": "Tibetan Shapale (Sha Balep)",
+      "group": "himalayas-south-asia",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121631335455847",
+      "tracked_url": "https://fringetable.com/recipes/tibetan-shapale-sha-balep.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
