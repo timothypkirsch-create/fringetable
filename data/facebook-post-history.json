@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-08T16:56:50.544Z",
-      "slug": "ghanaian-waakye",
-      "name": "Ghanaian Waakye",
-      "group": "maghreb-west-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107964403455847",
-      "tracked_url": "https://fringetable.com/recipes/ghanaian-waakye.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-08T23:13:01.978Z",
       "slug": "jamaican-hominy-corn-porridge",
       "name": "Jamaican Hominy Corn Porridge",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122121669447455847",
       "tracked_url": "https://fringetable.com/recipes/azerbaijani-dovga.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-19T17:57:13.794Z",
+      "slug": "vietnamese-banh-xeo",
+      "name": "Vietnamese Bánh Xèo",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121908175455847",
+      "tracked_url": "https://fringetable.com/recipes/vietnamese-banh-xeo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
