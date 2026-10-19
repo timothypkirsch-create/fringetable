@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-08T11:40:19.649Z",
-      "slug": "ebci-bean-and-hominy",
-      "name": "EBCI Bean and Hominy",
-      "group": "indigenous-americas",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122107860171455847",
-      "tracked_url": "https://fringetable.com/recipes/ebci-bean-and-hominy.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-08T16:56:50.544Z",
       "slug": "ghanaian-waakye",
       "name": "Ghanaian Waakye",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121631335455847",
       "tracked_url": "https://fringetable.com/recipes/tibetan-shapale-sha-balep.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-19T00:06:31.146Z",
+      "slug": "azerbaijani-dovga",
+      "name": "Azerbaijani Dovga",
+      "group": "caucasus-central-west-asia",
+      "slot": "evening",
+      "style": "story",
+      "mode": "link",
+      "post_id": "1243283225542345_122121669447455847",
+      "tracked_url": "https://fringetable.com/recipes/azerbaijani-dovga.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
