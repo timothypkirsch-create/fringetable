@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-09T11:55:24.415Z",
-      "slug": "eritrean-hamli",
-      "name": "Eritrean Hamli",
-      "group": "horn-northeast-africa",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122108239155455847",
-      "tracked_url": "https://fringetable.com/recipes/eritrean-hamli.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-09T17:26:26.241Z",
       "slug": "sri-lankan-kiribath",
       "name": "Sri Lankan Kiribath",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122121956097455847",
       "tracked_url": "https://fringetable.com/recipes/somali-laxoox-canjeero.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-20T01:49:48.928Z",
+      "slug": "jamaican-escovitch-fish",
+      "name": "Jamaican Escovitch Fish",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122121975291455847",
+      "tracked_url": "https://fringetable.com/recipes/jamaican-escovitch-fish.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
