@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-10T22:17:20.470Z",
-      "slug": "burmese-ohn-no-khao-swe",
-      "name": "Burmese Ohn No Khao Swe",
-      "group": "southeast-asia",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122108747763455847",
-      "tracked_url": "https://fringetable.com/recipes/burmese-ohn-no-khao-swe.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-11T12:01:14.948Z",
       "slug": "azerbaijani-sheki-piti",
       "name": "Sheki Piti",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122122247379455847",
       "tracked_url": "https://fringetable.com/recipes/puerto-rican-mofongo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-21T16:31:03.044Z",
+      "slug": "roasted-squash-maple-pepitas",
+      "name": "Roasted Squash with Maple & Pepitas",
+      "group": "indigenous-americas",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122122405815455847",
+      "tracked_url": "https://fringetable.com/recipes/roasted-squash-maple-pepitas.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
