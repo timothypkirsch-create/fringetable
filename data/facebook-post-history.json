@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-10T17:05:36.806Z",
-      "slug": "circassian-chicken",
-      "name": "Circassian Chicken",
-      "group": "caucasus-central-west-asia",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122108658261455847",
-      "tracked_url": "https://fringetable.com/recipes/circassian-chicken.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-10T22:17:20.470Z",
       "slug": "burmese-ohn-no-khao-swe",
       "name": "Burmese Ohn No Khao Swe",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122122202553455847",
       "tracked_url": "https://fringetable.com/recipes/hopi-piki-bread.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-21T01:29:00.255Z",
+      "slug": "puerto-rican-mofongo",
+      "name": "Puerto Rican Mofongo",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122122247379455847",
+      "tracked_url": "https://fringetable.com/recipes/puerto-rican-mofongo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
