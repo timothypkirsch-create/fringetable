@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-11T18:06:01.993Z",
-      "slug": "sri-lankan-watalappam",
-      "name": "Sri Lankan Watalappam",
-      "group": "himalayas-south-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109035265455847",
-      "tracked_url": "https://fringetable.com/recipes/sri-lankan-watalappam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-11T23:45:44.033Z",
       "slug": "trinidad-aloo-pie",
       "name": "Trinidad Aloo Pie",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122122471245455847",
       "tracked_url": "https://fringetable.com/recipes/azerbaijani-badambura.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-22T01:45:31.173Z",
+      "slug": "moroccan-zaalouk",
+      "name": "Moroccan Zaalouk",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "discovery",
+      "mode": "link",
+      "post_id": "1243283225542345_122122519221455847",
+      "tracked_url": "https://fringetable.com/recipes/moroccan-zaalouk.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
