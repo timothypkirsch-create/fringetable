@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-11T23:45:44.033Z",
-      "slug": "trinidad-aloo-pie",
-      "name": "Trinidad Aloo Pie",
-      "group": "caribbean-lowcountry",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109139269455847",
-      "tracked_url": "https://fringetable.com/recipes/trinidad-aloo-pie.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-12T12:58:35.262Z",
       "slug": "algerian-chorba-frik",
       "name": "Algerian Chorba Frik",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122122519221455847",
       "tracked_url": "https://fringetable.com/recipes/moroccan-zaalouk.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-22T16:47:44.213Z",
+      "slug": "uzbek-manti",
+      "name": "Uzbek Manti",
+      "group": "caucasus-central-west-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122122700271455847",
+      "tracked_url": "https://fringetable.com/recipes/uzbek-manti.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
