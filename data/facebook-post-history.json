@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-12T12:58:35.262Z",
-      "slug": "algerian-chorba-frik",
-      "name": "Algerian Chorba Frik",
-      "group": "maghreb-west-africa",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109312519455847",
-      "tracked_url": "https://fringetable.com/recipes/algerian-chorba-frik.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-12T16:55:12.347Z",
       "slug": "filipino-laing",
       "name": "Filipino Laing",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122122700271455847",
       "tracked_url": "https://fringetable.com/recipes/uzbek-manti.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-22T20:58:38.798Z",
+      "slug": "somali-sambuus-beef-sambusa",
+      "name": "Somali Sambuus (Beef Sambusa)",
+      "group": "horn-northeast-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122122757553455847",
+      "tracked_url": "https://fringetable.com/recipes/somali-sambuus-beef-sambusa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
