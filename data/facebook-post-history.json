@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-12T22:51:23.506Z",
-      "slug": "ethiopian-genfo",
-      "name": "Ethiopian Genfo",
-      "group": "horn-northeast-africa",
-      "slot": "evening",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109438555455847",
-      "tracked_url": "https://fringetable.com/recipes/ethiopian-genfo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-13T11:47:36.816Z",
       "slug": "himachali-siddu",
       "name": "Himachali Siddu",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122122791351455847",
       "tracked_url": "https://fringetable.com/recipes/amazigh-vegetable-couscous.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-23T16:02:05.305Z",
+      "slug": "filipino-laing",
+      "name": "Filipino Laing",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122122948287455847",
+      "tracked_url": "https://fringetable.com/recipes/filipino-laing.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
