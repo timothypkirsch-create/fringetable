@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-12T16:55:12.347Z",
-      "slug": "filipino-laing",
-      "name": "Filipino Laing",
-      "group": "southeast-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109367581455847",
-      "tracked_url": "https://fringetable.com/recipes/filipino-laing.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-12T22:51:23.506Z",
       "slug": "ethiopian-genfo",
       "name": "Ethiopian Genfo",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122122757553455847",
       "tracked_url": "https://fringetable.com/recipes/somali-sambuus-beef-sambusa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-23T01:02:40.506Z",
+      "slug": "amazigh-vegetable-couscous",
+      "name": "Amazigh Vegetable Couscous",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122122791351455847",
+      "tracked_url": "https://fringetable.com/recipes/amazigh-vegetable-couscous.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
