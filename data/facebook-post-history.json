@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-13T22:40:06.519Z",
-      "slug": "nigerian-jollof-rice",
-      "name": "Nigerian Jollof Rice",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109773673455847",
-      "tracked_url": "https://fringetable.com/recipes/nigerian-jollof-rice.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-14T11:32:00.617Z",
       "slug": "lowcountry-benne-wafers",
       "name": "Lowcountry Benne Wafers",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123059983455847",
       "tracked_url": "https://fringetable.com/recipes/bhutanese-kewa-datshi.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-24T15:21:04.358Z",
+      "slug": "cambodian-fish-amok",
+      "name": "Cambodian Fish Amok",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123182557455847",
+      "tracked_url": "https://fringetable.com/recipes/cambodian-fish-amok.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
