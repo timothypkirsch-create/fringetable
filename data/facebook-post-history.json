@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-13T17:46:25.342Z",
-      "slug": "dine-blue-corn-mush",
-      "name": "Diné Blue Corn Mush (Taa'niil)",
-      "group": "indigenous-americas",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122109704433455847",
-      "tracked_url": "https://fringetable.com/recipes/dine-blue-corn-mush.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-13T22:40:06.519Z",
       "slug": "nigerian-jollof-rice",
       "name": "Nigerian Jollof Rice",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123030823455847",
       "tracked_url": "https://fringetable.com/recipes/kashmiri-haak.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-24T02:02:10.437Z",
+      "slug": "bhutanese-kewa-datshi",
+      "name": "Bhutanese Kewa Datshi",
+      "group": "himalayas-south-asia",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123059983455847",
+      "tracked_url": "https://fringetable.com/recipes/bhutanese-kewa-datshi.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
