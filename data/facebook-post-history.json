@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-15T12:03:17.537Z",
-      "slug": "raramuri-pinole",
-      "name": "Rarámuri Pinole (Roasted Corn Drink)",
-      "group": "indigenous-americas",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122110268493455847",
-      "tracked_url": "https://fringetable.com/recipes/raramuri-pinole.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-15T16:47:47.993Z",
       "slug": "persian-ghormeh-sabzi",
       "name": "Persian Ghormeh Sabzi",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123428101455847",
       "tracked_url": "https://fringetable.com/recipes/malaysian-nasi-lemak.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-25T19:22:57.684Z",
+      "slug": "cherokee-buffalo-hominy-bean-hot-pot",
+      "name": "Cherokee Buffalo, Hominy and Bean Hot Pot",
+      "group": "indigenous-americas",
+      "slot": "afternoon",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123470149455847",
+      "tracked_url": "https://fringetable.com/recipes/cherokee-buffalo-hominy-bean-hot-pot.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
