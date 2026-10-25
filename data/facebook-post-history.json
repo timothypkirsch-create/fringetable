@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-14T17:08:50.336Z",
-      "slug": "eritrean-taita-fit-fit",
-      "name": "Eritrean Taita Fit-Fit (Injera Fit-Fit)",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122110009845455847",
-      "tracked_url": "https://fringetable.com/recipes/eritrean-taita-fit-fit.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-14T23:27:35.003Z",
       "slug": "sri-lankan-parippu-curry",
       "name": "Sri Lankan Parippu Curry",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123222835455847",
       "tracked_url": "https://fringetable.com/recipes/sudanese-kisra.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-25T01:19:05.083Z",
+      "slug": "guyanese-pepperpot",
+      "name": "Guyanese Pepperpot (Cassareep Meat Stew)",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "story",
+      "mode": "link",
+      "post_id": "1243283225542345_122123277207455847",
+      "tracked_url": "https://fringetable.com/recipes/guyanese-pepperpot.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
