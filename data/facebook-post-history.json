@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-14T23:27:35.003Z",
-      "slug": "sri-lankan-parippu-curry",
-      "name": "Sri Lankan Parippu Curry",
-      "group": "himalayas-south-asia",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122110086759455847",
-      "tracked_url": "https://fringetable.com/recipes/sri-lankan-parippu-curry.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-15T12:03:17.537Z",
       "slug": "raramuri-pinole",
       "name": "Rarámuri Pinole (Roasted Corn Drink)",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122123277207455847",
       "tracked_url": "https://fringetable.com/recipes/guyanese-pepperpot.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-25T15:11:07.823Z",
+      "slug": "malaysian-nasi-lemak",
+      "name": "Malaysian Nasi Lemak",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123428101455847",
+      "tracked_url": "https://fringetable.com/recipes/malaysian-nasi-lemak.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
