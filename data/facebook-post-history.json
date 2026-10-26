@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-15T16:47:47.993Z",
-      "slug": "persian-ghormeh-sabzi",
-      "name": "Persian Ghormeh Sabzi",
-      "group": "caucasus-central-west-asia",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "link",
-      "post_id": "1243283225542345_122110354689455847",
-      "tracked_url": "https://fringetable.com/recipes/persian-ghormeh-sabzi.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-15T23:58:54.146Z",
       "slug": "burmese-tofu-nway",
       "name": "Burmese Tofu Nway",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123470149455847",
       "tracked_url": "https://fringetable.com/recipes/cherokee-buffalo-hominy-bean-hot-pot.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-26T01:20:39.922Z",
+      "slug": "lowcountry-benne-wafers",
+      "name": "Lowcountry Benne Wafers",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123514939455847",
+      "tracked_url": "https://fringetable.com/recipes/lowcountry-benne-wafers.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
