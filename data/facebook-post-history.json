@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-15T23:58:54.146Z",
-      "slug": "burmese-tofu-nway",
-      "name": "Burmese Tofu Nway",
-      "group": "southeast-asia",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "link",
-      "post_id": "1243283225542345_122110438863455847",
-      "tracked_url": "https://fringetable.com/recipes/burmese-tofu-nway.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-16T11:58:04.535Z",
       "slug": "persian-kuku-sabzi",
       "name": "Persian Kuku Sabzi",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123514939455847",
       "tracked_url": "https://fringetable.com/recipes/lowcountry-benne-wafers.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-26T17:12:46.119Z",
+      "slug": "peruvian-causa-a-la-limena",
+      "name": "Peruvian Causa a la Limeña (Chicken-Filled Potato Terrine)",
+      "group": "indigenous-americas",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123692239455847",
+      "tracked_url": "https://fringetable.com/recipes/peruvian-causa-a-la-limena.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
