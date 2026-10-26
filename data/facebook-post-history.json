@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-16T11:58:04.535Z",
-      "slug": "persian-kuku-sabzi",
-      "name": "Persian Kuku Sabzi",
-      "group": "caucasus-central-west-asia",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122110587999455847",
-      "tracked_url": "https://fringetable.com/recipes/persian-kuku-sabzi.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-16T17:45:01.190Z",
       "slug": "cherokee-bean-bread",
       "name": "Cherokee Bean Bread",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122123692239455847",
       "tracked_url": "https://fringetable.com/recipes/peruvian-causa-a-la-limena.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-26T22:29:45.969Z",
+      "slug": "azerbaijani-meat-qutab",
+      "name": "Azerbaijani Meat Qutab",
+      "group": "caucasus-central-west-asia",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122123741955455847",
+      "tracked_url": "https://fringetable.com/recipes/azerbaijani-meat-qutab.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
