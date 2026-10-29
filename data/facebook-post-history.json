@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-19T11:34:12.010Z",
-      "slug": "trinidad-callaloo",
-      "name": "Trinidad Callaloo",
-      "group": "caribbean-lowcountry",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122111776971455847",
-      "tracked_url": "https://fringetable.com/recipes/trinidad-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-19T17:55:43.543Z",
       "slug": "ethiopian-chechebsa-kita-firfir",
       "name": "Ethiopian Chechebsa (Kita Firfir)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124392961455847",
       "tracked_url": "https://fringetable.com/recipes/vietnamese-bun-rieu.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-29T21:20:19.415Z",
+      "slug": "ethiopian-gomen",
+      "name": "Ethiopian Gomen",
+      "group": "horn-northeast-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124417687455847",
+      "tracked_url": "https://fringetable.com/recipes/ethiopian-gomen.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
