@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-18T16:36:52.757Z",
-      "slug": "senegalese-chicken-yassa",
-      "name": "Senegalese Chicken Yassa",
-      "group": "maghreb-west-africa",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122111475531455847",
-      "tracked_url": "https://fringetable.com/recipes/senegalese-chicken-yassa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-18T23:40:07.303Z",
       "slug": "guyanese-pepperpot",
       "name": "Guyanese Pepperpot (Cassareep Meat Stew)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124188073455847",
       "tracked_url": "https://fringetable.com/recipes/dine-kneel-down-bread.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-29T02:16:27.959Z",
+      "slug": "pakistani-beef-nihari",
+      "name": "Pakistani Beef Nihari (Slow-Cooked Shank Stew)",
+      "group": "himalayas-south-asia",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124226227455847",
+      "tracked_url": "https://fringetable.com/recipes/pakistani-beef-nihari.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
