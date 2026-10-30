@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-19T17:55:43.543Z",
-      "slug": "ethiopian-chechebsa-kita-firfir",
-      "name": "Ethiopian Chechebsa (Kita Firfir)",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122111878917455847",
-      "tracked_url": "https://fringetable.com/recipes/ethiopian-chechebsa-kita-firfir.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-19T22:22:12.438Z",
       "slug": "kashmiri-haak",
       "name": "Kashmiri Haak",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124417687455847",
       "tracked_url": "https://fringetable.com/recipes/ethiopian-gomen.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-30T02:02:46.219Z",
+      "slug": "jamaican-festival",
+      "name": "Jamaican Festival Fried Dumplings",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124459879455847",
+      "tracked_url": "https://fringetable.com/recipes/jamaican-festival.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
