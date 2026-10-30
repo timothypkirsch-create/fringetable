@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-19T22:22:12.438Z",
-      "slug": "kashmiri-haak",
-      "name": "Kashmiri Haak",
-      "group": "himalayas-south-asia",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122111964753455847",
-      "tracked_url": "https://fringetable.com/recipes/kashmiri-haak.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-20T12:14:13.041Z",
       "slug": "roasted-squash-maple-pepitas",
       "name": "Roasted Squash with Maple & Pepitas",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124459879455847",
       "tracked_url": "https://fringetable.com/recipes/jamaican-festival.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-30T18:29:47.999Z",
+      "slug": "lao-larb-neua",
+      "name": "Lao Larb Neua",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124621591455847",
+      "tracked_url": "https://fringetable.com/recipes/lao-larb-neua.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
