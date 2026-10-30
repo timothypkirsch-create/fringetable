@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-20T12:14:13.041Z",
-      "slug": "roasted-squash-maple-pepitas",
-      "name": "Roasted Squash with Maple & Pepitas",
-      "group": "indigenous-americas",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122112181431455847",
-      "tracked_url": "https://fringetable.com/recipes/roasted-squash-maple-pepitas.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-20T16:12:44.084Z",
       "slug": "imeretian-khachapuri",
       "name": "Imeretian Khachapuri",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124621591455847",
       "tracked_url": "https://fringetable.com/recipes/lao-larb-neua.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-10-30T22:17:18.006Z",
+      "slug": "moroccan-bissara",
+      "name": "Northern Moroccan Bissara (Fava Bean Purée)",
+      "group": "maghreb-west-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124660243455847",
+      "tracked_url": "https://fringetable.com/recipes/moroccan-bissara.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
