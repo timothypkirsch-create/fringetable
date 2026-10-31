@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-20T16:12:44.084Z",
-      "slug": "imeretian-khachapuri",
-      "name": "Imeretian Khachapuri",
-      "group": "caucasus-central-west-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122112241617455847",
-      "tracked_url": "https://fringetable.com/recipes/imeretian-khachapuri.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-20T23:30:09.529Z",
       "slug": "lao-sticky-rice-khao-niew",
       "name": "Lao Sticky Rice (Khao Niew)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124660243455847",
       "tracked_url": "https://fringetable.com/recipes/moroccan-bissara.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-10-31T01:59:39.069Z",
+      "slug": "trinidad-callaloo",
+      "name": "Trinidad Callaloo",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124696687455847",
+      "tracked_url": "https://fringetable.com/recipes/trinidad-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
