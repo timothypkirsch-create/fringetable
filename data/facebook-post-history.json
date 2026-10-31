@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-20T23:30:09.529Z",
-      "slug": "lao-sticky-rice-khao-niew",
-      "name": "Lao Sticky Rice (Khao Niew)",
-      "group": "southeast-asia",
-      "slot": "evening",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122112356889455847",
-      "tracked_url": "https://fringetable.com/recipes/lao-sticky-rice-khao-niew.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-21T11:58:45.652Z",
       "slug": "georgian-chakapuli",
       "name": "Georgian Chakapuli",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122124696687455847",
       "tracked_url": "https://fringetable.com/recipes/trinidad-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-10-31T16:51:56.899Z",
+      "slug": "haudenosaunee-three-sisters-soup",
+      "name": "Haudenosaunee Three Sisters Soup",
+      "group": "indigenous-americas",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122124863253455847",
+      "tracked_url": "https://fringetable.com/recipes/haudenosaunee-three-sisters-soup.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
