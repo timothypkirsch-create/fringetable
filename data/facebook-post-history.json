@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-21T23:33:54.344Z",
-      "slug": "ethiopian-tikil-gomen",
-      "name": "Ethiopian Tikil Gomen",
-      "group": "horn-northeast-africa",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122112728973455847",
-      "tracked_url": "https://fringetable.com/recipes/ethiopian-tikil-gomen.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-22T12:04:14.174Z",
       "slug": "senegalese-thiakry",
       "name": "Senegalese Thiakry",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122124930957455847",
       "tracked_url": "https://fringetable.com/recipes/haitian-legim.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-01T18:50:13.911Z",
+      "slug": "georgian-chakhokhbili",
+      "name": "Georgian Chakhokhbili",
+      "group": "caucasus-central-west-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122125100403455847",
+      "tracked_url": "https://fringetable.com/recipes/georgian-chakhokhbili.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
