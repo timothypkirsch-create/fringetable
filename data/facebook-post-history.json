@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-25T00:45:10.510Z",
-      "slug": "goan-bebinca",
-      "name": "Goan Bebinca",
-      "group": "himalayas-south-asia",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122113965045455847",
-      "tracked_url": "https://fringetable.com/recipes/goan-bebinca.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-25T17:41:07.121Z",
       "slug": "ecuadorian-llapingachos",
       "name": "Ecuadorian Llapingachos (Cheese-Filled Potato Cakes)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122125637961455847",
       "tracked_url": "https://fringetable.com/recipes/dine-blue-corn-mush.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-04T18:26:11.666Z",
+      "slug": "lao-or-lam",
+      "name": "Lao Or Lam",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122125898649455847",
+      "tracked_url": "https://fringetable.com/recipes/lao-or-lam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
