@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-24T20:44:39.597Z",
-      "slug": "somali-laxoox-canjeero",
-      "name": "Somali Laxoox (Canjeero)",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122113915773455847",
-      "tracked_url": "https://fringetable.com/recipes/somali-laxoox-canjeero.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-25T00:45:10.510Z",
       "slug": "goan-bebinca",
       "name": "Goan Bebinca",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122125590777455847",
       "tracked_url": "https://fringetable.com/recipes/somali-bariis-iskukaris.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-04T01:49:07.565Z",
+      "slug": "dine-blue-corn-mush",
+      "name": "Diné Blue Corn Mush (Taa'niil)",
+      "group": "indigenous-americas",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122125637961455847",
+      "tracked_url": "https://fringetable.com/recipes/dine-blue-corn-mush.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
