@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-25T17:41:07.121Z",
-      "slug": "ecuadorian-llapingachos",
-      "name": "Ecuadorian Llapingachos (Cheese-Filled Potato Cakes)",
-      "group": "indigenous-americas",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122114226639455847",
-      "tracked_url": "https://fringetable.com/recipes/ecuadorian-llapingachos.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-09-25T20:28:38.578Z",
       "slug": "georgian-ghomi-sulguni",
       "name": "Georgian Ghomi with Sulguni",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122125898649455847",
       "tracked_url": "https://fringetable.com/recipes/lao-or-lam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-04T23:34:54.256Z",
+      "slug": "nigerian-jollof-rice",
+      "name": "Nigerian Jollof Rice",
+      "group": "maghreb-west-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122125973985455847",
+      "tracked_url": "https://fringetable.com/recipes/nigerian-jollof-rice.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
