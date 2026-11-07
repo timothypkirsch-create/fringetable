@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-27T20:03:53.036Z",
-      "slug": "northern-thai-khao-soi-gai",
-      "name": "Northern Thai Khao Soi Gai",
-      "group": "southeast-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122114958693455847",
-      "tracked_url": "https://fringetable.com/recipes/northern-thai-khao-soi-gai.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-28T00:13:56.932Z",
       "slug": "southern-thai-khao-yam",
       "name": "Southern Thai Khao Yam (Herbal Rice Salad)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122126439261455847",
       "tracked_url": "https://fringetable.com/recipes/ethiopian-azifa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-07T03:21:32.289Z",
+      "slug": "moroccan-harira",
+      "name": "Moroccan Harira",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122126478483455847",
+      "tracked_url": "https://fringetable.com/recipes/moroccan-harira.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
