@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-28T00:13:56.932Z",
-      "slug": "southern-thai-khao-yam",
-      "name": "Southern Thai Khao Yam (Herbal Rice Salad)",
-      "group": "southeast-asia",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122115007065455847",
-      "tracked_url": "https://fringetable.com/recipes/southern-thai-khao-yam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-28T20:19:10.161Z",
       "slug": "pakistani-beef-nihari",
       "name": "Pakistani Beef Nihari (Slow-Cooked Shank Stew)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122126478483455847",
       "tracked_url": "https://fringetable.com/recipes/moroccan-harira.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-07T18:15:46.673Z",
+      "slug": "assamese-khar-raw-papaya",
+      "name": "Assamese Khar with Raw Papaya",
+      "group": "himalayas-south-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122126664141455847",
+      "tracked_url": "https://fringetable.com/recipes/assamese-khar-raw-papaya.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
