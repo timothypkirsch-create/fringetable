@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-29T01:26:04.346Z",
-      "slug": "nigerian-egusi-soup",
-      "name": "Nigerian Egusi Soup",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122115374385455847",
-      "tracked_url": "https://fringetable.com/recipes/nigerian-egusi-soup.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-29T17:50:33.553Z",
       "slug": "gullah-geechee-okra-soup",
       "name": "Gullah Geechee Okra Soup",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122126768097455847",
       "tracked_url": "https://fringetable.com/recipes/tibetan-shapale-sha-balep.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-08T16:55:55.808Z",
+      "slug": "southern-vietnamese-banh-xeo",
+      "name": "Southern Vietnamese Bánh Xèo",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122126940099455847",
+      "tracked_url": "https://fringetable.com/recipes/southern-vietnamese-banh-xeo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
