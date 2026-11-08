@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-28T21:50:09.877Z",
-      "slug": "harcha",
-      "name": "Harcha",
-      "group": "maghreb-west-africa",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122115332193455847",
-      "tracked_url": "https://fringetable.com/recipes/harcha.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-29T01:26:04.346Z",
       "slug": "nigerian-egusi-soup",
       "name": "Nigerian Egusi Soup",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122126709717455847",
       "tracked_url": "https://fringetable.com/recipes/seminole-rice-sofkee.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-08T02:20:11.101Z",
+      "slug": "tibetan-shapale-sha-balep",
+      "name": "Tibetan Shapale (Sha Balep)",
+      "group": "himalayas-south-asia",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122126768097455847",
+      "tracked_url": "https://fringetable.com/recipes/tibetan-shapale-sha-balep.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
