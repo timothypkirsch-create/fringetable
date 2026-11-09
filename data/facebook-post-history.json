@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-30T01:41:27.075Z",
-      "slug": "sri-lankan-kiribath",
-      "name": "Sri Lankan Kiribath",
-      "group": "himalayas-south-asia",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122115779445455847",
-      "tracked_url": "https://fringetable.com/recipes/sri-lankan-kiribath.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-09-30T18:12:24.368Z",
       "slug": "ebci-bean-and-hominy",
       "name": "EBCI Bean and Hominy",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127029673455847",
       "tracked_url": "https://fringetable.com/recipes/palestinian-musakhan.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-09T22:02:34.038Z",
+      "slug": "hanoi-bun-cha",
+      "name": "Hanoi Bún Chả",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127226527455847",
+      "tracked_url": "https://fringetable.com/recipes/hanoi-bun-cha.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
