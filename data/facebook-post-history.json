@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-29T20:45:36.729Z",
-      "slug": "sudanese-salata-aswad",
-      "name": "Sudanese Salata Aswad",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "link",
-      "post_id": "1243283225542345_122115722505455847",
-      "tracked_url": "https://fringetable.com/recipes/sudanese-salata-aswad.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-09-30T01:41:27.075Z",
       "slug": "sri-lankan-kiribath",
       "name": "Sri Lankan Kiribath",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122126987031455847",
       "tracked_url": "https://fringetable.com/recipes/sudanese-gurasa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-09T02:09:16.335Z",
+      "slug": "palestinian-musakhan",
+      "name": "Palestinian Musakhan (Sumac Chicken on Taboon Bread)",
+      "group": "caucasus-central-west-asia",
+      "slot": "evening",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127029673455847",
+      "tracked_url": "https://fringetable.com/recipes/palestinian-musakhan.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
