@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-01T01:35:59.327Z",
-      "slug": "jamaican-festival",
-      "name": "Jamaican Festival Fried Dumplings",
-      "group": "caribbean-lowcountry",
-      "slot": "evening",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122116136637455847",
-      "tracked_url": "https://fringetable.com/recipes/jamaican-festival.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-01T18:34:46.170Z",
       "slug": "georgian-lobio",
       "name": "Georgian Lobio",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127286917455847",
       "tracked_url": "https://fringetable.com/recipes/lowcountry-shrimp-and-grits.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-10T19:22:17.548Z",
+      "slug": "wild-rice-cakes-maple",
+      "name": "Wild Rice Cakes with Maple",
+      "group": "indigenous-americas",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127408105455847",
+      "tracked_url": "https://fringetable.com/recipes/wild-rice-cakes-maple.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
