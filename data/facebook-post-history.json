@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-09-30T21:50:09.320Z",
-      "slug": "afghan-ashak",
-      "name": "Afghan Ashak",
-      "group": "caucasus-central-west-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122116094571455847",
-      "tracked_url": "https://fringetable.com/recipes/afghan-ashak.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-01T01:35:59.327Z",
       "slug": "jamaican-festival",
       "name": "Jamaican Festival Fried Dumplings",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127249813455847",
       "tracked_url": "https://fringetable.com/recipes/ghanaian-ga-kenkey.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-10T05:27:17.427Z",
+      "slug": "lowcountry-shrimp-and-grits",
+      "name": "Lowcountry Shrimp and Grits",
+      "group": "caribbean-lowcountry",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127286917455847",
+      "tracked_url": "https://fringetable.com/recipes/lowcountry-shrimp-and-grits.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
