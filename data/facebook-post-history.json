@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-01T18:34:46.170Z",
-      "slug": "georgian-lobio",
-      "name": "Georgian Lobio",
-      "group": "caucasus-central-west-asia",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122116358301455847",
-      "tracked_url": "https://fringetable.com/recipes/georgian-lobio.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-01T22:07:53.422Z",
       "slug": "pachamanca-a-la-olla",
       "name": "Pachamanca a la Olla (Andean Home Adaptation)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127408105455847",
       "tracked_url": "https://fringetable.com/recipes/wild-rice-cakes-maple.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-10T21:55:33.310Z",
+      "slug": "assamese-aloo-pitika",
+      "name": "Assamese Aloo Pitika",
+      "group": "himalayas-south-asia",
+      "slot": "afternoon",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127436023455847",
+      "tracked_url": "https://fringetable.com/recipes/assamese-aloo-pitika.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
