@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-02T01:48:55.552Z",
-      "slug": "sudanese-ful-medames",
-      "name": "Sudanese Ful Medames",
-      "group": "horn-northeast-africa",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122116453083455847",
-      "tracked_url": "https://fringetable.com/recipes/sudanese-ful-medames.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-02T17:41:56.993Z",
       "slug": "egyptian-molokhia",
       "name": "Egyptian Molokhia (Jute Leaf Soup with Tasha)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127472437455847",
       "tracked_url": "https://fringetable.com/recipes/lowcountry-benne-wafers.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-11T18:22:17.689Z",
+      "slug": "uzbek-samsa",
+      "name": "Uzbek Samsa",
+      "group": "caucasus-central-west-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127614673455847",
+      "tracked_url": "https://fringetable.com/recipes/uzbek-samsa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
