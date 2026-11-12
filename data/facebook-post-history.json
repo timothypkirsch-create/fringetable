@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-02T22:14:36.402Z",
-      "slug": "malaysian-nasi-lemak",
-      "name": "Malaysian Nasi Lemak",
-      "group": "southeast-asia",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122116750623455847",
-      "tracked_url": "https://fringetable.com/recipes/malaysian-nasi-lemak.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-03T00:58:29.013Z",
       "slug": "southern-vietnamese-banh-xeo",
       "name": "Southern Vietnamese Bánh Xèo",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127669231455847",
       "tracked_url": "https://fringetable.com/recipes/egyptian-koshary.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-12T04:26:11.149Z",
+      "slug": "amazigh-vegetable-couscous",
+      "name": "Amazigh Vegetable Couscous",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122127708147455847",
+      "tracked_url": "https://fringetable.com/recipes/amazigh-vegetable-couscous.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
