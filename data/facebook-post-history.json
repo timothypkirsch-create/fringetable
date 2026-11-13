@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-03T19:31:14.732Z",
-      "slug": "sierra-leonean-cassava-leaf-stew",
-      "name": "Sierra Leonean Cassava Leaf Stew",
-      "group": "maghreb-west-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122117074311455847",
-      "tracked_url": "https://fringetable.com/recipes/sierra-leonean-cassava-leaf-stew.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-04T02:03:54.301Z",
       "slug": "moroccan-zaalouk",
       "name": "Moroccan Zaalouk",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122127901659455847",
       "tracked_url": "https://fringetable.com/recipes/peruvian-causa-a-la-limena.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-13T02:57:48.545Z",
+      "slug": "bhutanese-jasha-maroo",
+      "name": "Bhutanese Jasha Maroo",
+      "group": "himalayas-south-asia",
+      "slot": "evening",
+      "style": "story",
+      "mode": "link",
+      "post_id": "1243283225542345_122127926757455847",
+      "tracked_url": "https://fringetable.com/recipes/bhutanese-jasha-maroo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
