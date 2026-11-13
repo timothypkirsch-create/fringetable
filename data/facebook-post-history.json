@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-04T02:03:54.301Z",
-      "slug": "moroccan-zaalouk",
-      "name": "Moroccan Zaalouk",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "link",
-      "post_id": "1243283225542345_122117161323455847",
-      "tracked_url": "https://fringetable.com/recipes/moroccan-zaalouk.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-04T17:32:35.491Z",
       "slug": "dominican-sancocho",
       "name": "Dominican Sancocho (Meat and Root-Vegetable Stew)",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122127926757455847",
       "tracked_url": "https://fringetable.com/recipes/bhutanese-jasha-maroo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-13T19:56:25.637Z",
+      "slug": "vietnamese-banh-xeo",
+      "name": "Vietnamese Bánh Xèo",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122128086939455847",
+      "tracked_url": "https://fringetable.com/recipes/vietnamese-banh-xeo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
