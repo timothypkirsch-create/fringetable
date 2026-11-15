@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-06T21:38:01.262Z",
-      "slug": "armenian-harisa",
-      "name": "Armenian Harisa (Wheat and Chicken Porridge)",
-      "group": "caucasus-central-west-asia",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122118069771455847",
-      "tracked_url": "https://fringetable.com/recipes/armenian-harisa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-07T02:04:11.464Z",
       "slug": "tunisian-brik-a-loeuf",
       "name": "Tunisian Brik à l'Oeuf",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122128475541455847",
       "tracked_url": "https://fringetable.com/recipes/anishinaabe-manoomin-stovetop-wild-rice.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-15T22:37:48.451Z",
+      "slug": "sri-lankan-kottu-roti",
+      "name": "Sri Lankan Kottu Roti",
+      "group": "himalayas-south-asia",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122128497639455847",
+      "tracked_url": "https://fringetable.com/recipes/sri-lankan-kottu-roti.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
