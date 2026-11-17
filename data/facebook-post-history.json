@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-08T18:29:27.673Z",
-      "slug": "hanoi-bun-cha",
-      "name": "Hanoi Bún Chả",
-      "group": "southeast-asia",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122118661545455847",
-      "tracked_url": "https://fringetable.com/recipes/hanoi-bun-cha.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-08T21:27:37.932Z",
       "slug": "tibetan-thenthuk",
       "name": "Tibetan Thenthuk",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122128805667455847",
       "tracked_url": "https://fringetable.com/recipes/senegalese-thiakry.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-17T19:49:49.276Z",
+      "slug": "jamaican-hominy-corn-porridge",
+      "name": "Jamaican Hominy Corn Porridge",
+      "group": "caribbean-lowcountry",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129052771455847",
+      "tracked_url": "https://fringetable.com/recipes/jamaican-hominy-corn-porridge.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
