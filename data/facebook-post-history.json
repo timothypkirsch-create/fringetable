@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-09T21:24:15.376Z",
-      "slug": "sudanese-gurasa",
-      "name": "Sudanese Gurasa",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122119023741455847",
-      "tracked_url": "https://fringetable.com/recipes/sudanese-gurasa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-10T01:42:36.378Z",
       "slug": "haitian-griot",
       "name": "Haitian Griot",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129350317455847",
       "tracked_url": "https://fringetable.com/recipes/malaysian-asam-pedas-ikan.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-18T22:53:57.455Z",
+      "slug": "eritrean-hamli",
+      "name": "Eritrean Hamli",
+      "group": "horn-northeast-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129365377455847",
+      "tracked_url": "https://fringetable.com/recipes/eritrean-hamli.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
