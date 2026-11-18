@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-09T18:24:17.825Z",
-      "slug": "lowcountry-benne-wafers",
-      "name": "Lowcountry Benne Wafers",
-      "group": "caribbean-lowcountry",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122118982935455847",
-      "tracked_url": "https://fringetable.com/recipes/lowcountry-benne-wafers.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-09T21:24:15.376Z",
       "slug": "sudanese-gurasa",
       "name": "Sudanese Gurasa",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129121555455847",
       "tracked_url": "https://fringetable.com/recipes/sri-lankan-parippu-curry.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-18T20:57:24.342Z",
+      "slug": "malaysian-asam-pedas-ikan",
+      "name": "Malaysian Asam Pedas Ikan (Sour-Spicy Fish Stew)",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129350317455847",
+      "tracked_url": "https://fringetable.com/recipes/malaysian-asam-pedas-ikan.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
