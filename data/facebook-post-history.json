@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-10T01:42:36.378Z",
-      "slug": "haitian-griot",
-      "name": "Haitian Griot",
-      "group": "caribbean-lowcountry",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122119059435455847",
-      "tracked_url": "https://fringetable.com/recipes/haitian-griot.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-10T17:35:36.449Z",
       "slug": "nepali-aloo-tama-bodi",
       "name": "Nepali Aloo Tama Bodi",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129365377455847",
       "tracked_url": "https://fringetable.com/recipes/eritrean-hamli.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-19T03:15:40.350Z",
+      "slug": "armenian-ghapama",
+      "name": "Armenian Ghapama",
+      "group": "caucasus-central-west-asia",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129402265455847",
+      "tracked_url": "https://fringetable.com/recipes/armenian-ghapama.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
