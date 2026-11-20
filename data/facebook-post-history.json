@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-11T16:41:30.348Z",
-      "slug": "ebci-blue-corn-tortillas",
-      "name": "EBCI Blue Corn Tortillas",
-      "group": "indigenous-americas",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122119560711455847",
-      "tracked_url": "https://fringetable.com/recipes/ebci-blue-corn-tortillas.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-11T20:53:31.238Z",
       "slug": "uzbek-samsa",
       "name": "Uzbek Samsa",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129623287455847",
       "tracked_url": "https://fringetable.com/recipes/azerbaijani-suzme-plov.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-20T19:09:39.963Z",
+      "slug": "ebci-black-walnut-pound-cake",
+      "name": "EBCI Black Walnut Pound Cake",
+      "group": "indigenous-americas",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129769351455847",
+      "tracked_url": "https://fringetable.com/recipes/ebci-black-walnut-pound-cake.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
