@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-11T00:45:50.923Z",
-      "slug": "armenian-zhingyalov-hats",
-      "name": "Armenian Zhingyalov Hats (Herb-Stuffed Flatbread)",
-      "group": "caucasus-central-west-asia",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122119357773455847",
-      "tracked_url": "https://fringetable.com/recipes/armenian-zhingyalov-hats.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-11T16:41:30.348Z",
       "slug": "ebci-blue-corn-tortillas",
       "name": "EBCI Blue Corn Tortillas",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122129605353455847",
       "tracked_url": "https://fringetable.com/recipes/gullah-geechee-okra-soup.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-20T03:37:43.435Z",
+      "slug": "azerbaijani-suzme-plov",
+      "name": "Azerbaijani Suzme Plov",
+      "group": "caucasus-central-west-asia",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129623287455847",
+      "tracked_url": "https://fringetable.com/recipes/azerbaijani-suzme-plov.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
