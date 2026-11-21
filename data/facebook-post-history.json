@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-12T01:01:40.332Z",
-      "slug": "ghanaian-kelewele",
-      "name": "Ghanaian Kelewele",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122119694289455847",
-      "tracked_url": "https://fringetable.com/recipes/ghanaian-kelewele.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-12T21:07:18.541Z",
       "slug": "minangkabau-beef-rendang",
       "name": "Minangkabau Beef Rendang",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129815923455847",
       "tracked_url": "https://fringetable.com/recipes/pakistani-beef-nihari.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-21T04:40:23.574Z",
+      "slug": "nepali-kwati",
+      "name": "Nepali Kwati (Sprouted Mixed-Bean Soup)",
+      "group": "himalayas-south-asia",
+      "slot": "evening",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129857923455847",
+      "tracked_url": "https://fringetable.com/recipes/nepali-kwati.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
