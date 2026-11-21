@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-12T21:07:18.541Z",
-      "slug": "minangkabau-beef-rendang",
-      "name": "Minangkabau Beef Rendang",
-      "group": "southeast-asia",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120039745455847",
-      "tracked_url": "https://fringetable.com/recipes/minangkabau-beef-rendang.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-12T23:06:20.301Z",
       "slug": "ethiopian-siga-tibs",
       "name": "Ethiopian Siga Tibs",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129857923455847",
       "tracked_url": "https://fringetable.com/recipes/nepali-kwati.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-21T19:34:53.117Z",
+      "slug": "sierra-leonean-cassava-leaf-stew",
+      "name": "Sierra Leonean Cassava Leaf Stew",
+      "group": "maghreb-west-africa",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122129988507455847",
+      "tracked_url": "https://fringetable.com/recipes/sierra-leonean-cassava-leaf-stew.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
