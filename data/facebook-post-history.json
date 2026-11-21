@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-12T23:06:20.301Z",
-      "slug": "ethiopian-siga-tibs",
-      "name": "Ethiopian Siga Tibs",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120068515455847",
-      "tracked_url": "https://fringetable.com/recipes/ethiopian-siga-tibs.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-13T03:51:28.702Z",
       "slug": "ghanaian-ga-kenkey",
       "name": "Ghanaian Kenkey (Ga-Style Fermented Maize Dumplings)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122129988507455847",
       "tracked_url": "https://fringetable.com/recipes/sierra-leonean-cassava-leaf-stew.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-21T22:56:49.472Z",
+      "slug": "fossolia",
+      "name": "Fossolia",
+      "group": "horn-northeast-africa",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130019557455847",
+      "tracked_url": "https://fringetable.com/recipes/fossolia.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
