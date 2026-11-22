@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-13T21:34:36.542Z",
-      "slug": "newari-chatamari",
-      "name": "Newari Chatamari",
-      "group": "himalayas-south-asia",
-      "slot": "afternoon",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120351085455847",
-      "tracked_url": "https://fringetable.com/recipes/newari-chatamari.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-14T02:12:42.505Z",
       "slug": "georgian-chakhokhbili",
       "name": "Georgian Chakhokhbili",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122130199269455847",
       "tracked_url": "https://fringetable.com/recipes/trinidad-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-22T21:37:47.294Z",
+      "slug": "ojibwe-wild-rice-berry-porridge",
+      "name": "Ojibwe Wild Rice & Berry Porridge",
+      "group": "indigenous-americas",
+      "slot": "afternoon",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130220647455847",
+      "tracked_url": "https://fringetable.com/recipes/ojibwe-wild-rice-berry-porridge.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
