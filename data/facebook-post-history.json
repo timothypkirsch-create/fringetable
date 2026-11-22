@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-13T18:45:36.849Z",
-      "slug": "burmese-shan-noodles",
-      "name": "Shan Noodles",
-      "group": "southeast-asia",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120316609455847",
-      "tracked_url": "https://fringetable.com/recipes/burmese-shan-noodles.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-13T21:34:36.542Z",
       "slug": "newari-chatamari",
       "name": "Newari Chatamari",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122130050481455847",
       "tracked_url": "https://fringetable.com/recipes/nigerian-beef-suya.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-22T19:17:56.064Z",
+      "slug": "trinidad-callaloo",
+      "name": "Trinidad Callaloo",
+      "group": "caribbean-lowcountry",
+      "slot": "morning",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130199269455847",
+      "tracked_url": "https://fringetable.com/recipes/trinidad-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
