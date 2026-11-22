@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-13T03:51:28.702Z",
-      "slug": "ghanaian-ga-kenkey",
-      "name": "Ghanaian Kenkey (Ga-Style Fermented Maize Dumplings)",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "table",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120126103455847",
-      "tracked_url": "https://fringetable.com/recipes/ghanaian-ga-kenkey.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-13T18:45:36.849Z",
       "slug": "burmese-shan-noodles",
       "name": "Shan Noodles",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122130019557455847",
       "tracked_url": "https://fringetable.com/recipes/fossolia.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-22T03:05:38.847Z",
+      "slug": "nigerian-beef-suya",
+      "name": "Nigerian Beef Suya (Yaji-Spiced Skewers)",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130050481455847",
+      "tracked_url": "https://fringetable.com/recipes/nigerian-beef-suya.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
