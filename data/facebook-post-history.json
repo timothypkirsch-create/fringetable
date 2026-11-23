@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-14T16:28:08.266Z",
-      "slug": "jamaican-callaloo",
-      "name": "Jamaican Callaloo",
-      "group": "caribbean-lowcountry",
-      "slot": "morning",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120598621455847",
-      "tracked_url": "https://fringetable.com/recipes/jamaican-callaloo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-14T20:17:21.366Z",
       "slug": "ethiopian-doro-wat",
       "name": "Ethiopian Doro Wat",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122130264513455847",
       "tracked_url": "https://fringetable.com/recipes/ethiopian-chechebsa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-23T23:32:12.462Z",
+      "slug": "myanmar-mohinga",
+      "name": "Myanmar Mohinga",
+      "group": "southeast-asia",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130445671455847",
+      "tracked_url": "https://fringetable.com/recipes/myanmar-mohinga.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
