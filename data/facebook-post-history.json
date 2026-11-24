@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-15T00:52:38.601Z",
-      "slug": "gullah-red-rice",
-      "name": "Gullah Red Rice",
-      "group": "caribbean-lowcountry",
-      "slot": "evening",
-      "style": "discovery",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120682267455847",
-      "tracked_url": "https://fringetable.com/recipes/gullah-red-rice.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-15T16:47:28.086Z",
       "slug": "sri-lankan-kottu-roti",
       "name": "Sri Lankan Kottu Roti",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122130481509455847",
       "tracked_url": "https://fringetable.com/recipes/southern-thai-khao-yam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-24T07:01:08.807Z",
+      "slug": "georgian-cabbage-pkhali",
+      "name": "Georgian Cabbage Pkhali",
+      "group": "caucasus-central-west-asia",
+      "slot": "evening",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130510081455847",
+      "tracked_url": "https://fringetable.com/recipes/georgian-cabbage-pkhali.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
