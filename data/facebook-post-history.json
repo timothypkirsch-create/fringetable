@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-14T20:17:21.366Z",
-      "slug": "ethiopian-doro-wat",
-      "name": "Ethiopian Doro Wat",
-      "group": "horn-northeast-africa",
-      "slot": "afternoon",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122120643591455847",
-      "tracked_url": "https://fringetable.com/recipes/ethiopian-doro-wat.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
-    },
-    {
       "published_at": "2026-10-15T00:52:38.601Z",
       "slug": "gullah-red-rice",
       "name": "Gullah Red Rice",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122130445671455847",
       "tracked_url": "https://fringetable.com/recipes/myanmar-mohinga.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
+    },
+    {
+      "published_at": "2026-11-24T03:47:11.046Z",
+      "slug": "southern-thai-khao-yam",
+      "name": "Southern Thai Khao Yam (Herbal Rice Salad)",
+      "group": "southeast-asia",
+      "slot": "afternoon",
+      "style": "table",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130481509455847",
+      "tracked_url": "https://fringetable.com/recipes/southern-thai-khao-yam.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
     }
   ]
 }
