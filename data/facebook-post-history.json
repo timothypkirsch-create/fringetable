@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-16T16:16:55.813Z",
-      "slug": "dine-blue-corn-mush",
-      "name": "Diné Blue Corn Mush (Taa'niil)",
-      "group": "indigenous-americas",
-      "slot": "morning",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122121133989455847",
-      "tracked_url": "https://fringetable.com/recipes/dine-blue-corn-mush.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-16T19:51:17.646Z",
       "slug": "persian-ghormeh-sabzi",
       "name": "Persian Ghormeh Sabzi",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122130727695455847",
       "tracked_url": "https://fringetable.com/recipes/persian-ghormeh-sabzi.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-25T21:00:13.343Z",
+      "slug": "ebci-bean-and-hominy",
+      "name": "EBCI Bean and Hominy",
+      "group": "indigenous-americas",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122130865413455847",
+      "tracked_url": "https://fringetable.com/recipes/ebci-bean-and-hominy.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
