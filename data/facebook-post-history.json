@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-18T00:59:34.608Z",
-      "slug": "senegalese-thiakry",
-      "name": "Senegalese Thiakry",
-      "group": "maghreb-west-africa",
-      "slot": "evening",
-      "style": "story",
-      "mode": "photo",
-      "post_id": "1243283225542345_122121435639455847",
-      "tracked_url": "https://fringetable.com/recipes/senegalese-thiakry.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-18T14:25:30.311Z",
       "slug": "lao-mok-pa",
       "name": "Lao Mok Pa",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122131120317455847",
       "tracked_url": "https://fringetable.com/recipes/ethiopian-siga-tibs.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-27T04:02:17.782Z",
+      "slug": "west-african-groundnut-stew",
+      "name": "West African Groundnut Stew",
+      "group": "maghreb-west-africa",
+      "slot": "evening",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122131140189455847",
+      "tracked_url": "https://fringetable.com/recipes/west-african-groundnut-stew.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
