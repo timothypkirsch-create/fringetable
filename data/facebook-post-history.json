@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-18T14:25:30.311Z",
-      "slug": "lao-mok-pa",
-      "name": "Lao Mok Pa",
-      "group": "southeast-asia",
-      "slot": "morning",
-      "style": "story",
-      "mode": "link",
-      "post_id": "1243283225542345_122121566823455847",
-      "tracked_url": "https://fringetable.com/recipes/lao-mok-pa.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
-    },
-    {
       "published_at": "2026-10-18T19:33:14.995Z",
       "slug": "tibetan-shapale-sha-balep",
       "name": "Tibetan Shapale (Sha Balep)",
@@ -1320,6 +1309,17 @@
       "mode": "photo",
       "post_id": "1243283225542345_122131140189455847",
       "tracked_url": "https://fringetable.com/recipes/west-african-groundnut-stew.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
+    },
+    {
+      "published_at": "2026-11-27T19:59:58.288Z",
+      "slug": "soupe-joumou",
+      "name": "Soupe Joumou",
+      "group": "caribbean-lowcountry",
+      "slot": "morning",
+      "style": "discovery",
+      "mode": "photo",
+      "post_id": "1243283225542345_122131291119455847",
+      "tracked_url": "https://fringetable.com/recipes/soupe-joumou.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=morning"
     }
   ]
 }
