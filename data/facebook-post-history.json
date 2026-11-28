@@ -2,17 +2,6 @@
   "version": 1,
   "posts": [
     {
-      "published_at": "2026-10-19T00:06:31.146Z",
-      "slug": "azerbaijani-dovga",
-      "name": "Azerbaijani Dovga",
-      "group": "caucasus-central-west-asia",
-      "slot": "evening",
-      "style": "story",
-      "mode": "link",
-      "post_id": "1243283225542345_122121669447455847",
-      "tracked_url": "https://fringetable.com/recipes/azerbaijani-dovga.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
-    },
-    {
       "published_at": "2026-10-19T17:57:13.794Z",
       "slug": "vietnamese-banh-xeo",
       "name": "Vietnamese Bánh Xèo",
@@ -1320,6 +1309,17 @@
       "mode": "link",
       "post_id": "1243283225542345_122131320213455847",
       "tracked_url": "https://fringetable.com/recipes/wampanoag-nasaump.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=afternoon"
+    },
+    {
+      "published_at": "2026-11-28T04:23:32.020Z",
+      "slug": "somali-baasto-iyo-suugo",
+      "name": "Somali Baasto iyo Suugo (Pasta with Beef Sauce)",
+      "group": "horn-northeast-africa",
+      "slot": "evening",
+      "style": "story",
+      "mode": "photo",
+      "post_id": "1243283225542345_122131348293455847",
+      "tracked_url": "https://fringetable.com/recipes/somali-baasto-iyo-suugo.html?utm_source=facebook&utm_medium=social&utm_campaign=fringetable_organic&utm_content=evening"
     }
   ]
 }
